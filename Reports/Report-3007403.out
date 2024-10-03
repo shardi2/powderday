@@ -1,0 +1,611 @@
+---------------------------------------
+Begin Slurm Prolog: Sep-04-2023 20:57:56
+Job ID:    3007403
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 337089775.49it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 346781229.48it/s]
+yt : [INFO     ] 2023-09-04 20:59:26,385 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 20:59:26,385 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 20:59:26,386 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 20:59:26,386 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 20:59:26,387 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 20:59:26,387 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 20:59:26,387 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 20:59:26,387 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 20:59:26,387 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 20:59:26,387 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 10803.83it/s]
+yt : [INFO     ] 2023-09-04 20:59:26,491 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-04 21:00:00,551 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:00:00,552 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:00:00,552 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:00:00,553 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:00:00,553 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:00:00,553 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:00:00,553 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:00:00,553 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:00:00,553 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:00:00,553 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16873.20it/s]
+yt : [INFO     ] 2023-09-04 21:00:00,622 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-09-04 21:00:02,805 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-09-04 21:00:03,684 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-09-04 21:00:04,144 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-09-04 21:00:04,145 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-09-04 21:00:04,145 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-09-04 21:00:04,146 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-09-04 21:00:04,146 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:00:04,146 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:00:04,146 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:00:04,146 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:00:04,146 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-09-04 21:00:04,146 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-09-04 21:00:04,288 Allocating for 9.000e+00 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2453670291577925e+23cm, y=1.3447672952818248e+23cm, z=1.1556634238060633e+23cm
+Domain width: dx=9.701808578484378e+20cm, dy=9.701808578484098e+20cm, dz=9.701808578484378e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 0
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+Traceback (most recent call last):
+  File "pd_front_end.py", line 124, in <module>
+    stars_list, diskstars_list, bulgestars_list, reg = sg.star_list_gen(boost, dx, dy, dz, reg, ds, sp, m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 167, in star_list_gen
+    stars_list,bulgestars_list,diskstars_list = remove_stars_outside_grid(stars_list,bulgestars_list,diskstars_list,m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 870, in remove_stars_outside_grid
+    mass_fraction_removed = mass_removed/total_mass
+ZeroDivisionError: division by zero
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 340682151.32it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 351651227.41it/s]
+yt : [INFO     ] 2023-09-04 21:00:19,301 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:00:19,302 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:00:19,302 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:00:19,303 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:00:19,303 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:00:19,303 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:00:19,303 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:00:19,303 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:00:19,303 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:00:19,303 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 17303.22it/s]
+yt : [INFO     ] 2023-09-04 21:00:19,373 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-04 21:00:47,350 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:00:47,351 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:00:47,352 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:00:47,352 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:00:47,352 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:00:47,352 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:00:47,352 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:00:47,352 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:00:47,353 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:00:47,353 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 17453.24it/s]
+yt : [INFO     ] 2023-09-04 21:00:47,421 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-09-04 21:00:48,698 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-09-04 21:00:49,372 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-09-04 21:00:49,834 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-09-04 21:00:49,834 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-09-04 21:00:49,835 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-09-04 21:00:49,835 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-09-04 21:00:49,836 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:00:49,836 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:00:49,836 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:00:49,836 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:00:49,836 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-09-04 21:00:49,836 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-09-04 21:00:49,963 Allocating for 1.220e+02 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.1684301465008018e+23cm, y=1.2546518772124895e+23cm, z=1.277676775435453e+23cm
+Domain width: dx=9.851836385025158e+20cm, dy=9.851836385025158e+20cm, dz=9.851836385025158e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 0
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+Traceback (most recent call last):
+  File "pd_front_end.py", line 124, in <module>
+    stars_list, diskstars_list, bulgestars_list, reg = sg.star_list_gen(boost, dx, dy, dz, reg, ds, sp, m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 167, in star_list_gen
+    stars_list,bulgestars_list,diskstars_list = remove_stars_outside_grid(stars_list,bulgestars_list,diskstars_list,m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 870, in remove_stars_outside_grid
+    mass_fraction_removed = mass_removed/total_mass
+ZeroDivisionError: division by zero
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 337438414.80it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 350514144.48it/s]
+yt : [INFO     ] 2023-09-04 21:00:59,198 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:00:59,199 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:00:59,199 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:00:59,200 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:00:59,200 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:00:59,200 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:00:59,200 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:00:59,200 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:00:59,200 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:00:59,200 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16781.88it/s]
+yt : [INFO     ] 2023-09-04 21:00:59,271 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-04 21:01:27,809 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:01:27,810 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:01:27,810 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:01:27,811 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:01:27,811 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:01:27,811 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:01:27,811 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:01:27,811 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:01:27,811 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:01:27,811 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16960.66it/s]
+yt : [INFO     ] 2023-09-04 21:01:28,049 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-09-04 21:01:29,355 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-09-04 21:01:29,610 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-09-04 21:01:30,069 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-09-04 21:01:30,069 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-09-04 21:01:30,070 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-09-04 21:01:30,070 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-09-04 21:01:30,070 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:01:30,070 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:01:30,071 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:01:30,071 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:01:30,071 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-09-04 21:01:30,071 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-09-04 21:01:30,197 Allocating for 1.800e+01 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.4033965925087117e+23cm, y=1.338851837733488e+23cm, z=1.3745686453783858e+23cm
+Domain width: dx=5.8594252595695465e+20cm, dy=5.8594252595695465e+20cm, dz=5.8594252595695465e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 0
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+Traceback (most recent call last):
+  File "pd_front_end.py", line 124, in <module>
+    stars_list, diskstars_list, bulgestars_list, reg = sg.star_list_gen(boost, dx, dy, dz, reg, ds, sp, m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 167, in star_list_gen
+    stars_list,bulgestars_list,diskstars_list = remove_stars_outside_grid(stars_list,bulgestars_list,diskstars_list,m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 870, in remove_stars_outside_grid
+    mass_fraction_removed = mass_removed/total_mass
+ZeroDivisionError: division by zero
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 340187621.70it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 349149789.70it/s]
+yt : [INFO     ] 2023-09-04 21:01:39,949 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:01:39,949 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:01:39,950 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:01:39,950 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:01:39,951 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:01:39,951 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:01:39,951 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:01:39,951 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:01:39,951 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:01:39,951 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 17328.15it/s]
+yt : [INFO     ] 2023-09-04 21:01:40,021 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-04 21:02:08,833 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:02:08,834 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:02:08,834 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:02:08,835 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:02:08,835 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:02:08,835 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:02:08,835 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:02:08,835 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:02:08,835 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:02:08,835 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 17391.49it/s]
+yt : [INFO     ] 2023-09-04 21:02:08,904 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-09-04 21:02:10,392 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-09-04 21:02:10,557 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-09-04 21:02:11,016 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-09-04 21:02:11,017 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-09-04 21:02:11,017 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-09-04 21:02:11,018 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-09-04 21:02:11,018 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:02:11,018 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:02:11,018 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:02:11,018 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:02:11,018 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-09-04 21:02:11,018 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-09-04 21:02:11,143 Allocating for 1.000e+00 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.214929275539798e+23cm, y=1.3483987964674752e+23cm, z=9.45032353924861e+22cm
+Domain width: dx=9.755985184223574e+20cm, dy=9.755985184223574e+20cm, dz=9.755985184223574e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 0
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+Traceback (most recent call last):
+  File "pd_front_end.py", line 124, in <module>
+    stars_list, diskstars_list, bulgestars_list, reg = sg.star_list_gen(boost, dx, dy, dz, reg, ds, sp, m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 167, in star_list_gen
+    stars_list,bulgestars_list,diskstars_list = remove_stars_outside_grid(stars_list,bulgestars_list,diskstars_list,m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 870, in remove_stars_outside_grid
+    mass_fraction_removed = mass_removed/total_mass
+ZeroDivisionError: division by zero
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 341489711.81it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 349998042.80it/s]
+yt : [INFO     ] 2023-09-04 21:02:18,931 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:02:18,932 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:02:18,933 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:02:18,933 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:02:18,933 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:02:18,933 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:02:18,933 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:02:18,934 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:02:18,934 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:02:18,934 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16776.96it/s]
+yt : [INFO     ] 2023-09-04 21:02:19,005 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-04 21:02:47,119 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:02:47,120 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:02:47,120 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:02:47,121 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:02:47,121 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:02:47,121 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:02:47,121 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:02:47,121 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:02:47,121 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:02:47,121 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16102.92it/s]
+yt : [INFO     ] 2023-09-04 21:02:47,196 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-09-04 21:02:48,435 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-09-04 21:02:48,659 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-09-04 21:02:49,146 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-09-04 21:02:49,147 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-09-04 21:02:49,148 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-09-04 21:02:49,148 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-09-04 21:02:49,148 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:02:49,148 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:02:49,149 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:02:49,149 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:02:49,149 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-09-04 21:02:49,149 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-09-04 21:02:49,296 Allocating for 1.210e+02 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2349215562230816e+23cm, y=1.2959843608655565e+23cm, z=1.230728389296095e+23cm
+Domain width: dx=5.785183363505167e+20cm, dy=5.7851833635048856e+20cm, dz=5.785183363505167e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 0
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+Traceback (most recent call last):
+  File "pd_front_end.py", line 124, in <module>
+    stars_list, diskstars_list, bulgestars_list, reg = sg.star_list_gen(boost, dx, dy, dz, reg, ds, sp, m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 167, in star_list_gen
+    stars_list,bulgestars_list,diskstars_list = remove_stars_outside_grid(stars_list,bulgestars_list,diskstars_list,m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 870, in remove_stars_outside_grid
+    mass_fraction_removed = mass_removed/total_mass
+ZeroDivisionError: division by zero
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 344462414.92it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 350034856.80it/s]
+yt : [INFO     ] 2023-09-04 21:02:58,357 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:02:58,357 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:02:58,358 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:02:58,358 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:02:58,359 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:02:58,359 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:02:58,359 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:02:58,359 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:02:58,359 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:02:58,359 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 17320.23it/s]
+yt : [INFO     ] 2023-09-04 21:02:58,428 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-04 21:03:26,508 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:03:26,509 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:03:26,510 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:03:26,510 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:03:26,510 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:03:26,510 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:03:26,511 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:03:26,511 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:03:26,511 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:03:26,511 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16255.86it/s]
+yt : [INFO     ] 2023-09-04 21:03:26,585 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-09-04 21:03:27,816 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-09-04 21:03:28,220 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-09-04 21:03:28,678 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-09-04 21:03:28,678 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-09-04 21:03:28,679 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-09-04 21:03:28,679 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-09-04 21:03:28,680 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:03:28,680 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:03:28,680 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:03:28,680 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:03:28,680 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-09-04 21:03:28,680 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-09-04 21:03:28,807 Allocating for 4.160e+02 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2686540380600463e+23cm, y=1.27438212270919e+23cm, z=1.2818324979796839e+23cm
+Domain width: dx=7.515440030547369e+20cm, dy=7.515440030547509e+20cm, dz=7.515440030547509e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 0
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+Traceback (most recent call last):
+  File "pd_front_end.py", line 124, in <module>
+    stars_list, diskstars_list, bulgestars_list, reg = sg.star_list_gen(boost, dx, dy, dz, reg, ds, sp, m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 167, in star_list_gen
+    stars_list,bulgestars_list,diskstars_list = remove_stars_outside_grid(stars_list,bulgestars_list,diskstars_list,m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 870, in remove_stars_outside_grid
+    mass_fraction_removed = mass_removed/total_mass
+ZeroDivisionError: division by zero
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 290718213.56it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 296732179.27it/s]
+yt : [INFO     ] 2023-09-04 21:03:36,671 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:03:36,672 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:03:36,672 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:03:36,673 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:03:36,673 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:03:36,673 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:03:36,673 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:03:36,673 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:03:36,673 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:03:36,673 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15784.56it/s]
+yt : [INFO     ] 2023-09-04 21:03:36,750 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-09-04 21:04:05,024 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-09-04 21:04:05,025 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-09-04 21:04:05,025 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-09-04 21:04:05,026 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-09-04 21:04:05,026 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:04:05,026 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:04:05,026 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:04:05,026 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:04:05,026 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-09-04 21:04:05,026 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15703.63it/s]
+yt : [INFO     ] 2023-09-04 21:04:05,103 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-09-04 21:04:06,393 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-09-04 21:04:06,722 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-09-04 21:04:07,186 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-09-04 21:04:07,187 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-09-04 21:04:07,187 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-09-04 21:04:07,188 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-09-04 21:04:07,188 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-09-04 21:04:07,188 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-09-04 21:04:07,188 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-09-04 21:04:07,188 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-09-04 21:04:07,188 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-09-04 21:04:07,188 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-09-04 21:04:07,316 Allocating for 3.380e+02 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.3146663901232177e+23cm, y=1.3001402343952018e+23cm, z=1.3163137919790563e+23cm
+Domain width: dx=5.182004339797109e+20cm, dy=5.182004339797109e+20cm, dz=5.182004339797109e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 0
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+Traceback (most recent call last):
+  File "pd_front_end.py", line 124, in <module>
+    stars_list, diskstars_list, bulgestars_list, reg = sg.star_list_gen(boost, dx, dy, dz, reg, ds, sp, m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 167, in star_list_gen
+    stars_list,bulgestars_list,diskstars_list = remove_stars_outside_grid(stars_list,bulgestars_list,diskstars_list,m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 870, in remove_stars_outside_grid
+    mass_fraction_removed = mass_removed/total_mass
+ZeroDivisionError: division by zero
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 338919583.52it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_7_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[49]["tree", "virial_radius"][90].to("kpc")*a[49]["tree", "scale"][90])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 90 is out of bounds for axis 0 with size 8
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 346265245.05it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_8_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[57]["tree", "virial_radius"][90].to("kpc")*a[57]["tree", "scale"][90])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 90 is out of bounds for axis 0 with size 16
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 340807753.58it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_9_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[63]["tree", "virial_radius"][90].to("kpc")*a[63]["tree", "scale"][90])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 90 is out of bounds for axis 0 with size 22
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 335144556.74it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_10_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[99]["tree", "virial_radius"][90].to("kpc")*a[99]["tree", "scale"][90])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 90 is out of bounds for axis 0 with size 12
+---------------------------------------
+Begin Slurm Epilog: Sep-04-2023 21:04:31
+Job ID:        3007403
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=360G,node=1
+Rsrc Used:     cput=01:45:04,vmem=2389568K,walltime=00:06:34,mem=1032388K,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-02-004-2-1
+---------------------------------------

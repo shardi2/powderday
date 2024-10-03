@@ -1,0 +1,365 @@
+---------------------------------------
+Begin Slurm Prolog: Jun-10-2024 16:26:22
+Job ID:    361672
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-06-10 16:27:03,950 Global parallel computation enabled: 24 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,951 Global parallel computation enabled: 34 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,952 Global parallel computation enabled: 36 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,952 Global parallel computation enabled: 39 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,952 Global parallel computation enabled: 44 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,953 Global parallel computation enabled: 25 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,954 Global parallel computation enabled: 47 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,954 Global parallel computation enabled: 28 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,954 Global parallel computation enabled: 27 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,955 Global parallel computation enabled: 43 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,955 Global parallel computation enabled: 41 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,956 Global parallel computation enabled: 42 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,957 Global parallel computation enabled: 31 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,957 Global parallel computation enabled: 46 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,957 Global parallel computation enabled: 32 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,958 Global parallel computation enabled: 45 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,959 Global parallel computation enabled: 33 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,959 Global parallel computation enabled: 26 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,959 Global parallel computation enabled: 37 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,960 Global parallel computation enabled: 38 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,960 Global parallel computation enabled: 35 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,965 Global parallel computation enabled: 40 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,968 Global parallel computation enabled: 29 / 48
+yt : [INFO     ] 2024-06-10 16:27:03,970 Global parallel computation enabled: 30 / 48
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P026 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P027 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P032 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P037 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P041 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P042 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P047 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P024 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P028 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P034 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P036 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P044 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P045 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P031 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P046 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+P042 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 42.
+P026 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 26.
+P027 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 27.
+P037 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 37.
+P041 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 41.
+P032 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 32.
+P034 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 34.
+P044 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 44.
+P047 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 47.
+P024 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 24.
+P028 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 28.
+P036 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 36.
+P045 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 45.
+P031 yt : [ERROR    ] 2024-06-10 16:27:04,036 Error occurred on rank 31.
+P046 yt : [ERROR    ] 2024-06-10 16:27:04,037 Error occurred on rank 46.
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P043 yt : [ERROR    ] 2024-06-10 16:27:04,036 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+P043 yt : [ERROR    ] 2024-06-10 16:27:04,037 Error occurred on rank 43.
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P035 yt : [ERROR    ] 2024-06-10 16:27:04,038 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P039 yt : [ERROR    ] 2024-06-10 16:27:04,038 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+P035 yt : [ERROR    ] 2024-06-10 16:27:04,038 Error occurred on rank 35.
+P039 yt : [ERROR    ] 2024-06-10 16:27:04,038 Error occurred on rank 39.
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P038 yt : [ERROR    ] 2024-06-10 16:27:04,038 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+P038 yt : [ERROR    ] 2024-06-10 16:27:04,039 Error occurred on rank 38.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 31 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 35 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 45 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 26 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 39 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 42 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 38 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 46 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 27 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 41 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 37 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 32 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 47 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 34 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P040 yt : [ERROR    ] 2024-06-10 16:27:04,040 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 36 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P025 yt : [ERROR    ] 2024-06-10 16:27:04,040 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+P040 yt : [ERROR    ] 2024-06-10 16:27:04,040 Error occurred on rank 40.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 24 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P025 yt : [ERROR    ] 2024-06-10 16:27:04,041 Error occurred on rank 25.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 40 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 44 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P033 yt : [ERROR    ] 2024-06-10 16:27:04,041 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 28 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 25 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 43 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P033 yt : [ERROR    ] 2024-06-10 16:27:04,041 Error occurred on rank 33.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 33 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P029 yt : [ERROR    ] 2024-06-10 16:27:04,044 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+P029 yt : [ERROR    ] 2024-06-10 16:27:04,044 Error occurred on rank 29.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 29 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "stellar_mass.py", line 63, in <module>
+    a.add_anaylsis_field("total_stellar_angular_momentum", default=-1, units='cm**2*g/s')
+P030 yt : [ERROR    ] 2024-06-10 16:27:04,047 AttributeError: 'YTreeArbor' object has no attribute 'add_anaylsis_field'
+P030 yt : [ERROR    ] 2024-06-10 16:27:04,047 Error occurred on rank 30.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 30 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 361672.0 ON atl1-1-02-019-29-1 CANCELLED AT 2024-06-10T16:27:04 ***
+slurmstepd: error: *** STEP 361672.0 ON atl1-1-02-019-29-1 CANCELLED AT 2024-06-10T16:27:04 ***
+slurmstepd: error: *** STEP 361672.0 ON atl1-1-02-019-29-1 CANCELLED AT 2024-06-10T16:27:04 ***
+slurmstepd: error: *** STEP 361672.0 ON atl1-1-02-019-29-1 CANCELLED AT 2024-06-10T16:27:04 ***
+slurmstepd: error: *** STEP 361672.0 ON atl1-1-02-019-29-1 CANCELLED AT 2024-06-10T16:27:04 ***
+slurmstepd: error: *** STEP 361672.0 ON atl1-1-02-019-29-1 CANCELLED AT 2024-06-10T16:27:04 ***
+srun: error: atl1-1-02-019-29-2: tasks 24-47: Killed
+srun: error: atl1-1-02-019-29-1: tasks 0-23: Killed
+---------------------------------------
+Begin Slurm Epilog: Jun-10-2024 16:27:04
+Job ID:        361672
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:33:36,vmem=7128K,walltime=00:00:42,mem=7036K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-019-29-[1-2]
+---------------------------------------

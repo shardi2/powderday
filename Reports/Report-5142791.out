@@ -1,0 +1,23 @@
+---------------------------------------
+Begin Slurm Prolog: Mar-05-2024 17:14:43
+Job ID:    5142791
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+slurmstepd: error: *** JOB 5142791 ON atl1-1-02-008-25-2 CANCELLED AT 2024-03-05T17:14:44 ***
+---------------------------------------
+Begin Slurm Epilog: Mar-05-2024 17:14:46
+Job ID:        5142791
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=720G,node=2
+Rsrc Used:     cput=00:00:48,vmem=7436K,walltime=00:00:01,mem=5036K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-008-25-2,atl1-1-02-008-26-2
+---------------------------------------

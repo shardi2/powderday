@@ -1,0 +1,47 @@
+---------------------------------------
+Begin Slurm Prolog: Oct-24-2023 00:43:39
+Job ID:    3842035
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "sed_plot_6_10000_old.py", line 32, in <module>
+    m = ModelOutput(run)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/hyperion/model/model_output.py", line 119, in __init__
+    raise IOError("File not found: %s" % filename)
+OSError: File not found: /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000_old/example.0032.rtout.sed
+---------------------------------------
+Begin Slurm Epilog: Oct-24-2023 00:44:20
+Job ID:        3842035
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=720G,node=2
+Rsrc Used:     cput=00:22:24,vmem=168308K,walltime=00:00:42,mem=61612K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-02-003-6-[1-2]
+---------------------------------------

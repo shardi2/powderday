@@ -1,0 +1,1765 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-02-2024 09:37:55
+Job ID:    5481090
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-04-02 09:38:17,918 Global parallel computation enabled: 45 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,918 Global parallel computation enabled: 4 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,920 Global parallel computation enabled: 26 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,920 Global parallel computation enabled: 41 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,920 Global parallel computation enabled: 27 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,920 Global parallel computation enabled: 40 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,921 Global parallel computation enabled: 34 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,921 Global parallel computation enabled: 39 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,922 Global parallel computation enabled: 28 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,923 Global parallel computation enabled: 36 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,923 Global parallel computation enabled: 24 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,923 Global parallel computation enabled: 32 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,924 Global parallel computation enabled: 30 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,924 Global parallel computation enabled: 37 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,925 Global parallel computation enabled: 38 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,925 Global parallel computation enabled: 46 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,925 Global parallel computation enabled: 25 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,925 Global parallel computation enabled: 43 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,926 Global parallel computation enabled: 42 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,926 Global parallel computation enabled: 47 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,926 Global parallel computation enabled: 31 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,927 Global parallel computation enabled: 29 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,927 Global parallel computation enabled: 35 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,932 Global parallel computation enabled: 33 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,933 Global parallel computation enabled: 44 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,918 Global parallel computation enabled: 8 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,918 Global parallel computation enabled: 16 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,919 Global parallel computation enabled: 14 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,919 Global parallel computation enabled: 22 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,920 Global parallel computation enabled: 5 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,920 Global parallel computation enabled: 6 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,921 Global parallel computation enabled: 17 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,921 Global parallel computation enabled: 10 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,922 Global parallel computation enabled: 13 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,922 Global parallel computation enabled: 21 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,923 Global parallel computation enabled: 1 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,924 Global parallel computation enabled: 0 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,924 Global parallel computation enabled: 3 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,924 Global parallel computation enabled: 9 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,924 Global parallel computation enabled: 12 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,925 Global parallel computation enabled: 23 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,925 Global parallel computation enabled: 20 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,926 Global parallel computation enabled: 2 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,926 Global parallel computation enabled: 19 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,926 Global parallel computation enabled: 15 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,934 Global parallel computation enabled: 18 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,936 Global parallel computation enabled: 11 / 48
+yt : [INFO     ] 2024-04-02 09:38:17,936 Global parallel computation enabled: 7 / 48
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P020 yt : [INFO     ] 2024-04-02 09:38:18,259 Parameters: current_time              = 75.89987395114
+P004 yt : [INFO     ] 2024-04-02 09:38:18,259 Parameters: current_time              = 75.89987395114
+P006 yt : [INFO     ] 2024-04-02 09:38:18,259 Parameters: current_time              = 75.89987395114
+P022 yt : [INFO     ] 2024-04-02 09:38:18,259 Parameters: current_time              = 75.89987395114
+P004 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_dimensions         = [64 64 64]
+P006 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_dimensions         = [64 64 64]
+P016 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: current_time              = 75.89987395114
+P020 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_dimensions         = [64 64 64]
+P022 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_dimensions         = [64 64 64]
+P007 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: current_time              = 75.89987395114
+P017 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: current_time              = 75.89987395114
+P006 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_left_edge          = [0. 0. 0.]
+P018 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: current_time              = 75.89987395114
+P021 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: current_time              = 75.89987395114
+P004 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_left_edge          = [0. 0. 0.]
+P020 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_left_edge          = [0. 0. 0.]
+P022 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: domain_left_edge          = [0. 0. 0.]
+P023 yt : [INFO     ] 2024-04-02 09:38:18,260 Parameters: current_time              = 75.89987395114
+P019 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_time              = 75.89987395114
+P006 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_right_edge         = [1. 1. 1.]
+P017 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P006 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: cosmological_simulation   = 1
+P006 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_redshift          = 11.181356517874
+P018 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P006 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_lambda              = 0.6889
+P021 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P006 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_matter              = 0.3111
+P006 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_radiation           = 0
+P007 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P009 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_time              = 75.89987395114
+P006 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: hubble_constant           = 0.6766
+P012 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_time              = 75.89987395114
+P020 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_right_edge         = [1. 1. 1.]
+P022 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_right_edge         = [1. 1. 1.]
+P022 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: cosmological_simulation   = 1
+P020 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: cosmological_simulation   = 1
+P022 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_redshift          = 11.181356517874
+P011 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_time              = 75.89987395114
+P023 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P016 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P020 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_redshift          = 11.181356517874
+P022 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_lambda              = 0.6889
+P020 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_lambda              = 0.6889
+P022 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_matter              = 0.3111
+P019 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P017 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P020 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_matter              = 0.3111
+P022 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_radiation           = 0
+P002 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_time              = 75.89987395114
+P020 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: omega_radiation           = 0
+P022 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: hubble_constant           = 0.6766
+P018 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P020 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: hubble_constant           = 0.6766
+P021 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P007 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P013 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_time              = 75.89987395114
+P005 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: current_time              = 75.89987395114
+P009 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: current_time              = 75.89987395114
+P023 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_dimensions         = [64 64 64]
+P011 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_dimensions         = [64 64 64]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: domain_left_edge          = [0. 0. 0.]
+P017 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_right_edge         = [1. 1. 1.]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: domain_right_edge         = [1. 1. 1.]
+P019 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,265 Parameters: cosmological_simulation   = 1
+P016 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_left_edge          = [0. 0. 0.]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,265 Parameters: current_redshift          = 11.181356517874
+P017 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P032 yt : [INFO     ] 2024-04-02 09:38:18,265 Parameters: omega_lambda              = 0.6889
+P017 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P032 yt : [INFO     ] 2024-04-02 09:38:18,265 Parameters: omega_matter              = 0.3111
+P017 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P032 yt : [INFO     ] 2024-04-02 09:38:18,265 Parameters: omega_radiation           = 0
+P007 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_right_edge         = [1. 1. 1.]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,265 Parameters: hubble_constant           = 0.6766
+P017 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P017 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P018 yt : [INFO     ] 2024-04-02 09:38:18,261 Parameters: domain_right_edge         = [1. 1. 1.]
+P007 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P017 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: hubble_constant           = 0.6766
+P007 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P009 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_dimensions         = [64 64 64]
+P018 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P007 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P021 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_right_edge         = [1. 1. 1.]
+P018 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P007 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P018 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P021 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P007 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P018 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P007 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: hubble_constant           = 0.6766
+P021 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P015 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_time              = 75.89987395114
+P018 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P018 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: hubble_constant           = 0.6766
+P021 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P012 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_dimensions         = [64 64 64]
+P021 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P004 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_right_edge         = [1. 1. 1.]
+P021 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P005 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_dimensions         = [64 64 64]
+P011 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_left_edge          = [0. 0. 0.]
+P013 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_dimensions         = [64 64 64]
+P004 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P019 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_right_edge         = [1. 1. 1.]
+P021 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: hubble_constant           = 0.6766
+P003 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_time              = 75.89987395114
+P004 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P019 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P004 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P019 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P004 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P008 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_time              = 75.89987395114
+P016 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_right_edge         = [1. 1. 1.]
+P016 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P019 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P019 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P004 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P004 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: hubble_constant           = 0.6766
+P019 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P016 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P016 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P019 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: hubble_constant           = 0.6766
+P016 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P002 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_left_edge          = [0. 0. 0.]
+P009 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_right_edge         = [1. 1. 1.]
+P016 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P016 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: hubble_constant           = 0.6766
+P009 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: cosmological_simulation   = 1
+P009 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: current_redshift          = 11.181356517874
+P009 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_lambda              = 0.6889
+P009 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_matter              = 0.3111
+P009 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: omega_radiation           = 0
+P012 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_left_edge          = [0. 0. 0.]
+P009 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: hubble_constant           = 0.6766
+P011 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_right_edge         = [1. 1. 1.]
+P015 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_dimensions         = [64 64 64]
+P005 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_left_edge          = [0. 0. 0.]
+P013 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_left_edge          = [0. 0. 0.]
+P011 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2024-04-02 09:38:18,262 Parameters: domain_dimensions         = [64 64 64]
+P011 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: current_redshift          = 11.181356517874
+P011 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_lambda              = 0.6889
+P011 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_matter              = 0.3111
+P011 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_radiation           = 0
+P008 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_dimensions         = [64 64 64]
+P011 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: hubble_constant           = 0.6766
+P002 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_right_edge         = [1. 1. 1.]
+P002 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: current_redshift          = 11.181356517874
+P002 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_lambda              = 0.6889
+P002 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_matter              = 0.3111
+P002 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_radiation           = 0
+P012 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_right_edge         = [1. 1. 1.]
+P002 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: hubble_constant           = 0.6766
+P012 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: cosmological_simulation   = 1
+P005 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_right_edge         = [1. 1. 1.]
+P012 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: current_redshift          = 11.181356517874
+P003 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_left_edge          = [0. 0. 0.]
+P013 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_right_edge         = [1. 1. 1.]
+P015 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_left_edge          = [0. 0. 0.]
+P005 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: cosmological_simulation   = 1
+P005 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: current_redshift          = 11.181356517874
+P012 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_lambda              = 0.6889
+P013 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: cosmological_simulation   = 1
+P013 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: current_redshift          = 11.181356517874
+P005 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_lambda              = 0.6889
+P012 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_matter              = 0.3111
+P012 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_radiation           = 0
+P005 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_matter              = 0.3111
+P013 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_lambda              = 0.6889
+P013 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_matter              = 0.3111
+P005 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_radiation           = 0
+P005 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: hubble_constant           = 0.6766
+P008 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_left_edge          = [0. 0. 0.]
+P012 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: hubble_constant           = 0.6766
+P013 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: omega_radiation           = 0
+P013 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: hubble_constant           = 0.6766
+P003 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_right_edge         = [1. 1. 1.]
+P003 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: cosmological_simulation   = 1
+P015 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_right_edge         = [1. 1. 1.]
+P003 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: current_redshift          = 11.181356517874
+P015 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_lambda              = 0.6889
+P008 yt : [INFO     ] 2024-04-02 09:38:18,263 Parameters: domain_right_edge         = [1. 1. 1.]
+P003 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_matter              = 0.3111
+P015 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: current_redshift          = 11.181356517874
+P015 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_lambda              = 0.6889
+P003 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_radiation           = 0
+P008 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: cosmological_simulation   = 1
+P015 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_matter              = 0.3111
+P015 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_radiation           = 0
+P003 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: hubble_constant           = 0.6766
+P008 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: current_redshift          = 11.181356517874
+P008 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_lambda              = 0.6889
+P008 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_matter              = 0.3111
+P015 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: hubble_constant           = 0.6766
+P008 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: omega_radiation           = 0
+P008 yt : [INFO     ] 2024-04-02 09:38:18,264 Parameters: hubble_constant           = 0.6766
+P023 yt : [INFO     ] 2024-04-02 09:38:18,266 Parameters: domain_right_edge         = [1. 1. 1.]
+P023 yt : [INFO     ] 2024-04-02 09:38:18,266 Parameters: cosmological_simulation   = 1
+P023 yt : [INFO     ] 2024-04-02 09:38:18,266 Parameters: current_redshift          = 11.181356517874
+P023 yt : [INFO     ] 2024-04-02 09:38:18,266 Parameters: omega_lambda              = 0.6889
+P023 yt : [INFO     ] 2024-04-02 09:38:18,266 Parameters: omega_matter              = 0.3111
+P023 yt : [INFO     ] 2024-04-02 09:38:18,266 Parameters: omega_radiation           = 0
+P023 yt : [INFO     ] 2024-04-02 09:38:18,266 Parameters: hubble_constant           = 0.6766
+P010 yt : [INFO     ] 2024-04-02 09:38:18,267 Parameters: current_time              = 75.89987395114
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P014 yt : [INFO     ] 2024-04-02 09:38:18,267 Parameters: current_time              = 75.89987395114
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P010 yt : [INFO     ] 2024-04-02 09:38:18,268 Parameters: domain_dimensions         = [64 64 64]
+P014 yt : [INFO     ] 2024-04-02 09:38:18,268 Parameters: domain_dimensions         = [64 64 64]
+P010 yt : [INFO     ] 2024-04-02 09:38:18,268 Parameters: domain_left_edge          = [0. 0. 0.]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P014 yt : [INFO     ] 2024-04-02 09:38:18,268 Parameters: domain_left_edge          = [0. 0. 0.]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P010 yt : [INFO     ] 2024-04-02 09:38:18,268 Parameters: domain_right_edge         = [1. 1. 1.]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P010 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: cosmological_simulation   = 1
+P010 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: current_redshift          = 11.181356517874
+P010 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: omega_lambda              = 0.6889
+P010 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: omega_matter              = 0.3111
+P014 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: domain_right_edge         = [1. 1. 1.]
+P014 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: cosmological_simulation   = 1
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P010 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: omega_radiation           = 0
+P010 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P014 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: current_redshift          = 11.181356517874
+P014 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: omega_lambda              = 0.6889
+P014 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: omega_matter              = 0.3111
+P014 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: omega_radiation           = 0
+P014 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P001 yt : [INFO     ] 2024-04-02 09:38:18,269 Parameters: current_time              = 75.89987395114
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P001 yt : [INFO     ] 2024-04-02 09:38:18,270 Parameters: domain_dimensions         = [64 64 64]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P001 yt : [INFO     ] 2024-04-02 09:38:18,270 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2024-04-02 09:38:18,271 Parameters: domain_right_edge         = [1. 1. 1.]
+P001 yt : [INFO     ] 2024-04-02 09:38:18,271 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2024-04-02 09:38:18,271 Parameters: current_redshift          = 11.181356517874
+P001 yt : [INFO     ] 2024-04-02 09:38:18,271 Parameters: omega_lambda              = 0.6889
+P001 yt : [INFO     ] 2024-04-02 09:38:18,271 Parameters: omega_matter              = 0.3111
+P001 yt : [INFO     ] 2024-04-02 09:38:18,271 Parameters: omega_radiation           = 0
+P001 yt : [INFO     ] 2024-04-02 09:38:18,271 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P046 yt : [INFO     ] 2024-04-02 09:38:18,286 Parameters: current_time              = 75.89987395114
+P024 yt : [INFO     ] 2024-04-02 09:38:18,286 Parameters: current_time              = 75.89987395114
+P028 yt : [INFO     ] 2024-04-02 09:38:18,286 Parameters: current_time              = 75.89987395114
+P026 yt : [INFO     ] 2024-04-02 09:38:18,286 Parameters: current_time              = 75.89987395114
+P024 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_dimensions         = [64 64 64]
+P028 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_dimensions         = [64 64 64]
+P026 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_dimensions         = [64 64 64]
+P046 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_dimensions         = [64 64 64]
+P040 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: current_time              = 75.89987395114
+P042 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: current_time              = 75.89987395114
+P024 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_left_edge          = [0. 0. 0.]
+P036 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: current_time              = 75.89987395114
+P026 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_left_edge          = [0. 0. 0.]
+P028 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_left_edge          = [0. 0. 0.]
+P040 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_dimensions         = [64 64 64]
+P024 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_right_edge         = [1. 1. 1.]
+P042 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_dimensions         = [64 64 64]
+P038 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: current_time              = 75.89987395114
+P024 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: cosmological_simulation   = 1
+P026 yt : [INFO     ] 2024-04-02 09:38:18,287 Parameters: domain_right_edge         = [1. 1. 1.]
+P024 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: current_redshift          = 11.181356517874
+P024 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_lambda              = 0.6889
+P026 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: cosmological_simulation   = 1
+P036 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_dimensions         = [64 64 64]
+P028 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_right_edge         = [1. 1. 1.]
+P024 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_matter              = 0.3111
+P026 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: current_redshift          = 11.181356517874
+P024 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_radiation           = 0
+P026 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_lambda              = 0.6889
+P028 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: cosmological_simulation   = 1
+P024 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: hubble_constant           = 0.6766
+P026 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_matter              = 0.3111
+P026 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_radiation           = 0
+P028 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: current_redshift          = 11.181356517874
+P026 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: hubble_constant           = 0.6766
+P028 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_lambda              = 0.6889
+P028 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_matter              = 0.3111
+P028 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_radiation           = 0
+P028 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: hubble_constant           = 0.6766
+P040 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_left_edge          = [0. 0. 0.]
+P042 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_left_edge          = [0. 0. 0.]
+P036 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_left_edge          = [0. 0. 0.]
+P038 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_dimensions         = [64 64 64]
+P040 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_right_edge         = [1. 1. 1.]
+P040 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: cosmological_simulation   = 1
+P042 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_right_edge         = [1. 1. 1.]
+P040 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: current_redshift          = 11.181356517874
+P042 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: cosmological_simulation   = 1
+P040 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: omega_lambda              = 0.6889
+P036 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_right_edge         = [1. 1. 1.]
+P038 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_left_edge          = [0. 0. 0.]
+P042 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: current_redshift          = 11.181356517874
+P040 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_matter              = 0.3111
+P040 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_radiation           = 0
+P042 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_lambda              = 0.6889
+P036 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: cosmological_simulation   = 1
+P042 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_matter              = 0.3111
+P040 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: hubble_constant           = 0.6766
+P036 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: current_redshift          = 11.181356517874
+P042 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_radiation           = 0
+P036 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_lambda              = 0.6889
+P042 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: hubble_constant           = 0.6766
+P036 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_matter              = 0.3111
+P036 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_radiation           = 0
+P036 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: hubble_constant           = 0.6766
+P034 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: current_time              = 75.89987395114
+P038 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: domain_right_edge         = [1. 1. 1.]
+P038 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: cosmological_simulation   = 1
+P038 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: current_redshift          = 11.181356517874
+P038 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_lambda              = 0.6889
+P038 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_matter              = 0.3111
+P038 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: omega_radiation           = 0
+P038 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: hubble_constant           = 0.6766
+P046 yt : [INFO     ] 2024-04-02 09:38:18,288 Parameters: domain_left_edge          = [0. 0. 0.]
+P034 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: domain_dimensions         = [64 64 64]
+P033 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: current_time              = 75.89987395114
+P041 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: current_time              = 75.89987395114
+P043 yt : [INFO     ] 2024-04-02 09:38:18,289 Parameters: current_time              = 75.89987395114
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_left_edge          = [0. 0. 0.]
+P039 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: current_time              = 75.89987395114
+P029 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: current_time              = 75.89987395114
+P047 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: current_time              = 75.89987395114
+P027 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: current_time              = 75.89987395114
+P031 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: current_time              = 75.89987395114
+P033 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P041 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_right_edge         = [1. 1. 1.]
+P043 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: cosmological_simulation   = 1
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: current_redshift          = 11.181356517874
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: omega_lambda              = 0.6889
+P039 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: omega_matter              = 0.3111
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: omega_radiation           = 0
+P034 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: hubble_constant           = 0.6766
+P029 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P047 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P027 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P033 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_left_edge          = [0. 0. 0.]
+P041 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_left_edge          = [0. 0. 0.]
+P031 yt : [INFO     ] 2024-04-02 09:38:18,290 Parameters: domain_dimensions         = [64 64 64]
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_left_edge          = [0. 0. 0.]
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_left_edge          = [0. 0. 0.]
+P045 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_time              = 75.89987395114
+P027 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_left_edge          = [0. 0. 0.]
+P029 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_left_edge          = [0. 0. 0.]
+P047 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_left_edge          = [0. 0. 0.]
+P041 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P033 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P031 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_left_edge          = [0. 0. 0.]
+P033 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: cosmological_simulation   = 1
+P041 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: cosmological_simulation   = 1
+P041 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_redshift          = 11.181356517874
+P033 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_redshift          = 11.181356517874
+P033 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_lambda              = 0.6889
+P041 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_lambda              = 0.6889
+P033 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_matter              = 0.3111
+P041 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_matter              = 0.3111
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P033 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_radiation           = 0
+P041 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_radiation           = 0
+P041 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: hubble_constant           = 0.6766
+P033 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: hubble_constant           = 0.6766
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: cosmological_simulation   = 1
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_redshift          = 11.181356517874
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: cosmological_simulation   = 1
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_lambda              = 0.6889
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_matter              = 0.3111
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_redshift          = 11.181356517874
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_lambda              = 0.6889
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_radiation           = 0
+P043 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: hubble_constant           = 0.6766
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_matter              = 0.3111
+P027 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P029 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_radiation           = 0
+P045 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_dimensions         = [64 64 64]
+P047 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P047 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: cosmological_simulation   = 1
+P027 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: cosmological_simulation   = 1
+P029 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: cosmological_simulation   = 1
+P039 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: hubble_constant           = 0.6766
+P027 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_redshift          = 11.181356517874
+P027 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_lambda              = 0.6889
+P029 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_redshift          = 11.181356517874
+P029 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_lambda              = 0.6889
+P031 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: domain_right_edge         = [1. 1. 1.]
+P047 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: current_redshift          = 11.181356517874
+P047 yt : [INFO     ] 2024-04-02 09:38:18,291 Parameters: omega_lambda              = 0.6889
+P047 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_matter              = 0.3111
+P027 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_matter              = 0.3111
+P029 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_matter              = 0.3111
+P029 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_radiation           = 0
+P031 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: cosmological_simulation   = 1
+P027 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_radiation           = 0
+P027 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: hubble_constant           = 0.6766
+P031 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: current_redshift          = 11.181356517874
+P047 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_radiation           = 0
+P047 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: hubble_constant           = 0.6766
+P029 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: hubble_constant           = 0.6766
+P031 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_lambda              = 0.6889
+P031 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_matter              = 0.3111
+P031 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_radiation           = 0
+P031 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: hubble_constant           = 0.6766
+P037 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: current_time              = 75.89987395114
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: domain_left_edge          = [0. 0. 0.]
+P030 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: current_time              = 75.89987395114
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: domain_right_edge         = [1. 1. 1.]
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: cosmological_simulation   = 1
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: current_redshift          = 11.181356517874
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_lambda              = 0.6889
+P037 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: domain_dimensions         = [64 64 64]
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_matter              = 0.3111
+P046 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: domain_right_edge         = [1. 1. 1.]
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: omega_radiation           = 0
+P045 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: hubble_constant           = 0.6766
+P046 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: cosmological_simulation   = 1
+P046 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: current_redshift          = 11.181356517874
+P046 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: omega_lambda              = 0.6889
+P046 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: omega_matter              = 0.3111
+P046 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: omega_radiation           = 0
+P046 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: hubble_constant           = 0.6766
+P030 yt : [INFO     ] 2024-04-02 09:38:18,292 Parameters: domain_dimensions         = [64 64 64]
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: domain_left_edge          = [0. 0. 0.]
+P044 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: current_time              = 75.89987395114
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: domain_right_edge         = [1. 1. 1.]
+P030 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: domain_left_edge          = [0. 0. 0.]
+P044 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: domain_dimensions         = [64 64 64]
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: cosmological_simulation   = 1
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: current_redshift          = 11.181356517874
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: omega_lambda              = 0.6889
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: omega_matter              = 0.3111
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: omega_radiation           = 0
+P037 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: hubble_constant           = 0.6766
+P035 yt : [INFO     ] 2024-04-02 09:38:18,293 Parameters: current_time              = 75.89987395114
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: domain_left_edge          = [0. 0. 0.]
+P030 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: domain_right_edge         = [1. 1. 1.]
+P030 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: cosmological_simulation   = 1
+P030 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: current_redshift          = 11.181356517874
+P030 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: omega_lambda              = 0.6889
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P030 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: omega_matter              = 0.3111
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P030 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: omega_radiation           = 0
+P030 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: hubble_constant           = 0.6766
+P035 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: domain_dimensions         = [64 64 64]
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: domain_right_edge         = [1. 1. 1.]
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: cosmological_simulation   = 1
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: current_redshift          = 11.181356517874
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: omega_lambda              = 0.6889
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: omega_matter              = 0.3111
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: omega_radiation           = 0
+P044 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P035 yt : [INFO     ] 2024-04-02 09:38:18,294 Parameters: domain_left_edge          = [0. 0. 0.]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P035 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: domain_right_edge         = [1. 1. 1.]
+P035 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: cosmological_simulation   = 1
+P035 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: current_redshift          = 11.181356517874
+P035 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: omega_lambda              = 0.6889
+P035 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: omega_matter              = 0.3111
+P035 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: omega_radiation           = 0
+P035 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: hubble_constant           = 0.6766
+P025 yt : [INFO     ] 2024-04-02 09:38:18,295 Parameters: current_time              = 75.89987395114
+P025 yt : [INFO     ] 2024-04-02 09:38:18,296 Parameters: domain_dimensions         = [64 64 64]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P025 yt : [INFO     ] 2024-04-02 09:38:18,296 Parameters: domain_left_edge          = [0. 0. 0.]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P025 yt : [INFO     ] 2024-04-02 09:38:18,297 Parameters: domain_right_edge         = [1. 1. 1.]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P025 yt : [INFO     ] 2024-04-02 09:38:18,297 Parameters: cosmological_simulation   = 1
+P025 yt : [INFO     ] 2024-04-02 09:38:18,297 Parameters: current_redshift          = 11.181356517874
+P025 yt : [INFO     ] 2024-04-02 09:38:18,297 Parameters: omega_lambda              = 0.6889
+P025 yt : [INFO     ] 2024-04-02 09:38:18,297 Parameters: omega_matter              = 0.3111
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P025 yt : [INFO     ] 2024-04-02 09:38:18,297 Parameters: omega_radiation           = 0
+P025 yt : [INFO     ] 2024-04-02 09:38:18,297 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15592.36it/s]
+P021 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15553.14it/s]
+P016 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15501.80it/s]
+P018 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15500.62it/s]
+P019 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15395.47it/s]
+P017 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15412.94it/s]
+P002 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15144.42it/s]
+P020 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15423.88it/s]
+P007 yt : [INFO     ] 2024-04-02 09:38:18,341 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15021.78it/s]
+P006 yt : [INFO     ] 2024-04-02 09:38:18,342 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15342.99it/s]
+P009 yt : [INFO     ] 2024-04-02 09:38:18,342 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15287.57it/s]
+P005 yt : [INFO     ] 2024-04-02 09:38:18,342 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15404.05it/s]
+P008 yt : [INFO     ] 2024-04-02 09:38:18,342 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14810.02it/s]
+P022 yt : [INFO     ] 2024-04-02 09:38:18,342 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15234.97it/s]
+P003 yt : [INFO     ] 2024-04-02 09:38:18,342 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15114.22it/s]
+P011 yt : [INFO     ] 2024-04-02 09:38:18,343 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15108.48it/s]
+P004 yt : [INFO     ] 2024-04-02 09:38:18,343 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15419.94it/s]
+P013 yt : [INFO     ] 2024-04-02 09:38:18,343 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15382.97it/s]
+P015 yt : [INFO     ] 2024-04-02 09:38:18,343 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14938.32it/s]
+P012 yt : [INFO     ] 2024-04-02 09:38:18,343 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14878.71it/s]
+P032 yt : [INFO     ] 2024-04-02 09:38:18,348 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15345.74it/s]
+P014 yt : [INFO     ] 2024-04-02 09:38:18,347 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15331.59it/s]
+P010 yt : [INFO     ] 2024-04-02 09:38:18,347 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14465.69it/s]
+P001 yt : [INFO     ] 2024-04-02 09:38:18,355 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 12492.43it/s]
+P023 yt : [INFO     ] 2024-04-02 09:38:18,360 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15474.49it/s]
+P026 yt : [INFO     ] 2024-04-02 09:38:18,366 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15406.82it/s]
+P024 yt : [INFO     ] 2024-04-02 09:38:18,366 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15501.65it/s]
+P040 yt : [INFO     ] 2024-04-02 09:38:18,367 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15491.26it/s]
+P042 yt : [INFO     ] 2024-04-02 09:38:18,367 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15237.47it/s]
+P028 yt : [INFO     ] 2024-04-02 09:38:18,367 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15256.16it/s]
+P036 yt : [INFO     ] 2024-04-02 09:38:18,368 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15381.15it/s]
+P038 yt : [INFO     ] 2024-04-02 09:38:18,368 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15491.78it/s]
+P034 yt : [INFO     ] 2024-04-02 09:38:18,369 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15503.13it/s]
+P043 yt : [INFO     ] 2024-04-02 09:38:18,369 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15486.48it/s]
+P041 yt : [INFO     ] 2024-04-02 09:38:18,370 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15446.77it/s]
+P031 yt : [INFO     ] 2024-04-02 09:38:18,370 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15343.93it/s]
+P029 yt : [INFO     ] 2024-04-02 09:38:18,370 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15355.06it/s]
+P033 yt : [INFO     ] 2024-04-02 09:38:18,370 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15297.83it/s]
+P027 yt : [INFO     ] 2024-04-02 09:38:18,370 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15316.53it/s]
+P039 yt : [INFO     ] 2024-04-02 09:38:18,370 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15376.00it/s]
+P047 yt : [INFO     ] 2024-04-02 09:38:18,370 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15287.57it/s]
+P037 yt : [INFO     ] 2024-04-02 09:38:18,372 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15257.16it/s]
+P046 yt : [INFO     ] 2024-04-02 09:38:18,373 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15389.43it/s]
+P044 yt : [INFO     ] 2024-04-02 09:38:18,373 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15449.62it/s]
+P035 yt : [INFO     ] 2024-04-02 09:38:18,374 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15424.54it/s]
+P045 yt : [INFO     ] 2024-04-02 09:38:18,374 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14888.50it/s]
+P030 yt : [INFO     ] 2024-04-02 09:38:18,375 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14512.19it/s]
+P025 yt : [INFO     ] 2024-04-02 09:38:18,382 Gathering a field list (this may take a moment.)
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+MAX_SIZE: 30
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P020 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (52,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P001 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (502,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P015 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (289,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P030 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (149,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P002 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (147,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P036 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (101,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P006 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (78,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P040 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (32,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P009 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (117,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P041 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (9,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P011 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (86,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P044 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (128,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P003 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (263,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P028 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (92,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P005 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (156,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P031 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (216,)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P013 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (165,)
+MAX_SIZE: 30
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P035 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (31,)
+MAX_SIZE: 30
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P017 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (87,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P037 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (150,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P018 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (63,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P038 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (68,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P019 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (101,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P042 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (39,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P021 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (134,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P043 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (145,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P022 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (118,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P045 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (84,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P023 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (45,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P046 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (127,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P012 yt : [ERROR    ] 2024-04-02 09:38:19,880 ValueError: could not broadcast input array from shape (30,) into shape (213,)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P047 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (88,)
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P004 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (194,)
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 15 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "analysis_pipeline.py", line 147, in <module>
+    for tree in ytree.parallel_trees(trees, dynamic=dynamic):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in parallel_trees
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 149, in <dictcomp>
+    tree_store.result = {field: my_tree[selection, field]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 306, in query
+    self.arbor._node_io.get_fields(self, fields=[field], root_only=False)
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 187, in _initialize_analysis_field
+    data = np.full(storage_object.tree_size, value, dtype=dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+P034 yt : [ERROR    ] 2024-04-02 09:38:19,881 ValueError: could not broadcast input array from shape (30,) into shape (19,)
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 28 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 11 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 30 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 38 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 40 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 44 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 42 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 35 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 41 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 45 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 46 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 47 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 31 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 37 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 43 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 34 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 36 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 9 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 13 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 17 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 19 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 21 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 22 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 18 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 23 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 12 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 222371178.03it/s]slurmstepd: error: *** STEP 5481090.0 ON atl1-1-02-015-32-1 CANCELLED AT 2024-04-02T09:38:19 ***
+srun: error: atl1-1-02-015-32-2: tasks 24-47: Killed
+srun: error: atl1-1-02-015-32-1: tasks 0-14,16-23: Killed
+srun: error: atl1-1-02-015-32-1: task 15: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Apr-02-2024 09:38:20
+Job ID:        5481090
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:20:00,vmem=152K,walltime=00:00:25,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-015-32-[1-2]
+---------------------------------------

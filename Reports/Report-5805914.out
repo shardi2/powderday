@@ -1,0 +1,923 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-25-2024 16:37:43
+Job ID:    5805914
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-04-25 16:38:07,974 Global parallel computation enabled: 42 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,986 Global parallel computation enabled: 0 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,974 Global parallel computation enabled: 30 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,975 Global parallel computation enabled: 45 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,975 Global parallel computation enabled: 32 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,976 Global parallel computation enabled: 29 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,976 Global parallel computation enabled: 40 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,976 Global parallel computation enabled: 35 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,977 Global parallel computation enabled: 33 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,977 Global parallel computation enabled: 28 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,977 Global parallel computation enabled: 25 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,977 Global parallel computation enabled: 24 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,978 Global parallel computation enabled: 34 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,978 Global parallel computation enabled: 38 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,978 Global parallel computation enabled: 46 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,978 Global parallel computation enabled: 41 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,979 Global parallel computation enabled: 37 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,979 Global parallel computation enabled: 26 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,979 Global parallel computation enabled: 27 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,980 Global parallel computation enabled: 36 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,985 Global parallel computation enabled: 47 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,988 Global parallel computation enabled: 31 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,990 Global parallel computation enabled: 43 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,991 Global parallel computation enabled: 39 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,993 Global parallel computation enabled: 44 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 5 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 6 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 7 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 8 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 13 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 14 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 19 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 22 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 2 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 17 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 4 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 11 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,987 Global parallel computation enabled: 1 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,990 Global parallel computation enabled: 9 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,990 Global parallel computation enabled: 23 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,990 Global parallel computation enabled: 15 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,991 Global parallel computation enabled: 10 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,991 Global parallel computation enabled: 16 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,991 Global parallel computation enabled: 3 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,992 Global parallel computation enabled: 21 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,994 Global parallel computation enabled: 18 / 48
+yt : [INFO     ] 2024-04-25 16:38:07,999 Global parallel computation enabled: 20 / 48
+yt : [INFO     ] 2024-04-25 16:38:08,003 Global parallel computation enabled: 12 / 48
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9064.41it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15382.32it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15146.33it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9013.20it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9072.94it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9064.82it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15333.90it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15164.51it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15153.93it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15167.61it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15228.42it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9083.79it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9024.88it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14983.86it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9022.61it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9079.74it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15250.09it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9039.92it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15288.15it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8430.05it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15207.32it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14927.31it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9100.64it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15099.10it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8982.96it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9018.29it/s]
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P027 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P013 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P039 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P010 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P044 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P018 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P036 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P011 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P041 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P005 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P030 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P016 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P038 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P009 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P045 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P008 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P024 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15281.62it/s]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P007 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P020 yt : [ERROR    ] 2024-04-25 16:38:11,093 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P026 yt : [ERROR    ] 2024-04-25 16:38:11,092 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14096.52it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9017.34it/s]
+  File "stellar_mass.py", line 126, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 71, in calculate_total_pop3_mass
+    node["total_pop3_mass"] = sphere.quantities.total_quantity(("p3", "particle_mass"))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 171, in __call__
+    rv = super().__call__(fields)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 55, in __call__
+    sto.result = self.process_chunk(ds, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in process_chunk
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/derived_quantities.py", line 177, in <listcomp>
+    vals = [data[field].sum(dtype=np.float64) for field in fields]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 258, in __getitem__
+    f = self._determine_fields([key])[0]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/data_containers.py", line 1473, in _determine_fields
+    finfo = self.ds._get_field_info(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 858, in _get_field_info
+    field_info, candidates = self._get_field_info_helper(ftype, fname)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/yt/data_objects/static_output.py", line 978, in _get_field_info_helper
+    raise YTFieldNotFound(field=INPUT, ds=self)
+P031 yt : [ERROR    ] 2024-04-25 16:38:11,106 YTFieldNotFound: Could not find field ('p3', 'particle_mass') in output_0125.
+Did you mean:
+	('all', 'particle_mass')
+	('io', 'particle_mass')
+	('nbody', 'particle_mass')
+	('p2', 'particle_mass')
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 36 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 39 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 9 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 16 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 24 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 18 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 26 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 27 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 7 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 30 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 8 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 38 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 10 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 45 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 11 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 13 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 20 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 31 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 41 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 44 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 5805914.0 ON atl1-1-02-018-10-2 CANCELLED AT 2024-04-25T16:38:11 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9090.58it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9058.72it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8726.25it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15109.32it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15466.63it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8947.52it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8927.18it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15238.89it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14971.33it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8909.58it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8937.90it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14696.88it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15135.91it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14027.23it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14316.67it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9075.62it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8911.61it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15113.03it/s]srun: error: atl1-1-02-018-10-2: tasks 0-23: Killed
+srun: error: atl1-1-02-018-17-1: tasks 24-47: Killed
+---------------------------------------
+Begin Slurm Epilog: Apr-25-2024 16:38:12
+Job ID:        5805914
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:22:24,vmem=1480K,walltime=00:00:28,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-018-10-2,atl1-1-02-018-17-1
+---------------------------------------

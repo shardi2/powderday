@@ -1,0 +1,1929 @@
+---------------------------------------
+Begin Slurm Prolog: Jun-17-2024 14:19:27
+Job ID:    425659
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 336221320.96it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28105.09it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 36400.48it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 344259301.58it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20285.99it/s]
+yt : [INFO     ] 2024-06-17 14:21:23,373 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:21:23,374 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:21:23,374 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:21:23,375 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:21:23,375 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:21:23,375 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:21:23,375 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:21:23,375 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:21:23,375 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:21:23,375 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 10708.09it/s]
+yt : [INFO     ] 2024-06-17 14:21:23,485 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:21:56,473 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:21:56,474 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:21:56,474 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:21:56,475 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:21:56,475 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:21:56,475 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:21:56,475 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:21:56,475 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:21:56,475 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:21:56,475 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16493.12it/s]
+yt : [INFO     ] 2024-06-17 14:21:56,546 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:21:58,428 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:22:03,702 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:22:03,962 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:22:03,962 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:22:03,963 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:22:03,963 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:22:03,964 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:22:03,964 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:22:03,964 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:22:03,964 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:22:03,964 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:22:03,964 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:22:04,086 Allocating for 2.566e+05 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2097627056465763e+23cm, y=1.2815705382858079e+23cm, z=1.291229679182648e+23cm
+Domain width: dx=5.899428015322511e+21cm, dy=5.899428015322511e+21cm, dz=5.899428015322511e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 9
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [1.08226028e+35 3.41904911e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.06601681 0.06691776 0.06783102 0.06875674 0.06969509 0.07064624
+ 0.07161038 0.07258768 0.07357831 0.07458246 0.07560032 0.07663207
+ 0.0776779  0.078738   0.07981257 0.0809018  0.0820059  0.08312507
+ 0.08425951 0.08540944 0.08657505 0.08775658 0.08895423 0.09016822
+ 0.09139878 0.09264614 0.09391052 0.09519215 0.09649128 0.09780813
+ 0.09914296 0.10049601 0.10186752 0.10325774 0.10466694 0.10609538
+ 0.1075433  0.10901099 0.11049871 0.11200673 0.11353533 0.11508479
+ 0.1166554  0.11824744 0.11986121 0.12149701 0.12315513 0.12483587
+ 0.12653956 0.1282665  0.130017   0.1317914  0.13359001 0.13541316
+ 0.1372612  0.13913446 0.14103328 0.14295802 0.14490903 0.14688666
+ 0.14889128 0.15092326 0.15298297 0.15507079 0.15718711 0.1593323
+ 0.16150678 0.16371092 0.16594515 0.16820987 0.1705055  0.17283246
+ 0.17519117 0.17758208 0.18000561 0.18246222 0.18495236 0.18747648
+ 0.19003505 0.19262853 0.19525741 0.19792217 0.20062329 0.20336128
+ 0.20613663 0.20894986 0.21180149 0.21469203 0.21762201 0.22059199
+ 0.2236025  0.22665409 0.22974733 0.23288279 0.23606103 0.23928265
+ 0.24254824 0.24585839 0.24921372 0.25261484 0.25448082]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  8  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:03<00:22,  3.24s/it]100%|██████████| 8/8 [00:03<00:00,  2.47it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.431801
+[SED_gen: ] total_lum_in_sed_gen =  102.31098260665343
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.082455
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  3.563102662092647e+38
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_1/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 334618850.36it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 27811.32it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35844.22it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 343697535.82it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20138.69it/s]
+yt : [INFO     ] 2024-06-17 14:22:22,419 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:22:22,420 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:22:22,420 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:22:22,421 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:22:22,421 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:22:22,421 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:22:22,421 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:22:22,421 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:22:22,421 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:22:22,421 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16907.08it/s]
+yt : [INFO     ] 2024-06-17 14:22:22,492 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:22:50,573 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:22:50,574 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:22:50,574 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:22:50,575 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:22:50,575 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:22:50,575 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:22:50,575 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:22:50,575 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:22:50,575 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:22:50,575 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16604.04it/s]
+yt : [INFO     ] 2024-06-17 14:22:50,646 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:22:51,888 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:22:52,720 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:22:52,970 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:22:52,971 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:22:52,972 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:22:52,972 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:22:52,972 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:22:52,972 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:22:52,972 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:22:52,972 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:22:52,972 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:22:52,973 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:22:53,094 Allocating for 1.702e+05 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.3038840687291194e+23cm, y=1.2931764851151183e+23cm, z=1.2971824301283262e+23cm
+Domain width: dx=5.176880768448127e+21cm, dy=5.176880768448127e+21cm, dz=5.176880768448127e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 6
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [2.09030684e+34 2.80415568e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.16205834 0.16274637 0.16343732 0.16413121 0.16482804 0.16552783
+ 0.16623059 0.16693634 0.16764508 0.16835683 0.1690716  0.16978941
+ 0.17051026 0.17123418 0.17196116 0.17269124 0.17342441 0.1741607
+ 0.17490011 0.17564266 0.17638837 0.17713724 0.17788929 0.17864453
+ 0.17940298 0.18016465 0.18092956 0.18169771 0.18246912 0.18324381
+ 0.18402178 0.18480306 0.18558766 0.18637558 0.18716686 0.18796149
+ 0.18875949 0.18956089 0.19036568 0.19117389 0.19198554 0.19280063
+ 0.19361918 0.1944412  0.19526672 0.19609574 0.19692828 0.19776435
+ 0.19860398 0.19944717 0.20029394 0.2011443  0.20199827 0.20285587
+ 0.20371711 0.20458201 0.20545058 0.20632284 0.2071988  0.20807847
+ 0.20896189 0.20984905 0.21073998 0.2116347  0.21253321 0.21343553
+ 0.21434169 0.2152517  0.21616556 0.21708331 0.21800496 0.21893051
+ 0.21986    0.22079343 0.22173083 0.22267221 0.22361758 0.22456696
+ 0.22552038 0.22647784 0.22743937 0.22840499 0.2293747  0.23034853
+ 0.23132649 0.2323086  0.23329489 0.23428536 0.23528004 0.23627894
+ 0.23728208 0.23828948 0.23930115 0.24031713 0.24133741 0.24236203
+ 0.243391   0.24442433 0.24546205 0.24650418 0.24734864]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  6  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/6 [00:00<?, ?it/s] 17%|█▋        | 1/6 [00:03<00:16,  3.22s/it]100%|██████████| 6/6 [00:03<00:00,  1.86it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.348002
+[SED_gen: ] total_lum_in_sed_gen =  52.4151721882951
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.063282
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  1.1737357640887988e+38
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_2/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 338547212.62it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 27886.02it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35774.95it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 346413027.56it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20142.98it/s]
+yt : [INFO     ] 2024-06-17 14:23:09,035 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:23:09,035 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:23:09,036 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:23:09,036 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:23:09,037 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:23:09,037 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:23:09,037 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:23:09,037 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:23:09,037 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:23:09,037 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16554.95it/s]
+yt : [INFO     ] 2024-06-17 14:23:09,109 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:23:37,130 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:23:37,130 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:23:37,131 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:23:37,131 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:23:37,132 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:23:37,132 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:23:37,132 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:23:37,132 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:23:37,132 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:23:37,132 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16676.51it/s]
+yt : [INFO     ] 2024-06-17 14:23:37,202 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:23:38,378 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:23:38,722 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:23:38,957 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:23:38,957 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:23:38,958 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:23:38,958 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:23:38,958 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:23:38,958 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:23:38,958 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:23:38,959 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:23:38,959 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:23:38,959 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:23:39,080 Allocating for 2.497e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2263106315652811e+23cm, y=1.3033972917532946e+23cm, z=1.0153425622392771e+23cm
+Domain width: dx=2.94334943128045e+21cm, dy=2.94334943128045e+21cm, dz=2.94334943128045e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 2
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [1.59084585e+36 1.81762428e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.09884479 0.0988971  0.09894943 0.09900179 0.09905418 0.09910659
+ 0.09915903 0.0992115  0.099264   0.09931653 0.09936908 0.09942167
+ 0.09947428 0.09952691 0.09957958 0.09963227 0.09968499 0.09973774
+ 0.09979052 0.09984332 0.09989616 0.09994902 0.10000191 0.10005482
+ 0.10010777 0.10016074 0.10021374 0.10026677 0.10031983 0.10037291
+ 0.10042603 0.10047917 0.10053234 0.10058553 0.10063876 0.10069201
+ 0.1007453  0.10079861 0.10085194 0.10090531 0.10095871 0.10101213
+ 0.10106558 0.10111906 0.10117257 0.1012261  0.10127967 0.10133326
+ 0.10138688 0.10144053 0.10149421 0.10154792 0.10160165 0.10165542
+ 0.10170921 0.10176303 0.10181688 0.10187075 0.10192466 0.10197859
+ 0.10203256 0.10208655 0.10214057 0.10219462 0.10224869 0.1023028
+ 0.10235693 0.1024111  0.10246529 0.10251951 0.10257376 0.10262804
+ 0.10268234 0.10273668 0.10279104 0.10284543 0.10289986 0.10295431
+ 0.10300879 0.10306329 0.10311783 0.1031724  0.10322699 0.10328161
+ 0.10333627 0.10339095 0.10344566 0.1035004  0.10355516 0.10360996
+ 0.10366479 0.10371964 0.10377453 0.10382944 0.10388438 0.10393935
+ 0.10399435 0.10404938 0.10410444 0.10415953 0.10421268]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  2  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.24s/it]100%|██████████| 2/2 [00:03<00:00,  1.62s/it]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.303041
+[SED_gen: ] total_lum_in_sed_gen =  34.86503073228478
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.025349
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  1.4652915033684328e+38
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_3/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 335970135.95it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28260.88it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 36614.94it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 346781229.48it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20318.91it/s]
+yt : [INFO     ] 2024-06-17 14:23:58,053 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:23:58,054 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:23:58,054 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:23:58,055 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:23:58,055 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:23:58,055 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:23:58,055 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:23:58,055 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:23:58,055 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:23:58,055 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16354.07it/s]
+yt : [INFO     ] 2024-06-17 14:23:58,127 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:24:26,183 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:24:26,184 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:24:26,185 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:24:26,185 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:24:26,186 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:24:26,186 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:24:26,186 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:24:26,186 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:24:26,186 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:24:26,186 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16340.22it/s]
+yt : [INFO     ] 2024-06-17 14:24:26,258 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:24:27,528 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:24:28,312 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:24:28,558 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:24:28,559 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:24:28,559 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:24:28,560 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:24:28,560 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:24:28,560 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:24:28,560 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:24:28,560 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:24:28,560 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:24:28,560 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:24:28,682 Allocating for 7.514e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2626263228561494e+23cm, y=1.2987923876014092e+23cm, z=1.2457788418753986e+23cm
+Domain width: dx=2.1376908037676676e+21cm, dy=2.1376908037676534e+21cm, dz=2.1376908037676815e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 14
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03530475 0.03599439 0.03669751 0.03741437 0.03814523 0.03889036
+ 0.03965005 0.04042458 0.04121424 0.04201933 0.04284014 0.04367698
+ 0.04453018 0.04540003 0.04628689 0.04719106 0.0481129  0.04905274
+ 0.05001095 0.05098787 0.05198387 0.05299933 0.05403463 0.05509015
+ 0.05616629 0.05726345 0.05838204 0.05952248 0.06068521 0.06187064
+ 0.06307923 0.06431143 0.0655677  0.06684851 0.06815434 0.06948567
+ 0.07084302 0.07222687 0.07363776 0.07507621 0.07654276 0.07803796
+ 0.07956237 0.08111655 0.08270109 0.08431659 0.08596364 0.08764287
+ 0.0893549  0.09110037 0.09287994 0.09469427 0.09654404 0.09842994
+ 0.10035269 0.10231299 0.10431159 0.10634923 0.10842667 0.11054469
+ 0.11270409 0.11490567 0.11715025 0.11943868 0.12177181 0.12415052
+ 0.1265757  0.12904825 0.13156909 0.13413918 0.13675948 0.13943096
+ 0.14215462 0.14493149 0.14776261 0.15064902 0.15359182 0.15659211
+ 0.159651   0.16276965 0.16594921 0.16919089 0.17249589 0.17586545
+ 0.17930083 0.18280332 0.18637423 0.19001489 0.19372667 0.19751095
+ 0.20136916 0.20530274 0.20931315 0.2134019  0.21757053 0.22182058
+ 0.22615366 0.23057138 0.23507539 0.23966739 0.24171102]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  12  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:35,  3.22s/it]100%|██████████| 12/12 [00:03<00:00,  3.72it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.394607
+[SED_gen: ] total_lum_in_sed_gen =  349.12319187470086
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.120610
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  1.6350068722245973e+39
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_8/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 335340433.16it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28459.25it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 36014.03it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 345966461.23it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20388.49it/s]
+yt : [INFO     ] 2024-06-17 14:24:44,686 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:24:44,687 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:24:44,687 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:24:44,688 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:24:44,688 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:24:44,688 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:24:44,688 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:24:44,688 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:24:44,688 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:24:44,688 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16805.68it/s]
+yt : [INFO     ] 2024-06-17 14:24:44,759 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:25:12,852 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:25:12,853 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:25:12,854 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:25:12,854 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:25:12,855 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:25:12,855 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:25:12,855 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:25:12,855 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:25:12,855 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:25:12,855 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16328.75it/s]
+yt : [INFO     ] 2024-06-17 14:25:12,927 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:25:14,199 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:25:14,710 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:25:14,955 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:25:14,956 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:25:14,956 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:25:14,957 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:25:14,957 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:25:14,957 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:25:14,957 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:25:14,957 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:25:14,957 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:25:14,957 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:25:15,079 Allocating for 7.564e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2459285439137145e+23cm, y=1.3000277502615202e+23cm, z=1.2469394667554125e+23cm
+Domain width: dx=2.0515842742675214e+21cm, dy=2.0515842742675214e+21cm, dz=2.0515842742675214e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 12
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13495141e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03994049 0.04066998 0.04141279 0.04216917 0.04293937 0.04372363
+ 0.04452221 0.04533539 0.04616341 0.04700656 0.0478651  0.04873933
+ 0.04962953 0.05053598 0.05145899 0.05239886 0.05335589 0.0543304
+ 0.05532272 0.05633315 0.05736204 0.05840973 0.05947655 0.06056285
+ 0.06166899 0.06279534 0.06394226 0.06511013 0.06629932 0.06751024
+ 0.06874328 0.06999883 0.07127732 0.07257916 0.07390477 0.0752546
+ 0.07662908 0.07802866 0.07945381 0.08090498 0.08238267 0.08388734
+ 0.08541949 0.08697962 0.08856825 0.0901859  0.09183309 0.09351037
+ 0.09521828 0.09695738 0.09872825 0.10053146 0.10236761 0.10423729
+ 0.10614113 0.10807973 0.11005374 0.11206381 0.11411059 0.11619475
+ 0.11831698 0.12047796 0.12267842 0.12491907 0.12720064 0.12952389
+ 0.13188956 0.13429845 0.13675133 0.13924901 0.14179231 0.14438206
+ 0.14701911 0.14970433 0.15243859 0.15522279 0.15805784 0.16094467
+ 0.16388423 0.16687748 0.16992539 0.17302898 0.17618925 0.17940724
+ 0.18268401 0.18602062 0.18941818 0.19287779 0.19640058 0.19998772
+ 0.20364038 0.20735975 0.21114705 0.21500352 0.21893044 0.22292907
+ 0.22700073 0.23114677 0.23536852 0.23966739 0.24166466]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  11  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:03<00:32,  3.21s/it]100%|██████████| 11/11 [00:03<00:00,  3.41it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.387923
+[SED_gen: ] total_lum_in_sed_gen =  325.2166210865289
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.110604
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  1.4022439492651177e+39
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_13/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 340149372.98it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28410.81it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35824.62it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 343105760.33it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20245.96it/s]
+yt : [INFO     ] 2024-06-17 14:25:29,559 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:25:29,560 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:25:29,560 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:25:29,561 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:25:29,561 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:25:29,561 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:25:29,561 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:25:29,561 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:25:29,561 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:25:29,561 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16777.48it/s]
+yt : [INFO     ] 2024-06-17 14:25:29,632 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:25:57,824 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:25:57,825 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:25:57,825 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:25:57,826 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:25:57,826 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:25:57,826 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:25:57,826 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:25:57,826 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:25:57,826 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:25:57,826 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16814.70it/s]
+yt : [INFO     ] 2024-06-17 14:25:57,896 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:25:59,054 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:25:59,338 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:25:59,570 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:25:59,571 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:25:59,571 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:25:59,572 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:25:59,572 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:25:59,572 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:25:59,572 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:25:59,572 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:25:59,572 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:25:59,572 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:25:59,693 Allocating for 2.578e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.3158270150032316e+23cm, y=1.2923154152971504e+23cm, z=1.3045953610160642e+23cm
+Domain width: dx=1.7094038282105683e+21cm, dy=1.7094038282105683e+21cm, dz=1.7094038282105683e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 2
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [2.09030684e+34 2.80415568e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.17826773 0.17866725 0.17906766 0.17946896 0.17987117 0.18027428
+ 0.18067829 0.18108321 0.18148904 0.18189577 0.18230342 0.18271198
+ 0.18312145 0.18353184 0.18394316 0.18435539 0.18476855 0.18518263
+ 0.18559765 0.18601359 0.18643046 0.18684827 0.18726702 0.1876867
+ 0.18810733 0.18852889 0.1889514  0.18937486 0.18979927 0.19022463
+ 0.19065094 0.19107821 0.19150643 0.19193562 0.19236576 0.19279687
+ 0.19322895 0.19366199 0.19409601 0.194531   0.19496696 0.1954039
+ 0.19584182 0.19628072 0.19672061 0.19716148 0.19760333 0.19804618
+ 0.19849002 0.19893486 0.19938069 0.19982752 0.20027535 0.20072419
+ 0.20117403 0.20162488 0.20207675 0.20252962 0.20298351 0.20343841
+ 0.20389434 0.20435129 0.20480926 0.20526825 0.20572828 0.20618934
+ 0.20665143 0.20711455 0.20757872 0.20804392 0.20851017 0.20897746
+ 0.2094458  0.20991519 0.21038563 0.21085712 0.21132967 0.21180328
+ 0.21227796 0.21275369 0.21323049 0.21370836 0.2141873  0.21466732
+ 0.21514841 0.21563058 0.21611383 0.21659816 0.21708358 0.21757008
+ 0.21805768 0.21854637 0.21903615 0.21952703 0.22001901 0.2205121
+ 0.22100629 0.22150158 0.22199799 0.22249551 0.22293779]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  2  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.23s/it]100%|██████████| 2/2 [00:03<00:00,  1.61s/it]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.289598
+[SED_gen: ] total_lum_in_sed_gen =  17.298862885878215
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.025353
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  6.965491002552721e+37
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_32/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 335151307.29it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 27865.03it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35945.61it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 344262862.91it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20403.64it/s]
+yt : [INFO     ] 2024-06-17 14:26:14,715 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:26:14,715 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:26:14,716 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:26:14,716 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:26:14,717 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:26:14,717 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:26:14,717 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:26:14,717 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:26:14,717 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:26:14,717 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16541.25it/s]
+yt : [INFO     ] 2024-06-17 14:26:14,789 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:26:42,852 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:26:42,852 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:26:42,853 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:26:42,854 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:26:42,854 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:26:42,854 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:26:42,854 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:26:42,854 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:26:42,854 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:26:42,854 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16903.22it/s]
+yt : [INFO     ] 2024-06-17 14:26:42,924 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:26:44,129 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:26:44,565 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:26:44,805 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:26:44,806 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:26:44,806 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:26:44,807 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:26:44,807 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:26:44,807 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:26:44,807 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:26:44,807 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:26:44,807 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:26:44,807 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:26:44,928 Allocating for 5.271e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2588075997567203e+23cm, y=1.293925221784819e+23cm, z=1.2480625717599634e+23cm
+Domain width: dx=1.4533302794952366e+21cm, dy=1.4533302794952366e+21cm, dz=1.4533302794952366e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 15
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03530475 0.03599439 0.03669751 0.03741437 0.03814523 0.03889036
+ 0.03965005 0.04042458 0.04121424 0.04201933 0.04284014 0.04367698
+ 0.04453018 0.04540003 0.04628689 0.04719106 0.0481129  0.04905274
+ 0.05001095 0.05098787 0.05198387 0.05299933 0.05403463 0.05509015
+ 0.05616629 0.05726345 0.05838204 0.05952248 0.06068521 0.06187064
+ 0.06307923 0.06431143 0.0655677  0.06684851 0.06815434 0.06948567
+ 0.07084302 0.07222687 0.07363776 0.07507621 0.07654276 0.07803796
+ 0.07956237 0.08111655 0.08270109 0.08431659 0.08596364 0.08764287
+ 0.0893549  0.09110037 0.09287994 0.09469427 0.09654404 0.09842994
+ 0.10035269 0.10231299 0.10431159 0.10634923 0.10842667 0.11054469
+ 0.11270409 0.11490567 0.11715025 0.11943868 0.12177181 0.12415052
+ 0.1265757  0.12904825 0.13156909 0.13413918 0.13675948 0.13943096
+ 0.14215462 0.14493149 0.14776261 0.15064902 0.15359182 0.15659211
+ 0.159651   0.16276965 0.16594921 0.16919089 0.17249589 0.17586545
+ 0.17930083 0.18280332 0.18637423 0.19001489 0.19372667 0.19751095
+ 0.20136916 0.20530274 0.20931315 0.2134019  0.21757053 0.22182058
+ 0.22615366 0.23057138 0.23507539 0.23966739 0.24171102]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  13  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/13 [00:00<?, ?it/s]  8%|▊         | 1/13 [00:03<00:38,  3.22s/it]100%|██████████| 13/13 [00:03<00:00,  4.03it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.382617
+[SED_gen: ] total_lum_in_sed_gen =  367.0365999985829
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.129422
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  1.7260796710157822e+39
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_49/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 336085498.65it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 27528.09it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 36182.38it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 345259359.72it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20510.29it/s]
+yt : [INFO     ] 2024-06-17 14:26:59,627 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:26:59,628 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:26:59,628 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:26:59,628 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:26:59,629 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:26:59,629 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:26:59,629 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:26:59,629 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:26:59,629 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:26:59,629 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16954.75it/s]
+yt : [INFO     ] 2024-06-17 14:26:59,700 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:27:27,759 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:27:27,759 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:27:27,760 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:27:27,760 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:27:27,760 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:27:27,761 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:27:27,761 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:27:27,761 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:27:27,761 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:27:27,761 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16847.73it/s]
+yt : [INFO     ] 2024-06-17 14:27:27,831 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:27:28,961 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:27:29,364 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:27:29,595 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:27:29,596 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:27:29,596 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:27:29,597 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:27:29,597 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:27:29,597 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:27:29,597 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:27:29,597 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:27:29,597 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:27:29,597 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:27:29,723 Allocating for 1.347e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2972198745110819e+23cm, y=1.2924275974600034e+23cm, z=1.2924651928281734e+23cm
+Domain width: dx=1.3103184045512534e+21cm, dy=1.3103184045512534e+21cm, dz=1.3103184045512534e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 3
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [9.76561116e+34 1.36606990e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.16205834 0.16274637 0.16343732 0.16413121 0.16482804 0.16552783
+ 0.16623059 0.16693634 0.16764508 0.16835683 0.1690716  0.16978941
+ 0.17051026 0.17123418 0.17196116 0.17269124 0.17342441 0.1741607
+ 0.17490011 0.17564266 0.17638837 0.17713724 0.17788929 0.17864453
+ 0.17940298 0.18016465 0.18092956 0.18169771 0.18246912 0.18324381
+ 0.18402178 0.18480306 0.18558766 0.18637558 0.18716686 0.18796149
+ 0.18875949 0.18956089 0.19036568 0.19117389 0.19198554 0.19280063
+ 0.19361918 0.1944412  0.19526672 0.19609574 0.19692828 0.19776435
+ 0.19860398 0.19944717 0.20029394 0.2011443  0.20199827 0.20285587
+ 0.20371711 0.20458201 0.20545058 0.20632284 0.2071988  0.20807847
+ 0.20896189 0.20984905 0.21073998 0.2116347  0.21253321 0.21343553
+ 0.21434169 0.2152517  0.21616556 0.21708331 0.21800496 0.21893051
+ 0.21986    0.22079343 0.22173083 0.22267221 0.22361758 0.22456696
+ 0.22552038 0.22647784 0.22743937 0.22840499 0.2293747  0.23034853
+ 0.23132649 0.2323086  0.23329489 0.23428536 0.23528004 0.23627894
+ 0.23728208 0.23828948 0.23930115 0.24031713 0.24133741 0.24236203
+ 0.243391   0.24442433 0.24546205 0.24650418 0.24734864]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  3  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:03<00:06,  3.22s/it]100%|██████████| 3/3 [00:03<00:00,  1.08s/it]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.310242
+[SED_gen: ] total_lum_in_sed_gen =  25.344136916459078
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.034744
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  4.2432272195691475e+37
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_57/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 337876944.61it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28411.76it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 36160.86it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 346431058.45it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20339.78it/s]
+yt : [INFO     ] 2024-06-17 14:27:45,133 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:27:45,134 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:27:45,134 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:27:45,135 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:27:45,135 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:27:45,135 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:27:45,135 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:27:45,135 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:27:45,135 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:27:45,135 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16881.85it/s]
+yt : [INFO     ] 2024-06-17 14:27:45,206 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:28:13,197 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:28:13,198 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:28:13,198 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:28:13,199 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:28:13,199 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:28:13,199 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:28:13,199 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:28:13,199 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:28:13,199 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:28:13,199 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16443.77it/s]
+yt : [INFO     ] 2024-06-17 14:28:13,271 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:28:14,524 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:28:15,048 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:28:15,281 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:28:15,281 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:28:15,282 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:28:15,282 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:28:15,282 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:28:15,283 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:28:15,283 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:28:15,283 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:28:15,283 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:28:15,283 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:28:15,404 Allocating for 2.115e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.263113024339267e+23cm, y=1.298979609515188e+23cm, z=1.2452172516267695e+23cm
+Domain width: dx=1.2728806990656394e+21cm, dy=1.2728806990656394e+21cm, dz=1.2728806990656394e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 4
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13494422e+34 1.83373520e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03530475 0.03597752 0.03666311 0.03736177 0.03807374 0.03879928
+ 0.03953864 0.04029209 0.04105991 0.04184235 0.0426397  0.04345225
+ 0.04428028 0.04512409 0.04598398 0.04686026 0.04775324 0.04866323
+ 0.04959056 0.05053557 0.05149858 0.05247994 0.05348001 0.05449913
+ 0.05553767 0.05659601 0.05767451 0.05877356 0.05989356 0.0610349
+ 0.06219799 0.06338324 0.06459108 0.06582194 0.06707625 0.06835446
+ 0.06965703 0.07098443 0.07233712 0.07371558 0.07512032 0.07655182
+ 0.0780106  0.07949718 0.08101209 0.08255587 0.08412906 0.08573224
+ 0.08736596 0.08903082 0.09072741 0.09245632 0.09421818 0.09601361
+ 0.09784326 0.09970778 0.10160782 0.10354407 0.10551722 0.10752797
+ 0.10957704 0.11166516 0.11379306 0.11596152 0.1181713  0.12042319
+ 0.12271799 0.12505652 0.12743961 0.12986812 0.1323429  0.13486484
+ 0.13743485 0.14005382 0.14272271 0.14544245 0.14821402 0.15103841
+ 0.15391662 0.15684967 0.15983862 0.16288453 0.16598848 0.16915158
+ 0.17237495 0.17565975 0.17900715 0.18241833 0.18589452 0.18943695
+ 0.19304689 0.19672562 0.20047445 0.20429472 0.20818778 0.21215504
+ 0.21619789 0.22031779 0.22451619 0.22879461 0.2307295 ]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  3  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:03<00:06,  3.22s/it]100%|██████████| 3/3 [00:03<00:00,  1.07s/it]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.309856
+[SED_gen: ] total_lum_in_sed_gen =  73.7187560106987
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.034960
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  2.391372648986362e+38
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_63/stellar_seds.0125.npz'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 338158477.26it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28019.08it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 36523.84it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 345198476.26it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20191.70it/s]
+yt : [INFO     ] 2024-06-17 14:28:29,802 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:28:29,802 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:28:29,803 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:28:29,803 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:28:29,803 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:28:29,803 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:28:29,803 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:28:29,803 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:28:29,803 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:28:29,804 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16285.59it/s]
+yt : [INFO     ] 2024-06-17 14:28:29,876 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-06-17 14:28:57,887 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-06-17 14:28:57,888 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-06-17 14:28:57,888 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-06-17 14:28:57,889 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-06-17 14:28:57,889 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:28:57,889 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:28:57,889 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:28:57,889 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:28:57,889 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-06-17 14:28:57,889 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16524.65it/s]
+yt : [INFO     ] 2024-06-17 14:28:57,960 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-06-17 14:28:59,109 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-06-17 14:28:59,452 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-06-17 14:28:59,683 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-06-17 14:28:59,683 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-06-17 14:28:59,684 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-06-17 14:28:59,684 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-06-17 14:28:59,684 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-06-17 14:28:59,684 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-06-17 14:28:59,685 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-06-17 14:28:59,685 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-06-17 14:28:59,685 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-06-17 14:28:59,685 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-06-17 14:28:59,806 Allocating for 1.724e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2505335235583071e+23cm, y=1.287335916332293e+23cm, z=1.2507582653475487e+23cm
+Domain width: dx=9.591530636711492e+20cm, dy=9.591530636711774e+20cm, dz=9.591530636711492e+20cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 5
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13495141e+34 2.06291809e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.04513948 0.04590715 0.04668788 0.04748188 0.04828938 0.04911062
+ 0.04994582 0.05079523 0.05165908 0.05253763 0.05343111 0.05433979
+ 0.05526392 0.05620377 0.05715961 0.0581317  0.05912032 0.06012575
+ 0.06114829 0.06218821 0.06324582 0.06432141 0.0654153  0.06652779
+ 0.0676592  0.06880985 0.06998007 0.07117019 0.07238055 0.0736115
+ 0.07486338 0.07613655 0.07743137 0.07874821 0.08008745 0.08144946
+ 0.08283464 0.08424337 0.08567607 0.08713312 0.08861496 0.090122
+ 0.09165466 0.09321339 0.09479863 0.09641083 0.09805045 0.09971796
+ 0.10141382 0.10313852 0.10489255 0.10667641 0.10849061 0.11033567
+ 0.1122121  0.11412044 0.11606124 0.11803505 0.12004242 0.12208393
+ 0.12416016 0.1262717  0.12841915 0.13060312 0.13282423 0.13508311
+ 0.13738042 0.13971679 0.14209289 0.1445094  0.14696701 0.14946642
+ 0.15200833 0.15459347 0.15722258 0.1598964  0.16261569 0.16538122
+ 0.16819379 0.17105419 0.17396324 0.17692176 0.17993059 0.18299059
+ 0.18610264 0.18926761 0.1924864  0.19575994 0.19908914 0.20247497
+ 0.20591837 0.20942034 0.21298186 0.21660395 0.22028765 0.22403398
+ 0.22784404 0.23171888 0.23565963 0.23966739 0.24161267]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  5  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:03<00:12,  3.22s/it]100%|██████████| 5/5 [00:03<00:00,  1.55it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.330147
+[SED_gen: ] total_lum_in_sed_gen =  82.16934855785928
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.053839
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  2.623264901297406e+38
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Traceback (most recent call last):
+  File "pd_front_end.py", line 162, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 68, in stellar_sed_write
+    np.savez(outfile,nu=nu,fnu=fnu,lam = lam.value, flam = flam.value, README=README)
+  File "<__array_function__ internals>", line 180, in savez
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 615, in savez
+    _savez(file, args, kwds, False)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 712, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/lib/npyio.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000000/halo_99/stellar_seds.0125.npz'
+---------------------------------------
+Begin Slurm Epilog: Jun-17-2024 14:29:10
+Job ID:        425659
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=600G,node=2
+Rsrc Used:     cput=07:45:36,vmem=2409060K,walltime=00:09:42,mem=1430900K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-002-4-2,atl1-1-02-002-8-1
+---------------------------------------

@@ -1,0 +1,63 @@
+---------------------------------------
+Begin Slurm Prolog: Feb-19-2024 12:07:55
+Job ID:    5000850
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 333900366.28it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 27309.99it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 34958.27it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 15, in <module>
+    model = __import__(modelfile)
+ModuleNotFoundError: No module named 'parameters_model_0_10000_200'
+---------------------------------------
+Begin Slurm Epilog: Feb-19-2024 12:08:21
+Job ID:        5000850
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=720G,node=2
+Rsrc Used:     cput=00:06:40,vmem=10740K,walltime=00:00:25,mem=0,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-03-004-12-1,atl1-1-03-004-13-1
+---------------------------------------

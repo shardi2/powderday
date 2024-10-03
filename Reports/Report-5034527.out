@@ -1,0 +1,66 @@
+---------------------------------------
+Begin Slurm Prolog: Feb-21-2024 15:13:12
+Job ID:    5034527
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 349212075.07it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 27992.36it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35815.58it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 353065204.40it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20193.62it/s]
+yt : [INFO     ] 2024-02-21 15:13:51,670 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-02-21 15:13:51,671 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-02-21 15:13:51,672 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-02-21 15:13:51,672 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-02-21 15:13:51,673 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-02-21 15:13:51,673 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-02-21 15:13:51,673 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-02-21 15:13:51,673 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-02-21 15:13:51,673 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-02-21 15:13:51,673 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 17489.77it/s]
+yt : [INFO     ] 2024-02-21 15:13:51,743 Gathering a field list (this may take a moment.)
+slurmstepd: error: *** JOB 5034527 ON atl1-1-01-005-36-1 CANCELLED AT 2024-02-21T15:14:10 ***
+---------------------------------------
+Begin Slurm Epilog: Feb-21-2024 15:14:11
+Job ID:        5034527
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=800G,node=2
+Rsrc Used:     cput=00:15:44,vmem=1338140K,walltime=00:00:59,mem=929488K,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-01-005-36-1,atl1-1-03-004-11-2
+---------------------------------------

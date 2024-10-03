@@ -1,0 +1,232 @@
+---------------------------------------
+Begin Slurm Prolog: May-30-2024 16:12:12
+Job ID:    221250
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-05-30 16:12:43,684 Global parallel computation enabled: 15 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 28 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,684 Global parallel computation enabled: 20 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,685 Global parallel computation enabled: 21 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,685 Global parallel computation enabled: 23 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,686 Global parallel computation enabled: 17 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,687 Global parallel computation enabled: 8 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,688 Global parallel computation enabled: 3 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,688 Global parallel computation enabled: 0 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,688 Global parallel computation enabled: 14 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,689 Global parallel computation enabled: 16 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 22 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 5 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 9 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 18 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 11 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,691 Global parallel computation enabled: 13 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,691 Global parallel computation enabled: 2 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,691 Global parallel computation enabled: 12 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,699 Global parallel computation enabled: 1 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,699 Global parallel computation enabled: 4 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,701 Global parallel computation enabled: 19 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,704 Global parallel computation enabled: 10 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,709 Global parallel computation enabled: 7 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,714 Global parallel computation enabled: 6 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 32 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 37 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 43 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 44 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 25 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 29 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 30 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 33 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 34 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 35 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 36 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 39 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 47 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,690 Global parallel computation enabled: 38 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,691 Global parallel computation enabled: 24 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,691 Global parallel computation enabled: 31 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,693 Global parallel computation enabled: 27 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,703 Global parallel computation enabled: 41 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,703 Global parallel computation enabled: 40 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,706 Global parallel computation enabled: 46 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,707 Global parallel computation enabled: 42 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,708 Global parallel computation enabled: 26 / 48
+yt : [INFO     ] 2024-05-30 16:12:43,712 Global parallel computation enabled: 45 / 48
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8947.67it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9369.55it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8908.02it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9412.58it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9423.39it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9482.86it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9517.42it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9561.48it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8954.78it/s]
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9350.68it/s]
+  File "stellar_mass.py", line 180, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 97, in calculate_total_pop3_mass
+    node["total_pop3_mass"] += sphere.quantities.total_quantity(("p3_sn", "particle_mass")) * (10**20)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1824, in __array_ufunc__
+    inp1 = _coerce_iterable_units(i1)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 286, in _coerce_iterable_units
+    raise IterableUnitCoercionError(str(input_object))
+P034 yt : [ERROR    ] 2024-05-30 16:12:46,802 IterableUnitCoercionError: Received an input or operand that cannot be converted to a unyt_array with uniform units: 100000000000000000000
+  File "stellar_mass.py", line 180, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 97, in calculate_total_pop3_mass
+    node["total_pop3_mass"] += sphere.quantities.total_quantity(("p3_sn", "particle_mass")) * (10**20)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1824, in __array_ufunc__
+    inp1 = _coerce_iterable_units(i1)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 286, in _coerce_iterable_units
+    raise IterableUnitCoercionError(str(input_object))
+P038 yt : [ERROR    ] 2024-05-30 16:12:46,802 IterableUnitCoercionError: Received an input or operand that cannot be converted to a unyt_array with uniform units: 100000000000000000000
+  File "stellar_mass.py", line 180, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 97, in calculate_total_pop3_mass
+    node["total_pop3_mass"] += sphere.quantities.total_quantity(("p3_sn", "particle_mass")) * (10**20)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1824, in __array_ufunc__
+    inp1 = _coerce_iterable_units(i1)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 286, in _coerce_iterable_units
+    raise IterableUnitCoercionError(str(input_object))
+P029 yt : [ERROR    ] 2024-05-30 16:12:46,802 IterableUnitCoercionError: Received an input or operand that cannot be converted to a unyt_array with uniform units: 100000000000000000000
+  File "stellar_mass.py", line 180, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 97, in calculate_total_pop3_mass
+    node["total_pop3_mass"] += sphere.quantities.total_quantity(("p3_sn", "particle_mass")) * (10**20)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1824, in __array_ufunc__
+    inp1 = _coerce_iterable_units(i1)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 286, in _coerce_iterable_units
+    raise IterableUnitCoercionError(str(input_object))
+P042 yt : [ERROR    ] 2024-05-30 16:12:46,802 IterableUnitCoercionError: Received an input or operand that cannot be converted to a unyt_array with uniform units: 100000000000000000000
+  File "stellar_mass.py", line 180, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 97, in calculate_total_pop3_mass
+    node["total_pop3_mass"] += sphere.quantities.total_quantity(("p3_sn", "particle_mass")) * (10**20)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1824, in __array_ufunc__
+    inp1 = _coerce_iterable_units(i1)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 286, in _coerce_iterable_units
+    raise IterableUnitCoercionError(str(input_object))
+P043 yt : [ERROR    ] 2024-05-30 16:12:46,802 IterableUnitCoercionError: Received an input or operand that cannot be converted to a unyt_array with uniform units: 100000000000000000000
+  File "stellar_mass.py", line 180, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 97, in calculate_total_pop3_mass
+    node["total_pop3_mass"] += sphere.quantities.total_quantity(("p3_sn", "particle_mass")) * (10**20)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1824, in __array_ufunc__
+    inp1 = _coerce_iterable_units(i1)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 286, in _coerce_iterable_units
+    raise IterableUnitCoercionError(str(input_object))
+P045 yt : [ERROR    ] 2024-05-30 16:12:46,802 IterableUnitCoercionError: Received an input or operand that cannot be converted to a unyt_array with uniform units: 100000000000000000000
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 34 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 42 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 45 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 38 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 43 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 29 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 221250.0 ON atl1-1-03-003-1-2 CANCELLED AT 2024-05-30T16:12:46 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy :  86%|████████▌ | 668/777 [00:00<00:00, 6679.69it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 6542.05it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9543.42it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9538.79it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9338.03it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9558.99it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8976.13it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9542.53it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9383.64it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9405.95it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8740.90it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9448.71it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9434.52it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9378.34it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9308.93it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9491.01it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9505.82it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9415.14it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9537.17it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9451.15it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9454.61it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8587.98it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9417.20it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8846.82it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9449.51it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9246.60it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9236.02it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9436.56it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9544.23it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9447.01it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy :  81%|████████  | 627/777 [00:00<00:00, 6268.05it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 7063.58it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9488.33it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9415.52it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9325.98it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9367.53it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9519.48it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9457.18it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9486.83it/s]srun: error: atl1-1-03-003-1-2: tasks 0-23: Killed
+srun: error: atl1-1-03-003-2-1: tasks 24-47: Killed
+---------------------------------------
+Begin Slurm Epilog: May-30-2024 16:12:48
+Job ID:        221250
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:28:00,vmem=7464K,walltime=00:00:35,mem=7084K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-03-003-1-2,atl1-1-03-003-2-1
+---------------------------------------

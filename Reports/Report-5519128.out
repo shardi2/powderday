@@ -1,0 +1,1028 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-03-2024 15:25:48
+Job ID:    5519128
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-04-03 15:26:18,011 Global parallel computation enabled: 0 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 40 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,011 Global parallel computation enabled: 14 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,012 Global parallel computation enabled: 11 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,012 Global parallel computation enabled: 20 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,012 Global parallel computation enabled: 8 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,012 Global parallel computation enabled: 19 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,012 Global parallel computation enabled: 21 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 5 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 16 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 18 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 3 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 2 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 10 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 23 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 12 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 6 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,013 Global parallel computation enabled: 9 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,014 Global parallel computation enabled: 17 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,016 Global parallel computation enabled: 15 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,016 Global parallel computation enabled: 13 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,017 Global parallel computation enabled: 7 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,027 Global parallel computation enabled: 22 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,028 Global parallel computation enabled: 4 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,042 Global parallel computation enabled: 1 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 33 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 38 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 41 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 44 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 45 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 47 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 25 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 31 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 35 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 39 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 42 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 43 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 26 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 30 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 32 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 37 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 46 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 27 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,018 Global parallel computation enabled: 28 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,019 Global parallel computation enabled: 36 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,020 Global parallel computation enabled: 29 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,026 Global parallel computation enabled: 24 / 48
+yt : [INFO     ] 2024-04-03 15:26:18,029 Global parallel computation enabled: 34 / 48
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P041 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P005 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P042 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P013 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P043 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P018 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P045 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P000 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P025 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P002 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P026 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P003 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P028 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P004 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P029 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P008 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P030 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P011 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P032 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P012 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P033 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P014 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P034 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P019 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P036 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P020 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P038 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P023 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P039 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P006 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P040 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P007 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P047 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P010 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P031 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P015 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P035 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P016 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P037 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P017 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P044 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P021 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P046 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P022 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+P041 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 41.
+P002 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 2.
+P005 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 5.
+P042 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 42.
+P013 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 13.
+P043 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 43.
+P018 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 18.
+P045 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 45.
+P023 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 23.
+P025 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 25.
+P000 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 0.
+P029 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 29.
+P003 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 3.
+P030 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 30.
+P004 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 4.
+P034 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 34.
+P011 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 11.
+P036 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 36.
+P012 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 12.
+P038 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 38.
+P014 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 14.
+P039 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 39.
+P019 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 19.
+P040 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 40.
+P020 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 20.
+P028 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 28.
+P006 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 6.
+P032 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 32.
+P007 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 7.
+P033 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 33.
+P008 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 8.
+P044 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 44.
+P010 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 10.
+P047 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 47.
+P015 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 15.
+P026 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 26.
+P016 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 16.
+P031 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 31.
+P017 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 17.
+P035 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 35.
+P021 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 21.
+P037 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 37.
+P022 yt : [ERROR    ] 2024-04-03 15:26:18,107 Error occurred on rank 22.
+P046 yt : [ERROR    ] 2024-04-03 15:26:18,105 Error occurred on rank 46.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P027 yt : [ERROR    ] 2024-04-03 15:26:18,105 NameError: name 'outputs' is not defined
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P027 yt : [ERROR    ] 2024-04-03 15:26:18,106 Error occurred on rank 27.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 13 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 18 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 23 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 11 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 14 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 12 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 19 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 20 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 7 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 5519128.0 ON atl1-1-02-019-18-2 CANCELLED AT 2024-04-03T15:26:18 ***
+slurmstepd: error: *** STEP 5519128.0 ON atl1-1-02-019-18-2 CANCELLED AT 2024-04-03T15:26:18 ***
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 21 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "stellar_mass.py", line 92, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 52, in stellar_mass_recipe
+    pipeline.add_operation(get_yt_dataset, outputs)
+P009 yt : [ERROR    ] 2024-04-03 15:26:18,107 NameError: name 'outputs' is not defined
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 27 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 31 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 41 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 43 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 45 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 34 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 30 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 29 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 38 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 42 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 25 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 39 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 40 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 36 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 32 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 33 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 28 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 47 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 44 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 26 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 37 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+srun: error: atl1-1-02-019-23-2: tasks 24-47: Killed
+srun: error: atl1-1-02-019-18-2: tasks 0-23: Killed
+---------------------------------------
+Begin Slurm Epilog: Apr-03-2024 15:26:18
+Job ID:        5519128
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:24:00,vmem=6796K,walltime=00:00:30,mem=5980K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-019-18-2,atl1-1-02-019-23-2
+---------------------------------------

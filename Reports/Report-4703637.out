@@ -1,0 +1,133 @@
+---------------------------------------
+Begin Slurm Prolog: Jan-31-2024 11:24:35
+Job ID:    4703637
+User ID:   shardin31
+Account:   gts-jw254
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 341367108.16it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28153.41it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35971.43it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 349836153.16it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20219.51it/s]
+yt : [INFO     ] 2024-01-31 11:25:57,341 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-01-31 11:25:57,342 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-01-31 11:25:57,342 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-01-31 11:25:57,343 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-01-31 11:25:57,343 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-01-31 11:25:57,343 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-01-31 11:25:57,343 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-01-31 11:25:57,343 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-01-31 11:25:57,343 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-01-31 11:25:57,343 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 10503.91it/s]
+yt : [INFO     ] 2024-01-31 11:25:57,456 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-01-31 11:26:29,979 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-01-31 11:26:29,980 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-01-31 11:26:29,980 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-01-31 11:26:29,981 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-01-31 11:26:29,981 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-01-31 11:26:29,981 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-01-31 11:26:29,981 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-01-31 11:26:29,981 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-01-31 11:26:29,981 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-01-31 11:26:29,981 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15472.14it/s]
+yt : [INFO     ] 2024-01-31 11:26:30,058 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-01-31 11:26:32,382 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-01-31 11:26:33,270 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-01-31 11:26:33,510 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-01-31 11:26:33,511 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-01-31 11:26:33,511 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-01-31 11:26:33,512 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-01-31 11:26:33,512 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-01-31 11:26:33,512 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-01-31 11:26:33,512 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-01-31 11:26:33,512 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-01-31 11:26:33,512 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-01-31 11:26:33,512 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-01-31 11:26:33,632 Allocating for 5.760e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2524055917106802e+23cm, y=1.2937381508564545e+23cm, z=1.25057104343377e+23cm
+Domain width: dx=1.4109508634648332e+21cm, dy=1.4109508634648332e+21cm, dz=1.4109508634648332e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 15
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03994049 0.04066998 0.04141279 0.04216917 0.04293937 0.04372363
+ 0.04452221 0.04533539 0.04616341 0.04700656 0.0478651  0.04873933
+ 0.04962953 0.05053598 0.05145899 0.05239886 0.05335589 0.0543304
+ 0.05532272 0.05633315 0.05736204 0.05840973 0.05947655 0.06056285
+ 0.06166899 0.06279534 0.06394226 0.06511013 0.06629932 0.06751024
+ 0.06874328 0.06999883 0.07127732 0.07257916 0.07390477 0.0752546
+ 0.07662908 0.07802866 0.07945381 0.08090498 0.08238267 0.08388734
+ 0.08541949 0.08697962 0.08856825 0.0901859  0.09183309 0.09351037
+ 0.09521828 0.09695738 0.09872825 0.10053146 0.10236761 0.10423729
+ 0.10614113 0.10807973 0.11005374 0.11206381 0.11411059 0.11619475
+ 0.11831698 0.12047796 0.12267842 0.12491907 0.12720064 0.12952389
+ 0.13188956 0.13429845 0.13675133 0.13924901 0.14179231 0.14438206
+ 0.14701911 0.14970433 0.15243859 0.15522279 0.15805784 0.16094467
+ 0.16388423 0.16687748 0.16992539 0.17302898 0.17618925 0.17940724
+ 0.18268401 0.18602062 0.18941818 0.19287779 0.19640058 0.19998772
+ 0.20364038 0.20735975 0.21114705 0.21500352 0.21893044 0.22292907
+ 0.22700073 0.23114677 0.23536852 0.23966739 0.24166466]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  12  bins
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:35,  3.23s/it]100%|██████████| 12/12 [00:03<00:00,  3.71it/s]slurmstepd: error: *** JOB 4703637 ON atl1-1-02-002-18-2 CANCELLED AT 2024-02-01T07:24:57 DUE TO TIME LIMIT ***
+---------------------------------------
+Begin Slurm Epilog: Feb-01-2024 07:24:58
+Job ID:        4703637
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=720G,node=2
+Rsrc Used:     cput=26-16:12:16,vmem=2511016K,walltime=20:00:23,mem=1708536K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-02-002-18-2,atl1-1-02-002-19-2
+---------------------------------------

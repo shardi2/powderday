@@ -1,0 +1,681 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-22-2024 16:30:57
+Job ID:    1119143
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-08-22 16:31:21,792 Global parallel computation enabled: 7 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,793 Global parallel computation enabled: 17 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,792 Global parallel computation enabled: 3 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,792 Global parallel computation enabled: 5 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,793 Global parallel computation enabled: 21 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,792 Global parallel computation enabled: 13 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,793 Global parallel computation enabled: 23 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,793 Global parallel computation enabled: 6 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,794 Global parallel computation enabled: 28 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,794 Global parallel computation enabled: 15 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,794 Global parallel computation enabled: 25 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,794 Global parallel computation enabled: 9 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,795 Global parallel computation enabled: 18 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,795 Global parallel computation enabled: 10 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,795 Global parallel computation enabled: 24 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,795 Global parallel computation enabled: 1 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,795 Global parallel computation enabled: 19 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,796 Global parallel computation enabled: 4 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,795 Global parallel computation enabled: 20 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,797 Global parallel computation enabled: 12 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,796 Global parallel computation enabled: 31 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,797 Global parallel computation enabled: 8 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,796 Global parallel computation enabled: 22 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,797 Global parallel computation enabled: 2 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,797 Global parallel computation enabled: 26 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,798 Global parallel computation enabled: 0 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,797 Global parallel computation enabled: 29 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,798 Global parallel computation enabled: 14 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,797 Global parallel computation enabled: 30 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,798 Global parallel computation enabled: 11 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,798 Global parallel computation enabled: 16 / 32
+yt : [INFO     ] 2024-08-22 16:31:21,798 Global parallel computation enabled: 27 / 32
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/460025722 [00:00<?, ?it/s]Loading tree roots:   6%|▌         | 28044841/460025722 [00:00<00:01, 280413243.89it/s]Loading tree roots:  12%|█▏        | 56811049/460025722 [00:00<00:01, 284666425.88it/s]Loading tree roots:  19%|█▊        | 85278249/460025722 [00:00<00:01, 234883185.65it/s]Loading tree roots:  25%|██▍       | 113200711/460025722 [00:00<00:01, 250387959.81it/s]Loading tree roots:  31%|███       | 141020761/460025722 [00:00<00:01, 259656325.11it/s]Loading tree roots:  37%|███▋      | 168799865/460025722 [00:00<00:01, 265497223.72it/s]Loading tree roots:  43%|████▎     | 196578972/460025722 [00:00<00:00, 269374381.48it/s]Loading tree roots:  49%|████▉     | 224284331/460025722 [00:00<00:00, 271749973.20it/s]Loading tree roots:  55%|█████▍    | 251735803/460025722 [00:00<00:00, 272589220.43it/s]Loading tree roots:  61%|██████    | 279129904/460025722 [00:01<00:00, 272129950.14itAdditional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P004 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P005 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P006 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P008 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P010 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P011 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P012 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P002 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P003 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P007 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P009 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P013 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P014 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P015 yt : [ERROR    ] 2024-08-22 16:31:23,710 SyntaxError: Single argument must be a string.
+P006 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 6.
+P010 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 10.
+P011 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 11.
+P012 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 12.
+P003 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 3.
+P004 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 4.
+P007 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 7.
+P008 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 8.
+P013 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 13.
+P015 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 15.
+P009 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 9.
+P014 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 14.
+P002 yt : [ERROR    ] 2024-08-22 16:31:23,710 Error occurred on rank 2.
+P005 yt : [ERROR    ] 2024-08-22 16:31:23,712 Error occurred on rank 5.
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P016 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P021 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P027 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P029 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P031 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P019 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P020 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P022 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P023 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P024 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P025 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P026 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P028 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P030 yt : [ERROR    ] 2024-08-22 16:31:23,720 SyntaxError: Single argument must be a string.
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/RS-RP/rockstar_halos/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P021 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 21.
+P022 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 22.
+P023 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 23.
+P031 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 31.
+P016 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 16.
+P024 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 24.
+P027 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 27.
+P028 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 28.
+P019 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 19.
+P025 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 25.
+P026 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 26.
+P030 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 30.
+P020 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 20.
+P029 yt : [ERROR    ] 2024-08-22 16:31:23,720 Error occurred on rank 29.
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P018 yt : [ERROR    ] 2024-08-22 16:31:23,721 SyntaxError: Single argument must be a string.
+P018 yt : [ERROR    ] 2024-08-22 16:31:23,721 Error occurred on rank 18.
+/s]Loading tree roots:  67%|██████▋   | 306437997/460025722 [00:01<00:00, 271661231.69it/s]Loading tree roots:  73%|███████▎  | 333668253/460025722 [00:01<00:00, 268651660.98it/s]Loading tree roots:  78%|███████▊  | 360583164/460025722 [00:01<00:00, 267593379.75it/s]Loading tree roots:  84%|████████▍ | 387379310/460025722 [00:01<00:00, 266588819.70it/s]Loading tree roots:  90%|█████████ | 414064890/460025722 [00:01<00:00, 265416992.21it/s]Loading tree roots:  96%|█████████▌| 440623464/460025722 [00:01<00:00, 264057470.53it/s]Loading tree roots: 100%|██████████| 460025722/460025722 [00:01<00:00, 265639583.63it/s]
+  File "analysis_pipeline.py", line 207, in <module>
+    trees = list(a[0])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 252, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 314, in query
+    raise SyntaxError("Single argument must be a string.")
+P000 yt : [ERROR    ] 2024-08-22 16:31:23,754 SyntaxError: Single argument must be a string.
+P000 yt : [ERROR    ] 2024-08-22 16:31:23,754 Error occurred on rank 0.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 7 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 18 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 11 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 21 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 22 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 23 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 8 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 27 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 9 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 31 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 10 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 16 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 12 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 19 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 13 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 20 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 14 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 24 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 15 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 25 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 26 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 28 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 29 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 30 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 1119143.0 ON atl1-1-01-003-28-1 CANCELLED AT 2024-08-22T16:31:23 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: atl1-1-01-003-28-1: tasks 0-15: Killed
+srun: error: atl1-1-01-003-32-2: tasks 16-31: Killed
+---------------------------------------
+Begin Slurm Epilog: Aug-22-2024 16:31:24
+Job ID:        1119143
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=400G,node=2
+Rsrc Used:     cput=00:14:24,vmem=736K,walltime=00:00:27,mem=0,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-01-003-28-1,atl1-1-01-003-32-2
+---------------------------------------

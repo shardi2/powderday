@@ -1,0 +1,572 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-05-2024 17:27:11
+Job ID:    964022
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.11337251693986145
+L_1 =  0.013636782329554351
+L_2 =  0.026663737996321008
+
+norms for rest-frame UV region
+inf norm =  0.0017134617208775249
+L_1 =  0.0012419557210568033
+L_2 =  0.00124464991761252
+
+norms for rest-frame visibile region
+inf norm =  0.0013226852596987838
+L_1 =  0.0012983637141803113
+L_2 =  0.0012984063182153536
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  4.1089884776317955
+L_1 =  0.341966290168029
+L_2 =  0.9645937952891579
+
+norms for rest-frame UV region
+inf norm =  0.0015547742179655478
+L_1 =  0.0008111950089337541
+L_2 =  0.0008147718618479722
+
+norms for rest-frame visibile region
+inf norm =  0.0007018477280425491
+L_1 =  0.0006789346141814786
+L_2 =  0.0006789900055639107
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.08372757678383545
+L_1 =  0.008277131273530332
+L_2 =  0.01865393769325925
+
+norms for rest-frame UV region
+inf norm =  0.0005814491969976664
+L_1 =  0.0005490013649800886
+L_2 =  0.0005490597524058493
+
+norms for rest-frame visibile region
+inf norm =  0.000537674640842961
+L_1 =  0.0005345127202977797
+L_2 =  0.0005345140050837301
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.24352182938691652
+L_1 =  0.02317613255113299
+L_2 =  0.0657089916992266
+
+norms for rest-frame UV region
+inf norm =  9.77154527875929e-05
+L_1 =  6.574303247343827e-05
+L_2 =  6.808890191666104e-05
+
+norms for rest-frame visibile region
+inf norm =  0.0001018953126646852
+L_1 =  9.865472273265715e-05
+L_2 =  9.866933403285927e-05
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  1.1146392803523208
+L_1 =  0.07448661365907831
+L_2 =  0.23221458314735557
+
+norms for rest-frame UV region
+inf norm =  0.0012134494638255321
+L_1 =  0.0009118447884850329
+L_2 =  0.0009180112453436617
+
+norms for rest-frame visibile region
+inf norm =  0.0006325973012203813
+L_1 =  0.0005268716312597444
+L_2 =  0.000528027691747609
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  1.983440724260254
+L_1 =  0.15372355600740018
+L_2 =  0.44933753075754473
+
+norms for rest-frame UV region
+inf norm =  0.0011982517628395409
+L_1 =  0.0007520433836831521
+L_2 =  0.000764710287925744
+
+norms for rest-frame visibile region
+inf norm =  0.00048263280340817537
+L_1 =  0.0003735442326295886
+L_2 =  0.000375178716360847
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.6360079460708334
+L_1 =  0.06539771486033683
+L_2 =  0.16642305084298425
+
+norms for rest-frame UV region
+inf norm =  0.0022379148106531346
+L_1 =  0.0022104225257591225
+L_2 =  0.002210426816592585
+
+norms for rest-frame visibile region
+inf norm =  0.0022063611016007504
+L_1 =  0.002204700826709631
+L_2 =  0.002204700939322248
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.3126737466348907
+L_1 =  0.026669925016270215
+L_2 =  0.07237597501064608
+
+norms for rest-frame UV region
+inf norm =  0.0006940164066390093
+L_1 =  0.00018164165794174448
+L_2 =  0.0002172286462847415
+
+norms for rest-frame visibile region
+inf norm =  4.122957840395236e-05
+L_1 =  1.675295566402422e-05
+L_2 =  2.023199810389316e-05
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.3399298315243114
+L_1 =  0.04058994145961799
+L_2 =  0.09395834171789456
+
+norms for rest-frame UV region
+inf norm =  0.0001948533410905944
+L_1 =  0.00017314509793848895
+L_2 =  0.00017317721609760457
+
+norms for rest-frame visibile region
+inf norm =  0.00016960045695156876
+L_1 =  0.00016732055592125604
+L_2 =  0.00016732311163212212
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  1.1242385629384177
+L_1 =  0.08998936099097105
+L_2 =  0.2506309467703154
+
+norms for rest-frame UV region
+inf norm =  0.001690291871255837
+L_1 =  0.0015816714281836409
+L_2 =  0.0015819539576150947
+
+norms for rest-frame visibile region
+inf norm =  0.0015790329912832347
+L_1 =  0.0015127025592896195
+L_2 =  0.0015128275521959314
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  7.287001935988653
+L_1 =  0.45584789091627875
+L_2 =  1.4808214465660046
+
+norms for rest-frame UV region
+inf norm =  0.0024176600502505063
+L_1 =  0.0023375797284289393
+L_2 =  0.002339572882843387
+
+norms for rest-frame visibile region
+inf norm =  0.0023590324943442782
+L_1 =  0.0023361497043696937
+L_2 =  0.002336168961299711
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  8.501285884151477
+L_1 =  0.6727601848918928
+L_2 =  1.9639631756809595
+
+norms for rest-frame UV region
+inf norm =  0.0056861324597086834
+L_1 =  0.0049620785399423165
+L_2 =  0.004970008261149832
+
+norms for rest-frame visibile region
+inf norm =  0.0043515524278490755
+L_1 =  0.004150844880597376
+L_2 =  0.004151437227629965
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  16.44506188505577
+L_1 =  1.2077547388272325
+L_2 =  3.441975724515282
+
+norms for rest-frame UV region
+inf norm =  0.006462414632604977
+L_1 =  0.006365174897060078
+L_2 =  0.006365944578004069
+
+norms for rest-frame visibile region
+inf norm =  0.006341393884729028
+L_1 =  0.006286461366358318
+L_2 =  0.0062865126154511035
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.2453169563094483
+L_1 =  0.0380501397656846
+L_2 =  0.06856493929702574
+
+norms for rest-frame UV region
+inf norm =  0.005438680639057845
+L_1 =  0.005169508996372168
+L_2 =  0.005173248927930521
+
+norms for rest-frame visibile region
+inf norm =  0.005479291346123579
+L_1 =  0.005460300483547978
+L_2 =  0.005460315046608955
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.4908917008633361
+L_1 =  0.06301552875533005
+L_2 =  0.15662970196740805
+
+norms for rest-frame UV region
+inf norm =  0.00029355008007677757
+L_1 =  0.00019830848813764192
+L_2 =  0.00020572976556798228
+
+norms for rest-frame visibile region
+inf norm =  0.00031911191585013517
+L_1 =  0.0002972221705455417
+L_2 =  0.00029727799476294984
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.7893671486926601
+L_1 =  0.07303797294706253
+L_2 =  0.2019792146309287
+
+norms for rest-frame UV region
+inf norm =  0.004008391975736071
+L_1 =  0.0028801474351065597
+L_2 =  0.002892185770460107
+
+norms for rest-frame visibile region
+inf norm =  0.0026666468339827617
+L_1 =  0.002448248554657268
+L_2 =  0.0024488574761587652
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.7194151863325395
+L_1 =  0.09381807985239313
+L_2 =  0.2025890076012339
+
+norms for rest-frame UV region
+inf norm =  0.0020019065471777457
+L_1 =  0.0016307562493317676
+L_2 =  0.0016567013580755148
+
+norms for rest-frame visibile region
+inf norm =  0.0020226402446849026
+L_1 =  0.0019233725599847862
+L_2 =  0.001923802013019263
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.45186434830116806
+L_1 =  0.06651949354896869
+L_2 =  0.13869557536880148
+
+norms for rest-frame UV region
+inf norm =  0.00504978694637456
+L_1 =  0.005011502610658714
+L_2 =  0.0050115095499922895
+
+norms for rest-frame visibile region
+inf norm =  0.00500632526568544
+L_1 =  0.004999081705353845
+L_2 =  0.004999082171108336
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.44323001295077186
+L_1 =  0.036630427974024486
+L_2 =  0.09537512857742111
+
+norms for rest-frame UV region
+inf norm =  0.0010495991045702394
+L_1 =  0.0001964816089970708
+L_2 =  0.00025491147576346576
+
+norms for rest-frame visibile region
+inf norm =  0.0007073251263096212
+L_1 =  0.0006241368905404487
+L_2 =  0.0006260047705158343
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.4035503362265708
+L_1 =  0.06039302630534081
+L_2 =  0.1271639101533052
+
+norms for rest-frame UV region
+inf norm =  0.005122430560360909
+L_1 =  0.004441740928047155
+L_2 =  0.004445870473727115
+
+norms for rest-frame visibile region
+inf norm =  0.00416525325357649
+L_1 =  0.0041040704084755976
+L_2 =  0.004104112073673958
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  2.391697438710513
+L_1 =  0.2464039250282219
+L_2 =  0.6531436281010704
+
+norms for rest-frame UV region
+inf norm =  0.011109632926171478
+L_1 =  0.010611293357831357
+L_2 =  0.010613308791900655
+
+norms for rest-frame visibile region
+inf norm =  0.010234466425879713
+L_1 =  0.009967544622978046
+L_2 =  0.009967866174229215
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.7269224721953855
+L_1 =  0.07950381248879439
+L_2 =  0.1967621706629565
+
+norms for rest-frame UV region
+inf norm =  0.0007787765186409735
+L_1 =  0.0001598597934480611
+L_2 =  0.00019809005245469548
+
+norms for rest-frame visibile region
+inf norm =  8.65727557028467e-05
+L_1 =  1.869809623106781e-05
+L_2 =  2.3616747417655093e-05
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.31281985678062724
+L_1 =  0.02603246402876236
+L_2 =  0.06725336042132465
+
+norms for rest-frame UV region
+inf norm =  0.005060930970806538
+L_1 =  0.0030070935960928623
+L_2 =  0.003073945803380939
+
+norms for rest-frame visibile region
+inf norm =  0.0019439521496932228
+L_1 =  0.0015873181271633032
+L_2 =  0.0015916622385591065
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.5446663795783845
+L_1 =  0.0693161801568868
+L_2 =  0.15936236577161847
+
+norms for rest-frame UV region
+inf norm =  0.005257528599152558
+L_1 =  0.0028273223155667296
+L_2 =  0.002890789984516655
+
+norms for rest-frame visibile region
+inf norm =  0.001961503062107343
+L_1 =  0.0017686627015314664
+L_2 =  0.001769577667128584
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.4043331297125548
+L_1 =  0.033498947998294115
+L_2 =  0.09196805125713972
+
+norms for rest-frame UV region
+inf norm =  0.0005623638805743098
+L_1 =  0.000456979750843105
+L_2 =  0.00045756070040069407
+
+norms for rest-frame visibile region
+inf norm =  0.00042694481378536755
+L_1 =  0.00042177691188552034
+L_2 =  0.00042178065181292397
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.13888173238456747
+L_1 =  0.017052407124735196
+L_2 =  0.04054233001990597
+
+norms for rest-frame UV region
+inf norm =  5.498103292222664e-05
+L_1 =  4.4227693291985295e-06
+L_2 =  5.8466007043384795e-06
+
+norms for rest-frame visibile region
+inf norm =  7.689022849909113e-06
+L_1 =  4.913549076061515e-06
+L_2 =  5.082149171526651e-06
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.5356122451945309
+L_1 =  0.041447851884278006
+L_2 =  0.11591781928022125
+
+norms for rest-frame UV region
+inf norm =  0.005180197398054774
+L_1 =  0.004938123347083933
+L_2 =  0.004939566157409458
+
+norms for rest-frame visibile region
+inf norm =  0.004856294124861489
+L_1 =  0.004793019657207119
+L_2 =  0.004793063222594221
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.705433221919864
+L_1 =  0.07277004268861482
+L_2 =  0.1791986273455395
+
+norms for rest-frame UV region
+inf norm =  0.0011815815208936979
+L_1 =  0.0006243432710794775
+L_2 =  0.0006586701975568732
+
+norms for rest-frame visibile region
+inf norm =  0.00017094238177388024
+L_1 =  5.268102459480023e-05
+L_2 =  6.693713741717754e-05
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.13564148472953935
+L_1 =  0.022588276431197207
+L_2 =  0.0427108334008955
+
+norms for rest-frame UV region
+inf norm =  0.0028543157284544617
+L_1 =  0.002832432581001365
+L_2 =  0.002832437021971811
+
+norms for rest-frame visibile region
+inf norm =  0.0028285062767153253
+L_1 =  0.0028255459833862726
+L_2 =  0.0028255462701318487
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  1.2134514586308507
+L_1 =  0.14432084153847335
+L_2 =  0.3440610698719604
+
+norms for rest-frame UV region
+inf norm =  0.003507580787937492
+L_1 =  0.0009317384041400258
+L_2 =  0.0011186525631161925
+
+norms for rest-frame visibile region
+inf norm =  0.0003067595585957674
+L_1 =  0.00015168832950022095
+L_2 =  0.0001676593262824033
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.3417263069813529
+L_1 =  0.028340564142146692
+L_2 =  0.07263350850701109
+
+norms for rest-frame UV region
+inf norm =  0.002511414178019575
+L_1 =  0.0022219747155270654
+L_2 =  0.0022234564650295574
+
+norms for rest-frame visibile region
+inf norm =  0.0021025107803050434
+L_1 =  0.0020743492309673963
+L_2 =  0.0020743663823606542
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.588301119866547
+L_1 =  0.05815706919414384
+L_2 =  0.14808725881510718
+
+norms for rest-frame UV region
+inf norm =  0.0001251690478455523
+L_1 =  3.5509774276972495e-05
+L_2 =  4.457976877579808e-05
+
+norms for rest-frame visibile region
+inf norm =  0.00012666324430037697
+L_1 =  3.202748832391777e-05
+L_2 =  3.9753714967431515e-05
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/astropy/units/quantity.py:658: RuntimeWarning: invalid value encountered in divide
+  result = super().__array_ufunc__(function, method, *arrays, **kwargs)
+norms over whole redshifted wav range
+inf norm =  0.5605831975512927
+L_1 =  0.05884540677752798
+L_2 =  0.14735686353103938
+
+norms for rest-frame UV region
+inf norm =  0.00267831773215998
+L_1 =  0.002598007613748168
+L_2 =  0.0025983099963123517
+
+norms for rest-frame visibile region
+inf norm =  0.002520742093382573
+L_1 =  0.002467083226257067
+L_2 =  0.002467154977302731
+---------------------------------------
+Begin Slurm Epilog: Aug-05-2024 17:29:09
+Job ID:        964022
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=200G,node=2
+Rsrc Used:     cput=01:34:24,vmem=192672K,walltime=00:01:58,mem=82020K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-018-2-2,atl1-1-03-003-2-2
+---------------------------------------

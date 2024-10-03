@@ -1,0 +1,113 @@
+---------------------------------------
+Begin Slurm Prolog: Oct-20-2023 11:49:26
+Job ID:    3818379
+User ID:   shardin31
+Account:   gts-jw254
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 354804293.51it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 364640098.02it/s]
+yt : [INFO     ] 2023-10-20 11:50:56,195 Parameters: current_time              = 69.75987995114
+yt : [INFO     ] 2023-10-20 11:50:56,196 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-10-20 11:50:56,196 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-10-20 11:50:56,197 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-10-20 11:50:56,197 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-10-20 11:50:56,197 Parameters: current_redshift          = 11.886304308182
+yt : [INFO     ] 2023-10-20 11:50:56,197 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-10-20 11:50:56,197 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-10-20 11:50:56,197 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-10-20 11:50:56,197 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/1311 [00:00<?, ?it/s]Parsing Hierarchy :  79%|███████▉  | 1036/1311 [00:00<00:00, 10356.01it/s]Parsing Hierarchy : 100%|██████████| 1311/1311 [00:00<00:00, 11387.79it/s]
+yt : [INFO     ] 2023-10-20 11:50:56,375 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-10-20 11:51:28,069 Parameters: current_time              = 69.75987995114
+yt : [INFO     ] 2023-10-20 11:51:28,071 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-10-20 11:51:28,071 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-10-20 11:51:28,072 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-10-20 11:51:28,072 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-10-20 11:51:28,072 Parameters: current_redshift          = 11.886304308182
+yt : [INFO     ] 2023-10-20 11:51:28,072 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-10-20 11:51:28,072 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-10-20 11:51:28,072 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-10-20 11:51:28,072 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/1311 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 1311/1311 [00:00<00:00, 17947.49it/s]
+yt : [INFO     ] 2023-10-20 11:51:28,182 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-10-20 11:51:31,516 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-10-20 11:51:32,934 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-10-20 11:51:33,162 Parameters: current_time              = 69.75987995114 code_time
+yt : [INFO     ] 2023-10-20 11:51:33,163 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-10-20 11:51:33,164 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-10-20 11:51:33,164 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-10-20 11:51:33,165 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-10-20 11:51:33,165 Parameters: current_redshift          = 11.886304308182
+yt : [INFO     ] 2023-10-20 11:51:33,165 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-10-20 11:51:33,165 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-10-20 11:51:33,165 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-10-20 11:51:33,165 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-10-20 11:51:33,279 Allocating for 2.155e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2544262697154945e+23cm, y=1.2268567972306017e+23cm, z=1.2408362113657682e+23cm
+Domain width: dx=1.4505838834019777e+21cm, dy=1.4505838834019777e+21cm, dz=1.4505838834019777e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 1
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+Traceback (most recent call last):
+  File "pd_front_end.py", line 160, in <module>
+    stellar_sed_write(m)
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/analytics.py", line 51, in stellar_sed_write
+    nu = tempnu 
+UnboundLocalError: local variable 'tempnu' referenced before assignment
+---------------------------------------
+Begin Slurm Epilog: Oct-20-2023 11:51:46
+Job ID:        3818379
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=720G,node=2
+Rsrc Used:     cput=00:37:04,vmem=1990016K,walltime=00:02:19,mem=1014888K,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-01-005-21-[1-2]
+---------------------------------------

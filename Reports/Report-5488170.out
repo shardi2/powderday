@@ -1,0 +1,91 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-02-2024 16:29:17
+Job ID:    5488170
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [ERROR    ] 2024-04-02 16:29:48,830 Could not enable parallelism: only one mpi process is running. To remedy this, launch the Python interpreter as
+  mpirun -n <X> python3 <yourscript>.py  # with X > 1 
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 352362393.65it/s]
+yt : [INFO     ] 2024-04-02 16:29:49,330 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-04-02 16:29:49,330 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-04-02 16:29:49,331 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 9169.85it/s]
+yt : [INFO     ] 2024-04-02 16:29:49,454 Gathering a field list (this may take a moment.)
+MAX_SIZE: 205
+ARRAY LENGTH 11
+ARRAY [2.06291809e+36 1.26557118e+36 1.83373520e+36 2.87737660e+36
+ 1.66089955e+36 1.89931824e+36 1.61657029e+36 1.73136636e+36
+ 1.21742698e+36 1.71265637e+36 2.99760890e+36] g
+Traceback (most recent call last):
+  File "analysis_pipeline.py", line 162, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 63, in save_star_masses
+    node["star_masses"] = np.zeros(max_array_size)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 235, in __setitem__
+    self.arbor[key][self._arbor_index] = value
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 520, in __getitem__
+    return self.query(key)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 532, in query
+    self._root_io.get_fields(self, fields=[key])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 153, in get_fields
+    self._initialize_analysis_field(storage_object, field)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/io.py", line 249, in _initialize_analysis_field
+    self.arbor.arr(np.full(self.arbor.size, default, dtype=dtype), units)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/numpy/core/numeric.py", line 344, in full
+    multiarray.copyto(a, fill_value, casting='unsafe')
+  File "<__array_function__ internals>", line 180, in copyto
+ValueError: could not broadcast input array from shape (205,) into shape (203,)
+---------------------------------------
+Begin Slurm Epilog: Apr-02-2024 16:29:59
+Job ID:        5488170
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:33:36,vmem=582704K,walltime=00:00:42,mem=118416K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-012-28-2,atl1-1-02-012-34-2
+---------------------------------------

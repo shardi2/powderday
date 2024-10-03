@@ -141,19 +141,21 @@ if cfg.par.BH_SED == True:
 if cfg.par.FORCE_BINNED == False:
     m = direct_add_stars(df_nu, stars_list, diskstars_list, bulgestars_list, ds.cosmological_simulation, m, sp)
 
+print("I AM BINNING THE SEDs")
 # note - the generation of the SEDs is called within
 # add_binned_seds itself, unlike add_newstars, which requires
 # that sg.allstars_sed_gen() be called first.
 m = add_binned_seds(df_nu, stars_list, diskstars_list,bulgestars_list, ds.cosmological_simulation, m, sp)
 
 
-
+print("I AM SETTING THE RANDOM SEETS")
 #set the random seets
 if cfg.par.FORCE_RANDOM_SEED == False:
     m.set_seed(random.randrange(0,10000)*-1)
 else:
     m.set_seed(cfg.par.seed)
 
+print("I AM SAVING THE SEDS")
 # save SEDs
 # stars and black holes can't both be in the sim and write stellar SEDs to a file becuase they have different wavelength sizes
 if (par.STELLAR_SED_WRITE == True) and not (par.BH_SED):

@@ -1,0 +1,115 @@
+---------------------------------------
+Begin Slurm Prolog: May-30-2024 16:38:39
+Job ID:    221655
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 25 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 0 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 27 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 31 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 34 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 36 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 38 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 41 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 26 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 29 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 33 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 37 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 42 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,313 Global parallel computation enabled: 47 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 30 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,317 Global parallel computation enabled: 32 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,319 Global parallel computation enabled: 46 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,320 Global parallel computation enabled: 24 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,322 Global parallel computation enabled: 35 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,326 Global parallel computation enabled: 28 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,331 Global parallel computation enabled: 43 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,331 Global parallel computation enabled: 45 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,333 Global parallel computation enabled: 40 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,334 Global parallel computation enabled: 44 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,334 Global parallel computation enabled: 39 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 1 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 3 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 12 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 13 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 18 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,315 Global parallel computation enabled: 5 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 23 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 22 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 11 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 15 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 21 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 8 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 16 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 20 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 14 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 10 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 6 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,316 Global parallel computation enabled: 17 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,317 Global parallel computation enabled: 9 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,317 Global parallel computation enabled: 4 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,319 Global parallel computation enabled: 19 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,319 Global parallel computation enabled: 2 / 48
+yt : [INFO     ] 2024-05-30 16:39:07,329 Global parallel computation enabled: 7 / 48
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14959.37it/s]
+  File "stellar_mass.py", line 181, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "stellar_mass.py", line 102, in calculate_total_cold_gas_mass
+    cr = ds.cut_region(sphere, ["obj[('gas', 'temperature')] < 1e3"])
+P022 yt : [ERROR    ] 2024-05-30 16:39:09,613 NameError: name 'ds' is not defined
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 22 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 221655.0 ON atl1-1-03-003-12-2 CANCELLED AT 2024-05-30T16:39:09 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14193.89it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15266.30it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15137.67it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15266.80it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15172.56it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 13829.31it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14786.43it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14889.32it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14710.41it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15250.94it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14924.64it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14985.58it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15268.16it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15185.35it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15078.70it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15009.88it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14952.44it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14974.56it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15025.58it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14990.75it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14990.20it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15143.51it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14533.03it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15049.38it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15330.51it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14313.65it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 13465.78it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15294.68it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14738.42it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14994.27it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14997.99it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15062.46it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15056.13it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15186.56it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15226.65it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15469.42it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14925.26it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14980.14it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14963.01it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15230.49it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15425.71it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15396.78it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14957.24it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14768.14it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15141.89it/s]Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15228.21it/s]srun: error: atl1-1-03-003-12-2: tasks 0-21,23: Killed
+srun: error: atl1-1-03-003-12-2: task 22: Exited with exit code 1
+srun: error: atl1-1-03-003-13-1: tasks 24-47: Killed
+---------------------------------------
+Begin Slurm Epilog: May-30-2024 16:39:10
+Job ID:        221655
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:25:36,vmem=7464K,walltime=00:00:32,mem=7080K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-03-003-12-2,atl1-1-03-003-13-1
+---------------------------------------

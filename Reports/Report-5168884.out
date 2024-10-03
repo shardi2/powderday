@@ -1,0 +1,103 @@
+---------------------------------------
+Begin Slurm Prolog: Mar-07-2024 23:42:45
+Job ID:    5168884
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-03-07 23:43:07,779 Global parallel computation enabled: 0 / 2
+yt : [INFO     ] 2024-03-07 23:43:07,774 Global parallel computation enabled: 1 / 2
+P000 yt : [INFO     ] 2024-03-07 23:43:08,220 Parameters: current_time              = 75.89987395114
+P000 yt : [INFO     ] 2024-03-07 23:43:08,220 Parameters: domain_dimensions         = [64 64 64]
+P000 yt : [INFO     ] 2024-03-07 23:43:08,221 Parameters: domain_left_edge          = [0. 0. 0.]
+P000 yt : [INFO     ] 2024-03-07 23:43:08,221 Parameters: domain_right_edge         = [1. 1. 1.]
+P000 yt : [INFO     ] 2024-03-07 23:43:08,221 Parameters: cosmological_simulation   = 1
+P000 yt : [INFO     ] 2024-03-07 23:43:08,222 Parameters: current_redshift          = 11.181356517874
+P000 yt : [INFO     ] 2024-03-07 23:43:08,222 Parameters: omega_lambda              = 0.6889
+P000 yt : [INFO     ] 2024-03-07 23:43:08,222 Parameters: omega_matter              = 0.3111
+P000 yt : [INFO     ] 2024-03-07 23:43:08,222 Parameters: omega_radiation           = 0
+P000 yt : [INFO     ] 2024-03-07 23:43:08,222 Parameters: hubble_constant           = 0.6766
+P001 yt : [INFO     ] 2024-03-07 23:43:08,216 Parameters: current_time              = 75.89987395114
+P001 yt : [INFO     ] 2024-03-07 23:43:08,217 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2024-03-07 23:43:08,217 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2024-03-07 23:43:08,218 Parameters: domain_right_edge         = [1. 1. 1.]
+P001 yt : [INFO     ] 2024-03-07 23:43:08,218 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2024-03-07 23:43:08,218 Parameters: current_redshift          = 11.181356517874
+P001 yt : [INFO     ] 2024-03-07 23:43:08,218 Parameters: omega_lambda              = 0.6889
+P001 yt : [INFO     ] 2024-03-07 23:43:08,218 Parameters: omega_matter              = 0.3111
+P001 yt : [INFO     ] 2024-03-07 23:43:08,218 Parameters: omega_radiation           = 0
+P001 yt : [INFO     ] 2024-03-07 23:43:08,218 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8634.23it/s]
+P000 yt : [INFO     ] 2024-03-07 23:43:08,354 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8675.05it/s]
+P001 yt : [INFO     ] 2024-03-07 23:43:08,349 Gathering a field list (this may take a moment.)
+  File "analysis_pipeline.py", line 128, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 64, in save_star_ages
+    node["star_ages"] = sphere["p2","age"]
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 235, in __setitem__
+    self.arbor[key][self._arbor_index] = value
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1734, in __setitem__
+    value = value.to(self.units)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 947, in to
+    return self.in_units(units, equivalence=equivalence, **kwargs)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 874, in in_units
+    (conversion_factor, offset) = self.units.get_conversion_factor(
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/unit_object.py", line 694, in get_conversion_factor
+    return _get_conversion_factor(self, other_units, dtype)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/unit_object.py", line 939, in _get_conversion_factor
+    raise UnitConversionError(
+P001 yt : [ERROR    ] 2024-03-07 23:43:13,767 UnitConversionError: Cannot convert between 'yr' (dim '(time)') and 'unitary' (dim '(length)').
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 5168884.0 ON atl1-1-02-012-34-2 CANCELLED AT 2024-03-07T23:43:13 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: atl1-1-02-012-35-1: task 1: Exited with exit code 1
+srun: error: atl1-1-02-012-34-2: task 0: Killed
+---------------------------------------
+Begin Slurm Epilog: Mar-07-2024 23:43:14
+Job ID:        5168884
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=8,mem=72G,node=2
+Rsrc Used:     cput=00:03:44,vmem=44K,walltime=00:00:28,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-012-34-2,atl1-1-02-012-35-1
+---------------------------------------

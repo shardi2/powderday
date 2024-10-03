@@ -1,0 +1,929 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-02-2024 09:56:55
+Job ID:    5481514
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-04-02 09:57:21,911 Global parallel computation enabled: 19 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,912 Global parallel computation enabled: 33 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,911 Global parallel computation enabled: 3 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,916 Global parallel computation enabled: 13 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,923 Global parallel computation enabled: 2 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,924 Global parallel computation enabled: 22 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,924 Global parallel computation enabled: 5 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,925 Global parallel computation enabled: 12 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,925 Global parallel computation enabled: 4 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,926 Global parallel computation enabled: 7 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,926 Global parallel computation enabled: 8 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,926 Global parallel computation enabled: 17 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,927 Global parallel computation enabled: 11 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,927 Global parallel computation enabled: 6 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,929 Global parallel computation enabled: 21 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,929 Global parallel computation enabled: 1 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,929 Global parallel computation enabled: 20 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,930 Global parallel computation enabled: 15 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,930 Global parallel computation enabled: 16 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,930 Global parallel computation enabled: 23 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,931 Global parallel computation enabled: 14 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,932 Global parallel computation enabled: 9 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,932 Global parallel computation enabled: 10 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,932 Global parallel computation enabled: 0 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,940 Global parallel computation enabled: 18 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,912 Global parallel computation enabled: 39 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,913 Global parallel computation enabled: 32 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,913 Global parallel computation enabled: 31 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,914 Global parallel computation enabled: 36 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,914 Global parallel computation enabled: 25 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,914 Global parallel computation enabled: 45 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,915 Global parallel computation enabled: 43 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,915 Global parallel computation enabled: 38 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,915 Global parallel computation enabled: 35 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,915 Global parallel computation enabled: 26 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,916 Global parallel computation enabled: 28 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,917 Global parallel computation enabled: 42 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,917 Global parallel computation enabled: 30 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,918 Global parallel computation enabled: 27 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,918 Global parallel computation enabled: 41 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,918 Global parallel computation enabled: 37 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,918 Global parallel computation enabled: 47 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,919 Global parallel computation enabled: 34 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,919 Global parallel computation enabled: 24 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,928 Global parallel computation enabled: 44 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,928 Global parallel computation enabled: 40 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,928 Global parallel computation enabled: 46 / 48
+yt : [INFO     ] 2024-04-02 09:57:21,937 Global parallel computation enabled: 29 / 48
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P032 yt : [INFO     ] 2024-04-02 09:57:22,297 Parameters: current_time              = 75.89987395114
+P032 yt : [INFO     ] 2024-04-02 09:57:22,298 Parameters: domain_dimensions         = [64 64 64]
+P032 yt : [INFO     ] 2024-04-02 09:57:22,298 Parameters: domain_left_edge          = [0. 0. 0.]
+P032 yt : [INFO     ] 2024-04-02 09:57:22,298 Parameters: domain_right_edge         = [1. 1. 1.]
+P032 yt : [INFO     ] 2024-04-02 09:57:22,299 Parameters: cosmological_simulation   = 1
+P032 yt : [INFO     ] 2024-04-02 09:57:22,299 Parameters: current_redshift          = 11.181356517874
+P032 yt : [INFO     ] 2024-04-02 09:57:22,299 Parameters: omega_lambda              = 0.6889
+P032 yt : [INFO     ] 2024-04-02 09:57:22,299 Parameters: omega_matter              = 0.3111
+P032 yt : [INFO     ] 2024-04-02 09:57:22,299 Parameters: omega_radiation           = 0
+P032 yt : [INFO     ] 2024-04-02 09:57:22,299 Parameters: hubble_constant           = 0.6766
+P012 yt : [INFO     ] 2024-04-02 09:57:22,303 Parameters: current_time              = 75.89987395114
+P009 yt : [INFO     ] 2024-04-02 09:57:22,303 Parameters: current_time              = 75.89987395114
+P012 yt : [INFO     ] 2024-04-02 09:57:22,303 Parameters: domain_dimensions         = [64 64 64]
+P008 yt : [INFO     ] 2024-04-02 09:57:22,303 Parameters: current_time              = 75.89987395114
+P002 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_time              = 75.89987395114
+P005 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_time              = 75.89987395114
+P021 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_time              = 75.89987395114
+P012 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_left_edge          = [0. 0. 0.]
+P008 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_dimensions         = [64 64 64]
+P009 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_dimensions         = [64 64 64]
+P022 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_time              = 75.89987395114
+P010 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_time              = 75.89987395114
+P003 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_time              = 75.89987395114
+P012 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_right_edge         = [1. 1. 1.]
+P002 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_dimensions         = [64 64 64]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P012 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: cosmological_simulation   = 1
+P005 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_dimensions         = [64 64 64]
+P021 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_dimensions         = [64 64 64]
+P012 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_redshift          = 11.181356517874
+P012 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: omega_lambda              = 0.6889
+P009 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_left_edge          = [0. 0. 0.]
+P012 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_matter              = 0.3111
+P008 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_left_edge          = [0. 0. 0.]
+P012 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_radiation           = 0
+P004 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: current_time              = 75.89987395114
+P012 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: hubble_constant           = 0.6766
+P010 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_dimensions         = [64 64 64]
+P022 yt : [INFO     ] 2024-04-02 09:57:22,304 Parameters: domain_dimensions         = [64 64 64]
+P017 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P003 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_dimensions         = [64 64 64]
+P019 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P023 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P005 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_left_edge          = [0. 0. 0.]
+P021 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_left_edge          = [0. 0. 0.]
+P002 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_left_edge          = [0. 0. 0.]
+P020 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P008 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_right_edge         = [1. 1. 1.]
+P009 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_right_edge         = [1. 1. 1.]
+P007 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P008 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: cosmological_simulation   = 1
+P009 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: cosmological_simulation   = 1
+P008 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_redshift          = 11.181356517874
+P009 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_redshift          = 11.181356517874
+P010 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_left_edge          = [0. 0. 0.]
+P008 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_lambda              = 0.6889
+P009 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_lambda              = 0.6889
+P004 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_dimensions         = [64 64 64]
+P008 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_matter              = 0.3111
+P009 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_matter              = 0.3111
+P008 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_radiation           = 0
+P009 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: omega_radiation           = 0
+P008 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: hubble_constant           = 0.6766
+P009 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: hubble_constant           = 0.6766
+P022 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_left_edge          = [0. 0. 0.]
+P018 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P003 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_left_edge          = [0. 0. 0.]
+P006 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P013 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P019 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_dimensions         = [64 64 64]
+P005 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_right_edge         = [1. 1. 1.]
+P014 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_time              = 75.89987395114
+P017 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_dimensions         = [64 64 64]
+P021 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_right_edge         = [1. 1. 1.]
+P023 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_right_edge         = [1. 1. 1.]
+P005 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: cosmological_simulation   = 1
+P021 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: cosmological_simulation   = 1
+P002 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: cosmological_simulation   = 1
+P005 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_redshift          = 11.181356517874
+P021 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: current_redshift          = 11.181356517874
+P005 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P021 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P002 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_redshift          = 11.181356517874
+P005 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P021 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P002 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P004 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_left_edge          = [0. 0. 0.]
+P005 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P007 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_dimensions         = [64 64 64]
+P021 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P002 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P005 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: hubble_constant           = 0.6766
+P010 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_right_edge         = [1. 1. 1.]
+P021 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: hubble_constant           = 0.6766
+P002 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P010 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: cosmological_simulation   = 1
+P020 yt : [INFO     ] 2024-04-02 09:57:22,305 Parameters: domain_dimensions         = [64 64 64]
+P002 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: hubble_constant           = 0.6766
+P010 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_redshift          = 11.181356517874
+P010 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P022 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P010 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P010 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P022 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: cosmological_simulation   = 1
+P003 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P018 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_dimensions         = [64 64 64]
+P010 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: hubble_constant           = 0.6766
+P022 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_redshift          = 11.181356517874
+P003 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: cosmological_simulation   = 1
+P022 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P022 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P003 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_redshift          = 11.181356517874
+P019 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P022 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P023 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P003 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P003 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P017 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P022 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: hubble_constant           = 0.6766
+P003 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P003 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: hubble_constant           = 0.6766
+P006 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_dimensions         = [64 64 64]
+P013 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_dimensions         = [64 64 64]
+P014 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_dimensions         = [64 64 64]
+P011 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_time              = 75.89987395114
+P007 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P004 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P004 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: cosmological_simulation   = 1
+P004 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_redshift          = 11.181356517874
+P020 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P004 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P004 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P004 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P018 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P004 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: hubble_constant           = 0.6766
+P019 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P023 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P019 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: cosmological_simulation   = 1
+P023 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: cosmological_simulation   = 1
+P013 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P019 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_redshift          = 11.181356517874
+P023 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: current_redshift          = 11.181356517874
+P023 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P006 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P017 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P017 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: cosmological_simulation   = 1
+P019 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_lambda              = 0.6889
+P019 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P019 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_radiation           = 0
+P007 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P017 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_redshift          = 11.181356517874
+P023 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: omega_matter              = 0.3111
+P023 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P023 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P007 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: cosmological_simulation   = 1
+P017 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_lambda              = 0.6889
+P017 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_matter              = 0.3111
+P019 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P007 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_redshift          = 11.181356517874
+P011 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_dimensions         = [64 64 64]
+P014 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_left_edge          = [0. 0. 0.]
+P015 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_time              = 75.89987395114
+P017 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P017 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P007 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_lambda              = 0.6889
+P007 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_matter              = 0.3111
+P007 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P020 yt : [INFO     ] 2024-04-02 09:57:22,306 Parameters: domain_right_edge         = [1. 1. 1.]
+P020 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: cosmological_simulation   = 1
+P007 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P020 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_redshift          = 11.181356517874
+P018 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: domain_right_edge         = [1. 1. 1.]
+P018 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: cosmological_simulation   = 1
+P020 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_lambda              = 0.6889
+P020 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_matter              = 0.3111
+P018 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_redshift          = 11.181356517874
+P020 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P018 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_lambda              = 0.6889
+P020 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P018 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_matter              = 0.3111
+P013 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: domain_right_edge         = [1. 1. 1.]
+P018 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P006 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: domain_right_edge         = [1. 1. 1.]
+P018 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P013 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: cosmological_simulation   = 1
+P006 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: cosmological_simulation   = 1
+P013 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_redshift          = 11.181356517874
+P006 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_redshift          = 11.181356517874
+P013 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_lambda              = 0.6889
+P013 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_matter              = 0.3111
+P006 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_lambda              = 0.6889
+P011 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: domain_left_edge          = [0. 0. 0.]
+P006 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_matter              = 0.3111
+P013 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P013 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P006 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P006 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P014 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: domain_right_edge         = [1. 1. 1.]
+P015 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: domain_dimensions         = [64 64 64]
+P014 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: cosmological_simulation   = 1
+P014 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: current_redshift          = 11.181356517874
+P014 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_lambda              = 0.6889
+P014 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_matter              = 0.3111
+P014 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: omega_radiation           = 0
+P014 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: hubble_constant           = 0.6766
+P011 yt : [INFO     ] 2024-04-02 09:57:22,307 Parameters: domain_right_edge         = [1. 1. 1.]
+P011 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: cosmological_simulation   = 1
+P011 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: current_redshift          = 11.181356517874
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: domain_left_edge          = [0. 0. 0.]
+P011 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: omega_lambda              = 0.6889
+P011 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: omega_matter              = 0.3111
+P011 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: omega_radiation           = 0
+P011 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: hubble_constant           = 0.6766
+P001 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: current_time              = 75.89987395114
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: domain_right_edge         = [1. 1. 1.]
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: cosmological_simulation   = 1
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: current_redshift          = 11.181356517874
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: omega_lambda              = 0.6889
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: omega_matter              = 0.3111
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: omega_radiation           = 0
+P015 yt : [INFO     ] 2024-04-02 09:57:22,308 Parameters: hubble_constant           = 0.6766
+P001 yt : [INFO     ] 2024-04-02 09:57:22,309 Parameters: domain_dimensions         = [64 64 64]
+P001 yt : [INFO     ] 2024-04-02 09:57:22,309 Parameters: domain_left_edge          = [0. 0. 0.]
+P001 yt : [INFO     ] 2024-04-02 09:57:22,309 Parameters: domain_right_edge         = [1. 1. 1.]
+P001 yt : [INFO     ] 2024-04-02 09:57:22,310 Parameters: cosmological_simulation   = 1
+P001 yt : [INFO     ] 2024-04-02 09:57:22,310 Parameters: current_redshift          = 11.181356517874
+P001 yt : [INFO     ] 2024-04-02 09:57:22,310 Parameters: omega_lambda              = 0.6889
+P001 yt : [INFO     ] 2024-04-02 09:57:22,310 Parameters: omega_matter              = 0.3111
+P001 yt : [INFO     ] 2024-04-02 09:57:22,310 Parameters: omega_radiation           = 0
+P001 yt : [INFO     ] 2024-04-02 09:57:22,310 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P016 yt : [INFO     ] 2024-04-02 09:57:22,314 Parameters: current_time              = 75.89987395114
+P016 yt : [INFO     ] 2024-04-02 09:57:22,315 Parameters: domain_dimensions         = [64 64 64]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P016 yt : [INFO     ] 2024-04-02 09:57:22,315 Parameters: domain_left_edge          = [0. 0. 0.]
+P016 yt : [INFO     ] 2024-04-02 09:57:22,316 Parameters: domain_right_edge         = [1. 1. 1.]
+P016 yt : [INFO     ] 2024-04-02 09:57:22,316 Parameters: cosmological_simulation   = 1
+P016 yt : [INFO     ] 2024-04-02 09:57:22,316 Parameters: current_redshift          = 11.181356517874
+P016 yt : [INFO     ] 2024-04-02 09:57:22,316 Parameters: omega_lambda              = 0.6889
+P016 yt : [INFO     ] 2024-04-02 09:57:22,316 Parameters: omega_matter              = 0.3111
+P016 yt : [INFO     ] 2024-04-02 09:57:22,316 Parameters: omega_radiation           = 0
+P016 yt : [INFO     ] 2024-04-02 09:57:22,316 Parameters: hubble_constant           = 0.6766
+P030 yt : [INFO     ] 2024-04-02 09:57:22,319 Parameters: current_time              = 75.89987395114
+P044 yt : [INFO     ] 2024-04-02 09:57:22,319 Parameters: current_time              = 75.89987395114
+P030 yt : [INFO     ] 2024-04-02 09:57:22,319 Parameters: domain_dimensions         = [64 64 64]
+P030 yt : [INFO     ] 2024-04-02 09:57:22,319 Parameters: domain_left_edge          = [0. 0. 0.]
+P044 yt : [INFO     ] 2024-04-02 09:57:22,319 Parameters: domain_dimensions         = [64 64 64]
+P030 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: domain_right_edge         = [1. 1. 1.]
+P030 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: cosmological_simulation   = 1
+P030 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: current_redshift          = 11.181356517874
+P030 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: omega_lambda              = 0.6889
+P030 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: omega_matter              = 0.3111
+P030 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: omega_radiation           = 0
+P030 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: hubble_constant           = 0.6766
+P044 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: domain_left_edge          = [0. 0. 0.]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P044 yt : [INFO     ] 2024-04-02 09:57:22,320 Parameters: domain_right_edge         = [1. 1. 1.]
+P044 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: cosmological_simulation   = 1
+P044 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: current_redshift          = 11.181356517874
+P044 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: omega_lambda              = 0.6889
+P044 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: omega_matter              = 0.3111
+P044 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: omega_radiation           = 0
+P044 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: hubble_constant           = 0.6766
+P036 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: current_time              = 75.89987395114
+P028 yt : [INFO     ] 2024-04-02 09:57:22,321 Parameters: current_time              = 75.89987395114
+P026 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: current_time              = 75.89987395114
+P036 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_dimensions         = [64 64 64]
+P046 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: current_time              = 75.89987395114
+P028 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_dimensions         = [64 64 64]
+P038 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: current_time              = 75.89987395114
+P036 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_left_edge          = [0. 0. 0.]
+P026 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_dimensions         = [64 64 64]
+P028 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_left_edge          = [0. 0. 0.]
+P046 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_dimensions         = [64 64 64]
+P038 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_dimensions         = [64 64 64]
+P036 yt : [INFO     ] 2024-04-02 09:57:22,322 Parameters: domain_right_edge         = [1. 1. 1.]
+P036 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: cosmological_simulation   = 1
+P036 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: current_redshift          = 11.181356517874
+P036 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_lambda              = 0.6889
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: domain_left_edge          = [0. 0. 0.]
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: domain_left_edge          = [0. 0. 0.]
+P036 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_matter              = 0.3111
+P036 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_radiation           = 0
+P036 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: hubble_constant           = 0.6766
+P038 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: domain_left_edge          = [0. 0. 0.]
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: domain_right_edge         = [1. 1. 1.]
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: cosmological_simulation   = 1
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: domain_right_edge         = [1. 1. 1.]
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: current_redshift          = 11.181356517874
+P038 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: domain_right_edge         = [1. 1. 1.]
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: cosmological_simulation   = 1
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_lambda              = 0.6889
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: current_redshift          = 11.181356517874
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_matter              = 0.3111
+P038 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: cosmological_simulation   = 1
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_lambda              = 0.6889
+P038 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: current_redshift          = 11.181356517874
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_radiation           = 0
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_matter              = 0.3111
+P028 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: domain_right_edge         = [1. 1. 1.]
+P046 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: hubble_constant           = 0.6766
+P038 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_lambda              = 0.6889
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_radiation           = 0
+P028 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: cosmological_simulation   = 1
+P038 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_matter              = 0.3111
+P026 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: hubble_constant           = 0.6766
+P043 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: current_time              = 75.89987395114
+P028 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: current_redshift          = 11.181356517874
+P038 yt : [INFO     ] 2024-04-02 09:57:22,323 Parameters: omega_radiation           = 0
+P038 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: hubble_constant           = 0.6766
+P028 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: omega_lambda              = 0.6889
+P028 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: omega_matter              = 0.3111
+P028 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: omega_radiation           = 0
+P029 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: current_time              = 75.89987395114
+P028 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: hubble_constant           = 0.6766
+P039 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: current_time              = 75.89987395114
+P043 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: domain_dimensions         = [64 64 64]
+P029 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: domain_dimensions         = [64 64 64]
+P024 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: current_time              = 75.89987395114
+P034 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: current_time              = 75.89987395114
+P043 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: domain_left_edge          = [0. 0. 0.]
+P039 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: domain_dimensions         = [64 64 64]
+P029 yt : [INFO     ] 2024-04-02 09:57:22,324 Parameters: domain_left_edge          = [0. 0. 0.]
+P024 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_dimensions         = [64 64 64]
+P034 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_dimensions         = [64 64 64]
+P043 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_right_edge         = [1. 1. 1.]
+P039 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_left_edge          = [0. 0. 0.]
+P043 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: cosmological_simulation   = 1
+P029 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_right_edge         = [1. 1. 1.]
+P043 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: current_redshift          = 11.181356517874
+P029 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: cosmological_simulation   = 1
+P043 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: omega_lambda              = 0.6889
+P029 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: current_redshift          = 11.181356517874
+P043 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: omega_matter              = 0.3111
+P043 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: omega_radiation           = 0
+P029 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: omega_lambda              = 0.6889
+P043 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: hubble_constant           = 0.6766
+P029 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: omega_matter              = 0.3111
+P029 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: omega_radiation           = 0
+P029 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: hubble_constant           = 0.6766
+P024 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_left_edge          = [0. 0. 0.]
+P034 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_left_edge          = [0. 0. 0.]
+P039 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: domain_right_edge         = [1. 1. 1.]
+P039 yt : [INFO     ] 2024-04-02 09:57:22,325 Parameters: cosmological_simulation   = 1
+P039 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_redshift          = 11.181356517874
+P039 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_lambda              = 0.6889
+P041 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_time              = 75.89987395114
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P039 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_matter              = 0.3111
+P039 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_radiation           = 0
+P039 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: hubble_constant           = 0.6766
+P033 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_time              = 75.89987395114
+P040 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_time              = 75.89987395114
+P034 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: domain_right_edge         = [1. 1. 1.]
+P024 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: domain_right_edge         = [1. 1. 1.]
+P024 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: cosmological_simulation   = 1
+P034 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: cosmological_simulation   = 1
+P034 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_redshift          = 11.181356517874
+P024 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_redshift          = 11.181356517874
+P024 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_lambda              = 0.6889
+P034 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_lambda              = 0.6889
+P024 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_matter              = 0.3111
+P034 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_matter              = 0.3111
+P034 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_radiation           = 0
+P024 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: omega_radiation           = 0
+P024 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: hubble_constant           = 0.6766
+P034 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: hubble_constant           = 0.6766
+P041 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: domain_dimensions         = [64 64 64]
+P027 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_time              = 75.89987395114
+P047 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_time              = 75.89987395114
+P033 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: domain_dimensions         = [64 64 64]
+P040 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: domain_dimensions         = [64 64 64]
+P045 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: current_time              = 75.89987395114
+P041 yt : [INFO     ] 2024-04-02 09:57:22,326 Parameters: domain_left_edge          = [0. 0. 0.]
+P027 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_dimensions         = [64 64 64]
+P047 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_dimensions         = [64 64 64]
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_left_edge          = [0. 0. 0.]
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_left_edge          = [0. 0. 0.]
+P045 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_dimensions         = [64 64 64]
+P041 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_right_edge         = [1. 1. 1.]
+P041 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: cosmological_simulation   = 1
+P041 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: current_redshift          = 11.181356517874
+P041 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_lambda              = 0.6889
+P041 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_matter              = 0.3111
+P041 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_radiation           = 0
+P041 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: hubble_constant           = 0.6766
+P027 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_left_edge          = [0. 0. 0.]
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_right_edge         = [1. 1. 1.]
+P047 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_left_edge          = [0. 0. 0.]
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: cosmological_simulation   = 1
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: current_redshift          = 11.181356517874
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_lambda              = 0.6889
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_right_edge         = [1. 1. 1.]
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_matter              = 0.3111
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_radiation           = 0
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: cosmological_simulation   = 1
+P045 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_left_edge          = [0. 0. 0.]
+P033 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: hubble_constant           = 0.6766
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: current_redshift          = 11.181356517874
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_lambda              = 0.6889
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_matter              = 0.3111
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: omega_radiation           = 0
+P040 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: hubble_constant           = 0.6766
+P027 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_right_edge         = [1. 1. 1.]
+P047 yt : [INFO     ] 2024-04-02 09:57:22,327 Parameters: domain_right_edge         = [1. 1. 1.]
+P027 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: cosmological_simulation   = 1
+P047 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: cosmological_simulation   = 1
+P027 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: current_redshift          = 11.181356517874
+P027 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_lambda              = 0.6889
+P047 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: current_redshift          = 11.181356517874
+P047 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_lambda              = 0.6889
+P027 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_matter              = 0.3111
+P027 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_radiation           = 0
+P047 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_matter              = 0.3111
+P027 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: hubble_constant           = 0.6766
+P047 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_radiation           = 0
+P047 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: hubble_constant           = 0.6766
+P045 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: domain_right_edge         = [1. 1. 1.]
+P045 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: cosmological_simulation   = 1
+P045 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: current_redshift          = 11.181356517874
+P045 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_lambda              = 0.6889
+P045 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_matter              = 0.3111
+P045 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: omega_radiation           = 0
+P045 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P031 yt : [INFO     ] 2024-04-02 09:57:22,328 Parameters: current_time              = 75.89987395114
+P037 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: current_time              = 75.89987395114
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P042 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: current_time              = 75.89987395114
+P031 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: domain_dimensions         = [64 64 64]
+P037 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: domain_dimensions         = [64 64 64]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P035 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: current_time              = 75.89987395114
+P042 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: domain_dimensions         = [64 64 64]
+P031 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: domain_left_edge          = [0. 0. 0.]
+P037 yt : [INFO     ] 2024-04-02 09:57:22,329 Parameters: domain_left_edge          = [0. 0. 0.]
+P035 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: domain_dimensions         = [64 64 64]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P031 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: domain_right_edge         = [1. 1. 1.]
+P037 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: domain_right_edge         = [1. 1. 1.]
+P042 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: domain_left_edge          = [0. 0. 0.]
+P031 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: cosmological_simulation   = 1
+P037 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: cosmological_simulation   = 1
+P037 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: current_redshift          = 11.181356517874
+P031 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: current_redshift          = 11.181356517874
+P031 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: omega_lambda              = 0.6889
+P037 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: omega_lambda              = 0.6889
+P037 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: omega_matter              = 0.3111
+P031 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: omega_matter              = 0.3111
+P031 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: omega_radiation           = 0
+P037 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: omega_radiation           = 0
+P037 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: hubble_constant           = 0.6766
+P031 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: hubble_constant           = 0.6766
+P035 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: domain_left_edge          = [0. 0. 0.]
+P042 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: domain_right_edge         = [1. 1. 1.]
+P042 yt : [INFO     ] 2024-04-02 09:57:22,330 Parameters: cosmological_simulation   = 1
+P042 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: current_redshift          = 11.181356517874
+P042 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: omega_lambda              = 0.6889
+P042 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: omega_matter              = 0.3111
+P042 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: omega_radiation           = 0
+P042 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P035 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: domain_right_edge         = [1. 1. 1.]
+P035 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: cosmological_simulation   = 1
+P035 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: current_redshift          = 11.181356517874
+P035 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: omega_lambda              = 0.6889
+P035 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: omega_matter              = 0.3111
+P035 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: omega_radiation           = 0
+P035 yt : [INFO     ] 2024-04-02 09:57:22,331 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P025 yt : [INFO     ] 2024-04-02 09:57:22,333 Parameters: current_time              = 75.89987395114
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P025 yt : [INFO     ] 2024-04-02 09:57:22,333 Parameters: domain_dimensions         = [64 64 64]
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+P025 yt : [INFO     ] 2024-04-02 09:57:22,334 Parameters: domain_left_edge          = [0. 0. 0.]
+P025 yt : [INFO     ] 2024-04-02 09:57:22,334 Parameters: domain_right_edge         = [1. 1. 1.]
+P025 yt : [INFO     ] 2024-04-02 09:57:22,334 Parameters: cosmological_simulation   = 1
+P025 yt : [INFO     ] 2024-04-02 09:57:22,334 Parameters: current_redshift          = 11.181356517874
+P025 yt : [INFO     ] 2024-04-02 09:57:22,334 Parameters: omega_lambda              = 0.6889
+P025 yt : [INFO     ] 2024-04-02 09:57:22,335 Parameters: omega_matter              = 0.3111
+P025 yt : [INFO     ] 2024-04-02 09:57:22,335 Parameters: omega_radiation           = 0
+P025 yt : [INFO     ] 2024-04-02 09:57:22,335 Parameters: hubble_constant           = 0.6766
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14839.62it/s]
+P032 yt : [INFO     ] 2024-04-02 09:57:22,381 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15191.87it/s]
+P005 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15423.08it/s]
+P017 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15427.10it/s]
+P019 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15155.83it/s]
+P021 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15205.55it/s]
+P002 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15300.71it/s]
+P004 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15021.01it/s]
+P012 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15428.92it/s]
+P023 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15234.97it/s]
+P003 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15367.81it/s]
+P007 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15026.14it/s]
+P008 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15322.22it/s]
+P010 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15506.00it/s]
+P013 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15523.06it/s]
+P014 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15248.66it/s]
+P018 yt : [INFO     ] 2024-04-02 09:57:22,385 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15063.37it/s]
+P009 yt : [INFO     ] 2024-04-02 09:57:22,386 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15209.80it/s]
+P006 yt : [INFO     ] 2024-04-02 09:57:22,386 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15364.98it/s]
+P020 yt : [INFO     ] 2024-04-02 09:57:22,386 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15324.81it/s]
+P015 yt : [INFO     ] 2024-04-02 09:57:22,387 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15192.22it/s]
+P011 yt : [INFO     ] 2024-04-02 09:57:22,387 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14453.50it/s]
+P001 yt : [INFO     ] 2024-04-02 09:57:22,395 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15289.22it/s]
+P016 yt : [INFO     ] 2024-04-02 09:57:22,395 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15436.16it/s]
+P030 yt : [INFO     ] 2024-04-02 09:57:22,399 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 11918.73it/s]
+P022 yt : [INFO     ] 2024-04-02 09:57:22,402 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15368.10it/s]
+P046 yt : [INFO     ] 2024-04-02 09:57:22,402 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15472.58it/s]
+P026 yt : [INFO     ] 2024-04-02 09:57:22,402 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15261.94it/s]
+P036 yt : [INFO     ] 2024-04-02 09:57:22,402 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15387.91it/s]
+P044 yt : [INFO     ] 2024-04-02 09:57:22,402 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15360.49it/s]
+P038 yt : [INFO     ] 2024-04-02 09:57:22,403 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15537.05it/s]
+P043 yt : [INFO     ] 2024-04-02 09:57:22,403 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15267.52it/s]
+P028 yt : [INFO     ] 2024-04-02 09:57:22,404 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15351.38it/s]
+P039 yt : [INFO     ] 2024-04-02 09:57:22,404 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15501.36it/s]
+P034 yt : [INFO     ] 2024-04-02 09:57:22,404 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15284.06it/s]
+P041 yt : [INFO     ] 2024-04-02 09:57:22,406 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15125.80it/s]
+P033 yt : [INFO     ] 2024-04-02 09:57:22,406 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15215.48it/s]
+P047 yt : [INFO     ] 2024-04-02 09:57:22,407 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15181.39it/s]
+P024 yt : [INFO     ] 2024-04-02 09:57:22,407 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15239.75it/s]
+P040 yt : [INFO     ] 2024-04-02 09:57:22,407 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15164.72it/s]
+P027 yt : [INFO     ] 2024-04-02 09:57:22,408 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14899.12it/s]
+P045 yt : [INFO     ] 2024-04-02 09:57:22,408 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 13989.54it/s]
+P029 yt : [INFO     ] 2024-04-02 09:57:22,409 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15116.05it/s]
+P037 yt : [INFO     ] 2024-04-02 09:57:22,410 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15112.54it/s]
+P031 yt : [INFO     ] 2024-04-02 09:57:22,410 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15132.19it/s]
+P042 yt : [INFO     ] 2024-04-02 09:57:22,411 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14675.57it/s]
+P035 yt : [INFO     ] 2024-04-02 09:57:22,414 Gathering a field list (this may take a moment.)
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 14456.00it/s]
+P025 yt : [INFO     ] 2024-04-02 09:57:22,420 Gathering a field list (this may take a moment.)
+MAX_SIZE: 100
+MAX_SIZE: 100
+MAX_SIZE: 100
+  File "analysis_pipeline.py", line 153, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 57, in save_star_masses
+    node["star_masses"] = np.concatenate(node_array,(np.zeros(size_difference)), dtype=float)
+  File "<__array_function__ internals>", line 180, in concatenate
+P007 yt : [ERROR    ] 2024-04-02 09:57:23,895 TypeError: only integer scalar arrays can be converted to a scalar index
+  File "analysis_pipeline.py", line 153, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 57, in save_star_masses
+    node["star_masses"] = np.concatenate(node_array,(np.zeros(size_difference)), dtype=float)
+  File "<__array_function__ internals>", line 180, in concatenate
+P020 yt : [ERROR    ] 2024-04-02 09:57:23,896 TypeError: only integer scalar arrays can be converted to a scalar index
+  File "analysis_pipeline.py", line 153, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 57, in save_star_masses
+    node["star_masses"] = np.concatenate(node_array,(np.zeros(size_difference)), dtype=float)
+  File "<__array_function__ internals>", line 180, in concatenate
+P004 yt : [ERROR    ] 2024-04-02 09:57:23,896 TypeError: only integer scalar arrays can be converted to a scalar index
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 7 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 20 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+MAX_SIZE: 100
+  File "analysis_pipeline.py", line 153, in <module>
+    ap.process_target(node)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 174, in process_target
+    rval = action(target)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 57, in save_star_masses
+    node["star_masses"] = np.concatenate(node_array,(np.zeros(size_difference)), dtype=float)
+  File "<__array_function__ internals>", line 180, in concatenate
+P005 yt : [ERROR    ] 2024-04-02 09:57:23,898 TypeError: only integer scalar arrays can be converted to a scalar index
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 248486196.79it/s]slurmstepd: error: *** STEP 5481514.0 ON atl1-1-02-020-34-1 CANCELLED AT 2024-04-02T09:57:23 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: atl1-1-02-020-34-2: tasks 24-47: Killed
+srun: error: atl1-1-02-020-34-1: tasks 0-19,21-23: Killed
+srun: error: atl1-1-02-020-34-1: task 20: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Apr-02-2024 09:57:24
+Job ID:        5481514
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:23:12,vmem=456K,walltime=00:00:29,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-020-34-[1-2]
+---------------------------------------

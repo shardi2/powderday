@@ -1,0 +1,45 @@
+---------------------------------------
+Begin Slurm Prolog: Jan-30-2024 23:05:34
+Job ID:    4700565
+User ID:   shardin31
+Account:   gts-jw254
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+slurmstepd: error: *** JOB 4700565 ON atl1-1-02-002-10-1 CANCELLED AT 2024-01-30T23:06:03 ***
+---------------------------------------
+Begin Slurm Epilog: Jan-30-2024 23:06:05
+Job ID:        4700565
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=720G,node=2
+Rsrc Used:     cput=00:15:28,vmem=163128K,walltime=00:00:29,mem=87420K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-02-002-10-1,atl1-1-02-002-18-1
+---------------------------------------

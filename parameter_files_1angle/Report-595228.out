@@ -1,0 +1,42 @@
+---------------------------------------
+Begin Slurm Prolog: Jul-03-2024 16:18:48
+Job ID:    595228
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+slurmstepd: error: *** JOB 595228 ON atl1-1-02-002-21-2 CANCELLED AT 2024-07-03T16:18:54 ***
+---------------------------------------
+Begin Slurm Epilog: Jul-03-2024 16:18:56
+Job ID:        595228
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=600G,node=2
+Rsrc Used:     cput=00:04:48,vmem=4704K,walltime=00:00:06,mem=4696K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-02-002-21-2,atl1-1-02-002-22-1
+---------------------------------------

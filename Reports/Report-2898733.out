@@ -1,0 +1,607 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-25-2023 13:26:12
+Job ID:    2898733
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 352601334.03it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 29552.73it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 37951.58it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 365521219.47it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 23438.96it/s]
+yt : [INFO     ] 2023-08-25 13:26:35,932 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-08-25 13:26:35,932 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-08-25 13:26:35,933 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-08-25 13:26:35,933 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-08-25 13:26:35,933 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-08-25 13:26:35,934 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-08-25 13:26:35,934 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-08-25 13:26:35,934 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-08-25 13:26:35,934 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-08-25 13:26:35,934 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 17036.91it/s]
+yt : [INFO     ] 2023-08-25 13:26:36,004 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-08-25 13:27:04,389 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2023-08-25 13:27:04,390 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-08-25 13:27:04,390 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-08-25 13:27:04,390 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-08-25 13:27:04,391 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-08-25 13:27:04,391 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-08-25 13:27:04,391 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-08-25 13:27:04,391 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-08-25 13:27:04,391 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-08-25 13:27:04,391 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16982.14it/s]
+yt : [INFO     ] 2023-08-25 13:27:04,460 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-08-25 13:27:05,849 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-08-25 13:27:09,321 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-08-25 13:27:09,859 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2023-08-25 13:27:09,859 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-08-25 13:27:09,860 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-08-25 13:27:09,860 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-08-25 13:27:09,861 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-08-25 13:27:09,861 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2023-08-25 13:27:09,861 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-08-25 13:27:09,861 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-08-25 13:27:09,861 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-08-25 13:27:09,861 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-08-25 13:27:10,046 Allocating for 4.428e+05 particles
+Initializing coarse index :   0%|          | 0/2 [00:00<?, ?it/s]Initializing coarse index : 100%|██████████| 2/2 [00:00<00:00, 46.72it/s]
+Initializing refined index:   0%|          | 0/2 [00:00<?, ?it/s]Initializing refined index: 100%|██████████| 2/2 [00:00<00:00, 16.97it/s][zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2524055917106802e+23cm, y=1.2937381508564545e+23cm, z=1.25057104343377e+23cm
+Domain width: dx=7.05475431732411e+21cm, dy=7.05475431732411e+21cm, dz=7.05475431732411e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 19
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+--------------------------------
+
+Adding Black Holes to Source List in source_creation
+
+--------------------------------
+
+BH source creation failed. No BH found
+BH source creation failed. No BH found
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03530475 0.03599439 0.03669751 0.03741437 0.03814523 0.03889036
+ 0.03965005 0.04042458 0.04121424 0.04201933 0.04284014 0.04367698
+ 0.04453018 0.04540003 0.04628689 0.04719106 0.0481129  0.04905274
+ 0.05001095 0.05098787 0.05198387 0.05299933 0.05403463 0.05509015
+ 0.05616629 0.05726345 0.05838204 0.05952248 0.06068521 0.06187064
+ 0.06307923 0.06431143 0.0655677  0.06684851 0.06815434 0.06948567
+ 0.07084302 0.07222687 0.07363776 0.07507621 0.07654276 0.07803796
+ 0.07956237 0.08111655 0.08270109 0.08431659 0.08596364 0.08764287
+ 0.0893549  0.09110037 0.09287994 0.09469427 0.09654404 0.09842994
+ 0.10035269 0.10231299 0.10431159 0.10634923 0.10842667 0.11054469
+ 0.11270409 0.11490567 0.11715025 0.11943868 0.12177181 0.12415052
+ 0.1265757  0.12904825 0.13156909 0.13413918 0.13675948 0.13943096
+ 0.14215462 0.14493149 0.14776261 0.15064902 0.15359182 0.15659211
+ 0.159651   0.16276965 0.16594921 0.16919089 0.17249589 0.17586545
+ 0.17930083 0.18280332 0.18637423 0.19001489 0.19372667 0.19751095
+ 0.20136916 0.20530274 0.20931315 0.2134019  0.21757053 0.22182058
+ 0.22615366 0.23057138 0.23507539 0.23966739 0.24171102]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  15  bins
+
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [00:03<00:45,  3.23s/it]100%|██████████| 15/15 [00:03<00:00,  4.62it/s] ------------------------------------------------------------
+ Hyperion v1.0.0
+ Started on 25 August 2023 at 13:27:27
+ Input:  /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_1000000/example.0000.rtin.sed
+ Output: /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_1000000/example.0000.rtout.sed
+ ------------------------------------------------------------
+ [main] using random seed = -9381
+ [dust] reading dust_001
+ [setup_grid_geometry] Reading AMR cartesian grid
+ [grid_physics] reading density grid
+ [grid_physics] applying mask to density grid
+ [grid_physics] reading minimum_specific_energy
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [sources] setting up sources
+ [main] starting Lucy iteration 1
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              0.0        *********
+          177500              0.1        *********
+          187500              1.2        160071.44
+          263750              9.1         29137.08
+          277500             10.5         26463.87
+          287500             11.5         24936.67
+          376250             20.7         18179.94
+          387500             21.9         17724.55
+          476250             31.0         15350.72
+          487500             32.2         15143.23
+          576250             41.4         13933.73
+          587500             42.5         13815.35
+          676250             51.7         13082.69
+          687500             52.9         13005.65
+          776250             62.0         12514.31
+          787500             63.2         12460.45
+          876250             72.4         12107.49
+          887500             73.5         12068.23
+          908750             82.7         10988.14
+          912500             83.1         10981.65
+          931250             93.2          9995.23
+          940000             94.1          9992.31
+          957500             95.9          9986.13
+          966250             96.8          9983.09
+          975000             97.7          9980.29
+          992500             99.5          9974.77
+         1000000            100.4          9959.33
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 94325 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 2
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              1.3         68394.39
+          177500             10.4         17013.11
+          187500             11.5         16347.48
+          276250             20.6         13381.80
+          287500             21.8         13182.97
+          351250             28.4         12377.44
+          377500             31.1         12136.28
+          387500             32.1         12055.73
+          463750             40.0         11594.38
+          477500             41.4         11525.85
+          487500             42.5         11478.86
+          563750             50.3         11200.30
+          577500             51.8         11156.53
+          587500             52.8         11127.06
+          663750             60.7         10939.43
+          677500             62.1         10909.51
+          687500             63.1         10888.45
+          763750             71.0         10755.53
+          777500             72.4         10734.17
+          787500             73.5         10718.34
+          863750             81.4         10617.15
+          877500             82.8         10599.62
+          900000             85.1         10574.90
+          912500             93.4          9772.10
+          928750            102.0          9103.31
+          937500            104.1          9006.00
+          955000            105.9          9017.27
+          963750            106.8          9022.98
+          981250            108.6          9033.66
+          990000            109.5          9038.83
+         1000000            110.8          9023.03
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 97201 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.695E+09
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 3
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              3.3         27018.43
+          177500             27.3          6503.21
+          187500             28.3          6616.64
+          276250             37.5          7360.26
+          287500             38.7          7429.05
+          376250             47.9          7861.53
+          387500             49.0          7904.07
+          463750             56.9          8152.18
+          477500             58.3          8188.22
+          487500             59.4          8213.33
+          576250             68.5          8409.96
+          587500             69.7          8430.84
+          663750             77.5          8559.71
+          677500             79.0          8579.08
+          687500             80.0          8592.22
+          763750             87.9          8691.07
+          777500             89.3          8706.01
+          787500             90.3          8716.41
+          863750             98.2          8793.51
+          877500             99.7          8805.38
+          900000            102.0          8825.23
+          912500            110.3          8276.11
+          928750            118.9          7812.18
+          937500            121.0          7750.63
+          955000            122.8          7778.84
+          963750            123.7          7792.74
+          981250            125.5          7819.84
+          990000            126.4          7832.98
+         1000000            127.7          7832.07
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 95871 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.693E+09
+     -> Difference from previous iteration:       1.00
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 4
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              3.3         27047.03
+          177500             27.2          6518.01
+          187500             28.3          6632.24
+          276250             37.5          7374.05
+          287500             38.6          7441.22
+          363750             46.5          7819.86
+          377500             47.9          7873.97
+          387500             49.0          7911.25
+          463750             56.9          8155.50
+          477500             58.3          8191.95
+          487500             59.3          8216.80
+          551250             65.9          8363.74
+          577500             68.6          8413.96
+          587500             69.7          8431.77
+          676250             78.8          8577.00
+          687500             80.0          8592.29
+          763750             87.9          8690.69
+          777500             89.3          8705.28
+          787500             90.4          8715.89
+          863750             98.2          8794.28
+          877500             99.6          8806.21
+          900000            102.0          8826.14
+          912500            110.2          8277.01
+          928750            118.9          7811.55
+          937500            121.0          7749.56
+          955000            122.8          7777.74
+          963750            123.7          7791.37
+          981250            125.5          7818.49
+          990000            126.4          7831.66
+         1000000            127.7          7830.45
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 95855 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.685E+09
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 5
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              3.3         26983.98
+          177500             27.4          6482.30
+          187500             28.4          6597.69
+          251250             35.0          7179.02
+          277500             37.7          7354.48
+          287500             38.8          7415.07
+          363750             46.6          7797.90
+          377500             48.1          7851.94
+          387500             49.1          7890.04
+          451250             55.7          8103.39
+          477500             58.4          8174.03
+          487500             59.5          8199.07
+          563750             67.3          8373.15
+          577500             68.8          8399.52
+          587500             69.8          8418.03
+          663750             77.7          8546.72
+          677500             79.1          8566.12
+          687500             80.1          8579.81
+          763750             88.0          8678.86
+          777500             89.4          8693.74
+          787500             90.5          8704.81
+          863750             98.3          8784.72
+          877500             99.8          8796.65
+          887500            100.8          8805.53
+          907500            108.7          8351.06
+          912500            110.4          8268.78
+          930000            119.1          7806.70
+          938750            121.2          7745.12
+          956250            123.0          7773.68
+          965000            123.9          7787.52
+          982500            125.7          7814.30
+          991250            126.6          7827.62
+         1000000            127.5          7840.62
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 92918 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.671E+09
+     -> Difference from previous iteration:       1.02
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 6
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              3.4         26218.25
+          177500             28.0          6339.43
+          187500             29.0          6455.94
+          276250             38.2          7228.49
+          287500             39.4          7298.62
+          376250             48.6          7747.90
+          387500             49.7          7791.83
+          476250             58.9          8086.31
+          487500             60.1          8116.42
+          576250             69.2          8322.86
+          587500             70.4          8344.76
+          676250             79.6          8499.70
+          687500             80.7          8516.10
+          763750             88.6          8619.27
+          777500             90.0          8634.88
+          787500             91.1          8646.06
+          876250            100.3          8739.97
+          887500            101.4          8750.46
+          907500            109.3          8301.99
+          912500            111.0          8220.32
+          928750            119.7          7761.67
+          937500            121.7          7701.29
+          955000            123.5          7730.01
+          963750            124.5          7743.99
+          981250            126.3          7771.00
+          990000            127.2          7784.21
+         1000000            128.5          7783.62
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 95741 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.650E+09
+     -> Difference from previous iteration:       1.03
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 7
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              3.3         26995.29
+          177500             27.3          6501.62
+          187500             28.3          6616.47
+          251250             34.9          7195.31
+          277500             37.7          7370.14
+          287500             38.7          7430.36
+          351250             45.3          7758.96
+          377500             48.0          7864.48
+          387500             49.0          7902.34
+          451250             55.6          8111.48
+          477500             58.4          8182.26
+          487500             59.4          8207.98
+          551250             66.0          8356.42
+          577500             68.7          8405.73
+          587500             69.7          8423.56
+          651250             76.3          8532.41
+          677500             79.1          8569.60
+          687500             80.1          8583.68
+          751250             86.7          8667.44
+          777500             89.4          8697.09
+          787500             90.4          8707.82
+          851250             97.0          8774.97
+          877500             99.7          8798.55
+          887500            100.8          8806.97
+          906250            107.3          8442.02
+          912500            110.3          8270.14
+          927500            117.7          7880.96
+          945000            121.8          7756.13
+          953750            122.7          7770.26
+          962500            123.6          7784.26
+          980000            125.5          7811.29
+          988750            126.4          7824.42
+         1000000            127.8          7825.15
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 94683 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.659E+09
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [peeled_images] setting up 1 peeled image groups 
+ [main] starting final iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              5.5         16145.77
+          165000             44.0          3753.63
+          178750             53.1          3364.42
+          187500             75.5          2482.67
+          201250            110.0          1829.64
+          265000            275.3           962.51
+          278750            310.7           897.26
+          287500            333.4           862.43
+          326250            432.7           753.99
+          377500            565.8           667.26
+          387500            591.5           655.06
+          426250            690.9           616.95
+          477500            823.1           580.11
+          487500            849.3           574.02
+          563750           1044.4           539.78
+          577500           1079.6           534.92
+          587500           1106.0           531.20
+          663750           1301.4           510.03
+          677500           1337.5           506.53
+          687500           1363.5           504.21
+          763750           1559.8           489.66
+          777500           1594.8           487.52
+          787500           1620.1           486.08
+          863750           1817.4           475.27
+          877500           1853.2           473.52
+          887500           1878.9           472.35
+          907500           2075.4           437.27
+          912500           2117.5           430.93
+          930000           2335.6           398.19
+          938750           2386.5           393.35
+          955000           2428.4           393.26
+          963750           2453.1           392.88
+          981250           2501.4           392.28
+          990000           2523.7           392.28
+         1000000           2556.2           391.20
+      ----------------------------------------------
+
+ [main] exiting final iteration
+ [main] starting raytracing iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+           88750              4.0         22406.42
+          165000             42.6          3874.00
+          178750             63.3          2824.95
+          187500            185.2          1012.16
+          263750           1242.2           212.33
+          277500           1432.5           193.71
+          287500           1571.9           182.90
+          363750           2628.5           138.39
+          377500           2818.8           133.92
+          387500           2958.1           131.00
+          463750           4014.7           115.51
+          477500           4205.0           113.56
+          487500           4344.3           112.22
+          563750           5400.8           104.38
+          577500           5591.1           103.29
+          587500           5730.5           102.52
+          663750           6787.0            97.80
+          677500           6977.4            97.10
+          687500           7116.7            96.60
+          763750           8173.2            93.45
+          777500           8363.4            92.96
+          787500           8502.8            92.62
+          863750           9559.4            90.36
+          877500           9749.7            90.00
+          887500           9889.1            89.75
+          907500          10945.5            82.91
+          912500          11170.6            81.69
+slurmstepd: error: *** JOB 2898733 ON atl1-1-03-003-9-1 CANCELLED AT 2023-08-25T14:00:23 ***
+---------------------------------------
+Begin Slurm Epilog: Aug-25-2023 14:00:25
+Job ID:        2898733
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=240G,node=2
+Rsrc Used:     cput=09:06:56,vmem=8744508K,walltime=00:34:11,mem=8375696K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-03-003-9-1,atl1-1-03-003-23-1
+---------------------------------------

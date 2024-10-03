@@ -1,0 +1,171 @@
+---------------------------------------
+Begin Slurm Prolog: Sep-15-2024 22:45:04
+Job ID:    1299643
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+  File "analysis_pipeline.py", line 213
+    x = 0
+    ^
+IndentationError: expected an indented block
+srun: error: atl1-1-02-014-23-2: tasks 0-15: Exited with exit code 1
+srun: error: atl1-1-02-014-24-1: tasks 16-31: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Sep-15-2024 22:45:17
+Job ID:        1299643
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=200G,node=2
+Rsrc Used:     cput=00:06:56,vmem=8K,walltime=00:00:13,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-014-23-2,atl1-1-02-014-24-1
+---------------------------------------

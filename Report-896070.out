@@ -1,0 +1,176 @@
+---------------------------------------
+Begin Slurm Prolog: Jul-29-2024 20:27:55
+Job ID:    896070
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_0_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_1_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_2_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_3_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_4_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_5_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_6_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_7_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_8_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_9_300000'
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+ModuleNotFoundError: No module named 'parameters_master_10_300000'
+---------------------------------------
+Begin Slurm Epilog: Jul-29-2024 20:29:23
+Job ID:        896070
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=600G,node=2
+Rsrc Used:     cput=01:10:24,vmem=291536K,walltime=00:01:28,mem=135024K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-02-002-9-2,atl1-1-02-002-11-1
+---------------------------------------

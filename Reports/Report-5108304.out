@@ -1,0 +1,1460 @@
+---------------------------------------
+Begin Slurm Prolog: Mar-01-2024 11:30:54
+Job ID:    5108304
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 329125266.10it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 27781.38it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35335.48it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 339729203.99it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20042.93it/s]
+yt : [INFO     ] 2024-03-01 11:31:15,792 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-03-01 11:31:15,792 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-03-01 11:31:15,793 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-03-01 11:31:15,794 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-03-01 11:31:15,794 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:31:15,794 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:31:15,794 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:31:15,794 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:31:15,794 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-03-01 11:31:15,794 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16268.68it/s]
+yt : [INFO     ] 2024-03-01 11:31:15,867 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-03-01 11:31:44,236 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-03-01 11:31:44,236 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-03-01 11:31:44,237 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-03-01 11:31:44,238 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-03-01 11:31:44,238 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:31:44,238 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:31:44,238 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:31:44,238 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:31:44,238 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-03-01 11:31:44,238 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15612.97it/s]
+yt : [INFO     ] 2024-03-01 11:31:44,315 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-03-01 11:31:45,601 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-03-01 11:31:48,163 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-03-01 11:31:48,429 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-03-01 11:31:48,430 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-03-01 11:31:48,430 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-03-01 11:31:48,431 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-03-01 11:31:48,431 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:31:48,431 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:31:48,431 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:31:48,431 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:31:48,431 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-03-01 11:31:48,431 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-03-01 11:31:48,607 Allocating for 4.428e+05 particles
+Initializing coarse index :   0%|          | 0/2 [00:00<?, ?it/s]Initializing coarse index : 100%|██████████| 2/2 [00:00<00:00, 45.72it/s]
+Initializing refined index:   0%|          | 0/2 [00:00<?, ?it/s]Initializing refined index: 100%|██████████| 2/2 [00:00<00:00, 17.06it/s][zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2524055917106802e+23cm, y=1.2937381508564545e+23cm, z=1.25057104343377e+23cm
+Domain width: dx=7.05475431732411e+21cm, dy=7.05475431732411e+21cm, dz=7.05475431732411e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 19
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03530475 0.03599439 0.03669751 0.03741437 0.03814523 0.03889036
+ 0.03965005 0.04042458 0.04121424 0.04201933 0.04284014 0.04367698
+ 0.04453018 0.04540003 0.04628689 0.04719106 0.0481129  0.04905274
+ 0.05001095 0.05098787 0.05198387 0.05299933 0.05403463 0.05509015
+ 0.05616629 0.05726345 0.05838204 0.05952248 0.06068521 0.06187064
+ 0.06307923 0.06431143 0.0655677  0.06684851 0.06815434 0.06948567
+ 0.07084302 0.07222687 0.07363776 0.07507621 0.07654276 0.07803796
+ 0.07956237 0.08111655 0.08270109 0.08431659 0.08596364 0.08764287
+ 0.0893549  0.09110037 0.09287994 0.09469427 0.09654404 0.09842994
+ 0.10035269 0.10231299 0.10431159 0.10634923 0.10842667 0.11054469
+ 0.11270409 0.11490567 0.11715025 0.11943868 0.12177181 0.12415052
+ 0.1265757  0.12904825 0.13156909 0.13413918 0.13675948 0.13943096
+ 0.14215462 0.14493149 0.14776261 0.15064902 0.15359182 0.15659211
+ 0.159651   0.16276965 0.16594921 0.16919089 0.17249589 0.17586545
+ 0.17930083 0.18280332 0.18637423 0.19001489 0.19372667 0.19751095
+ 0.20136916 0.20530274 0.20931315 0.2134019  0.21757053 0.22182058
+ 0.22615366 0.23057138 0.23507539 0.23966739 0.24171102]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  15  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [00:03<00:45,  3.26s/it]100%|██████████| 15/15 [00:03<00:00,  4.60it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+ ------------------------------------------------------------
+ Hyperion v1.0.0
+ Started on 01 March 2024 at 11:32:03
+ Input:  /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000/halo_0/example.0000.rtin.sed
+ Output: /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000/halo_0/example.0000.rtout.sed
+ ------------------------------------------------------------
+ [main] using random seed = -9381
+ [dust] reading dust_001
+ [setup_grid_geometry] Reading AMR cartesian grid
+ [grid_physics] reading density grid
+ [grid_physics] applying mask to density grid
+ [grid_physics] reading minimum_specific_energy
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [sources] setting up sources
+ [main] starting Lucy iteration 1
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              0.0        *********
+            1902              0.0        *********
+            2649              0.1         30202.15
+            2907              0.1         24374.50
+            3207              0.2         21036.41
+            3843              0.2         17108.51
+            3918              0.2         16772.55
+            4212              0.3         15822.93
+            4785              0.3         14497.45
+            4854              0.3         14367.41
+            4929              0.3         14215.96
+            5154              0.4         13881.74
+            5664              0.4         13199.54
+            5859              0.5         12966.26
+            5940              0.5         12884.61
+            6222              0.5         12649.81
+            6606              0.5         12354.08
+            6864              0.6         12175.76
+            6870              0.6         12173.77
+            6951              0.6         12127.97
+            7164              0.6         12004.02
+            7422              0.6         11876.34
+            7743              0.7         11709.04
+            7875              0.7         11644.71
+            7962              0.7         11601.75
+            8043              0.7         11574.74
+            8427              0.7         11442.33
+            8748              0.8         11334.18
+            8880              0.8         11292.12
+            8886              0.8         11290.59
+            8979              0.8         11257.88
+            9054              0.8         11159.80
+            9084              0.8         10824.30
+            9144              0.9         10199.67
+            9210              0.9          9914.52
+            9300              1.0          9531.91
+            9372              1.0          9346.65
+            9456              1.0          9221.71
+            9540              1.0          9221.61
+            9624              1.0          9217.90
+            9708              1.1          9213.62
+            9792              1.1          9204.98
+            9882              1.1          9150.71
+            9972              1.1          9141.54
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3581436 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 2
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              1.2           818.11
+            1902             21.6            88.05
+            1956             21.6            90.52
+            2844             21.7           131.00
+            2913             21.7           134.13
+            2961             21.7           136.31
+            3597             21.8           165.06
+            3855             21.8           176.66
+            3924             21.8           179.75
+            4155             21.9           190.12
+            4665             21.9           212.90
+            4860             21.9           221.58
+            4935             21.9           224.91
+            5160             22.0           234.90
+            5607             22.0           254.68
+            5865             22.0           266.04
+            5946             22.1           269.60
+            6102             22.1           276.46
+            6486             22.1           293.30
+            6807             22.1           307.33
+            6876             22.2           310.33
+            6957             22.2           313.85
+            7038             22.2           317.38
+            7233             22.2           325.86
+            7617             22.2           342.51
+            7875             22.3           353.64
+            7968             22.3           357.65
+            8043             22.3           360.88
+            8364             22.3           374.70
+            8685             22.4           388.47
+            8817             22.4           394.11
+            8886             22.4           397.05
+            8979             22.4           401.01
+            9054             22.4           404.10
+            9096             22.4           405.22
+            9138             22.5           406.42
+            9204             22.5           408.79
+            9306             22.6           412.07
+            9378             22.6           415.00
+            9462             22.6           418.31
+            9546             22.6           421.84
+            9630             22.6           425.38
+            9714             22.6           428.91
+            9798             22.7           432.43
+            9888             22.7           436.07
+            9984             22.7           439.95
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3586735 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.229E+12
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 3
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           446.58
+            1902             37.1            51.28
+            2082             37.1            56.10
+            2781             37.2            74.77
+            2913             37.2            78.29
+            3024             37.2            81.25
+            3471             37.3            93.13
+            3792             37.3           101.65
+            3924             37.3           105.14
+            4092             37.3           109.59
+            4539             37.4           121.40
+            4797             37.4           128.20
+            4866             37.4           130.02
+            4935             37.4           131.84
+            5160             37.5           137.75
+            5607             37.5           149.49
+            5802             37.5           154.60
+            5871             37.5           156.40
+            5946             37.5           158.37
+            6165             37.6           164.09
+            6486             37.6           172.48
+            6807             37.6           180.84
+            6876             37.6           182.63
+            6957             37.7           184.74
+            7170             37.7           190.28
+            7365             37.7           195.34
+            7812             37.8           206.93
+            7881             37.8           208.71
+            7974             37.8           211.12
+            8175             37.8           216.31
+            8307             37.8           219.72
+            8565             37.8           226.38
+            8823             37.9           233.02
+            8892             37.9           234.79
+            9048             37.9           238.80
+            9072             37.9           239.30
+            9150             38.0           240.91
+            9204             38.0           242.18
+            9276             38.0           243.86
+            9348             38.1           245.45
+            9420             38.1           247.20
+            9504             38.1           249.34
+            9588             38.1           251.49
+            9672             38.1           253.63
+            9756             38.1           255.77
+            9840             38.2           257.91
+            9930             38.2           260.16
+           10000             38.2           261.92
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3584917 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.216E+12
+     -> Difference from previous iteration:       1.06
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 4
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           452.01
+            1902             36.7            51.84
+            1956             36.7            53.31
+            2907             36.8            78.99
+            2961             36.8            80.44
+            3408             36.9            92.46
+            3855             36.9           104.44
+            3924             36.9           106.29
+            4029             36.9           109.10
+            4098             36.9           110.95
+            4734             37.0           127.92
+            4866             37.0           131.43
+            4935             37.0           133.27
+            5040             37.0           136.06
+            5235             37.1           141.24
+            5745             37.1           154.77
+            5877             37.1           158.26
+            5952             37.1           160.24
+            6039             37.2           162.54
+            6108             37.2           164.37
+            6429             37.2           172.84
+            6813             37.2           182.95
+            6882             37.2           184.77
+            6963             37.3           186.90
+            7050             37.3           189.19
+            7245             37.3           194.31
+            7566             37.3           202.73
+            7887             37.4           211.13
+            7974             37.4           213.40
+            8055             37.4           215.52
+            8250             37.4           220.61
+            8382             37.4           224.06
+            8703             37.4           232.41
+            8898             37.5           237.48
+            8991             37.5           239.90
+            9060             37.5           241.69
+            9078             37.5           242.08
+            9138             37.6           243.31
+            9210             37.6           244.97
+            9270             37.6           246.33
+            9324             37.7           247.60
+            9402             37.7           249.44
+            9480             37.7           251.45
+            9564             37.7           253.58
+            9648             37.7           255.74
+            9732             37.7           257.90
+            9816             37.7           260.07
+            9906             37.8           262.33
+           10000             37.8           264.69
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3592691 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.215E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 5
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           454.60
+            1902             36.5            52.15
+            2076             36.5            56.89
+            2838             36.6            77.58
+            2907             36.6            79.45
+            3144             36.6            85.86
+            3591             36.7            97.94
+            3849             36.7           104.89
+            3918             36.7           106.75
+            4212             36.7           114.66
+            4596             36.8           124.96
+            4854             36.8           131.87
+            4923             36.8           133.72
+            5148             36.8           139.74
+            5280             36.9           143.27
+            5601             36.9           151.83
+            5859             36.9           158.70
+            5934             36.9           160.69
+            6090             36.9           164.84
+            6222             37.0           168.35
+            6291             37.0           170.18
+            6549             37.0           177.02
+            6870             37.0           185.51
+            6951             37.0           187.65
+            7158             37.1           193.13
+            7227             37.1           194.95
+            7359             37.1           198.43
+            7617             37.1           205.23
+            7875             37.1           212.02
+            7962             37.2           214.30
+            8163             37.2           219.59
+            8232             37.2           221.39
+            8427             37.2           226.51
+            8559             37.2           229.97
+            8817             37.2           236.72
+            8886             37.3           238.52
+            8973             37.3           240.78
+            9066             37.3           243.05
+            9084             37.3           243.44
+            9150             37.4           244.87
+            9216             37.4           246.38
+            9306             37.4           248.56
+            9348             37.4           249.65
+            9414             37.5           251.23
+            9486             37.5           253.06
+            9570             37.5           255.14
+            9654             37.5           257.32
+            9738             37.5           259.49
+            9822             37.5           261.66
+            9912             37.6           263.94
+           10000             37.6           266.21
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3587130 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.217E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 6
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           452.42
+            1902             36.6            51.94
+            2145             36.6            58.53
+            2781             36.7            75.73
+            2913             36.7            79.29
+            3276             36.8            89.07
+            3849             36.8           104.47
+            3918             36.9           106.32
+            4023             36.9           109.13
+            4344             36.9           117.73
+            4854             37.0           131.34
+            4929             37.0           133.34
+            5022             37.0           135.82
+            5280             37.0           142.69
+            5853             37.1           157.90
+            5859             37.1           158.06
+            5940             37.1           160.20
+            6285             37.1           169.33
+            6669             37.2           179.47
+            6864             37.2           184.61
+            6870             37.2           184.77
+            6951             37.2           186.90
+            7221             37.2           194.01
+            7416             37.2           199.14
+            7674             37.3           205.91
+            7869             37.3           211.01
+            7875             37.3           211.17
+            7956             37.3           213.29
+            8031             37.3           215.26
+            8226             37.3           220.36
+            8421             37.4           225.45
+            8553             37.4           228.89
+            8811             37.4           235.61
+            8880             37.4           237.41
+            8886             37.4           237.57
+            8973             37.4           239.83
+            9066             37.4           242.09
+            9084             37.5           242.48
+            9138             37.5           243.59
+            9234             37.6           245.80
+            9282             37.6           246.96
+            9342             37.6           248.43
+            9420             37.6           250.31
+            9504             37.6           252.44
+            9588             37.7           254.61
+            9672             37.7           256.78
+            9756             37.7           258.94
+            9840             37.7           261.10
+            9930             37.7           263.37
+           10000             37.7           265.16
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3587050 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.220E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 7
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           449.64
+            1902             36.8            51.63
+            2586             36.9            70.05
+            2844             36.9            76.97
+            2913             37.0            78.82
+            3276             37.0            88.55
+            3849             37.1           103.85
+            3924             37.1           105.85
+            4155             37.1           112.01
+            4854             37.2           130.57
+            4935             37.2           132.72
+            5028             37.2           135.18
+            5160             37.2           138.68
+            5796             37.3           155.47
+            5865             37.3           157.29
+            5952             37.3           159.58
+            6039             37.3           161.88
+            6675             37.4           178.59
+            6870             37.4           183.70
+            6957             37.4           185.98
+            7107             37.4           189.90
+            7617             37.5           203.22
+            7875             37.5           209.95
+            7968             37.5           212.37
+            8043             37.5           214.32
+            8238             37.5           219.40
+            8748             37.6           232.63
+            8880             37.6           236.05
+            8886             37.6           236.21
+            8973             37.6           238.45
+            9042             37.6           240.24
+            9108             37.7           241.59
+            9138             37.7           242.20
+            9222             37.8           244.12
+            9282             37.8           245.46
+            9360             37.8           247.34
+            9444             37.9           249.45
+            9528             37.9           251.61
+            9612             37.9           253.76
+            9696             37.9           255.91
+            9780             37.9           258.06
+            9870             37.9           260.32
+            9960             37.9           262.61
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3593568 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.221E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [peeled_images] setting up 1 peeled image groups 
+ [main] starting final iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              5.1           187.69
+            1839             79.0            23.27
+            1908             84.3            22.63
+            2208             85.1            25.96
+            2340             85.4            27.40
+            2535             86.0            29.48
+            2856             87.0            32.82
+            2925             87.3            33.51
+            3012             87.5            34.42
+            3144             87.9            35.78
+            3276             88.2            37.13
+            3660             89.3            40.97
+            3792             89.7            42.25
+            3861             90.0            42.92
+            4068             90.5            44.94
+            4137             90.7            45.60
+            4281             91.1            46.99
+            4602             92.1            49.98
+            4671             92.3            50.62
+            4740             92.5            51.24
+            4872             92.9            52.44
+            4941             93.1            53.09
+            5010             93.3            53.72
+            5142             93.6            54.92
+            5217             93.8            55.62
+            5286             94.0            56.21
+            5418             94.4            57.38
+            5550             94.8            58.56
+            5745             95.4            60.22
+            5814             95.6            60.81
+            5946             96.0            61.95
+            6015             96.2            62.52
+            6147             96.6            63.66
+            6216             96.7            64.26
+            6348             97.1            65.40
+            6417             97.3            65.98
+            6549             97.6            67.09
+            6744             98.2            68.70
+            6876             98.5            69.77
+            6945             98.7            70.34
+            7203             99.4            72.45
+            7335             99.8            73.49
+            7416            100.0            74.12
+            7548            100.4            75.17
+            7617            100.6            75.73
+            7623            100.6            75.78
+            7818            101.2            77.25
+            7887            101.4            77.80
+            7956            101.6            78.31
+            8151            102.1            79.82
+            8346            102.6            81.31
+            8415            102.9            81.80
+            8610            103.4            83.27
+            8817            103.9            84.84
+            8823            103.9            84.89
+            8892            104.1            85.40
+            9024            104.5            86.36
+            9084            105.8            85.86
+            9144            106.9            85.54
+            9204            108.0            85.24
+            9270            108.6            85.37
+            9324            108.7            85.75
+            9420            109.2            86.22
+            9456            109.4            86.47
+            9582            110.3            86.90
+            9642            110.4            87.31
+            9780            111.2            87.91
+            9870            111.8            88.29
+            9948            112.2            88.63
+           10000            112.5            88.92
+      ----------------------------------------------
+
+ [main] exiting final iteration
+ [main] starting raytracing iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              0.8          1152.64
+            1902             16.1           118.23
+            1956             16.9           115.54
+            2907             31.9            91.06
+            2961             32.7            90.47
+            3660             42.9            85.32
+            3918             46.7            83.85
+            4476             54.8            81.67
+            4923             61.4            80.12
+            5481             69.5            78.83
+            5739             73.4            78.23
+            5934             76.3            77.81
+            6492             84.3            76.97
+            6939             91.0            76.28
+            7497             99.0            75.69
+            7755            102.9            75.39
+            7950            105.8            75.17
+            8502            113.8            74.74
+            8508            113.9            74.73
+            8955            120.5            74.33
+            9051            128.5            70.45
+            9087            132.4            68.64
+            9135            135.6            67.35
+            9225            143.5            64.26
+            9279            144.3            64.29
+            9375            151.7            61.82
+            9471            153.1            61.88
+            9567            154.5            61.93
+            9663            155.9            61.99
+            9759            157.3            62.04
+            9855            158.7            62.09
+            9951            160.1            62.14
+           10000            161.1            62.07
+      ----------------------------------------------
+
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              0.0        *********
+            1902              5.7           334.60
+            2019             11.6           174.53
+            2907             80.8            36.00
+            2961             81.8            36.20
+            3471             91.4            37.97
+            3918            100.1            39.12
+            4029            102.3            39.37
+            4665            114.5            40.75
+            4923            119.6            41.17
+            5481            130.2            42.11
+            5865            137.6            42.62
+            5934            138.9            42.71
+            6492            149.6            43.40
+            6876            157.0            43.80
+            6945            158.3            43.87
+            7245            164.0            44.17
+            7692            172.7            44.55
+            7824            175.1            44.67
+            7956            177.8            44.75
+            8061            179.8            44.83
+            8508            188.3            45.18
+            8829            194.5            45.39
+            8961            197.1            45.47
+            9045            205.1            44.10
+            9081            211.3            42.98
+            9135            216.8            42.14
+            9249            228.7            40.44
+            9333            234.8            39.75
+            9423            238.6            39.49
+            9519            240.5            39.58
+            9615            242.3            39.68
+            9711            244.2            39.77
+            9807            246.0            39.86
+            9903            247.9            39.94
+            9999            249.7            40.04
+      ----------------------------------------------
+
+ [main] exiting raytracing iteration
+ [image_write] writing out SEDs
+ [image_write] done
+ ------------------------------------------------------------
+ Total CPU time elapsed:           823.52
+ Ended on 01 March 2024 at 11:32:59
+ ------------------------------------------------------------
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/bin/hyperion:69: DeprecationWarning: The SafeConfigParser class has been renamed to ConfigParser in Python 3.2. This alias will be removed in future versions. Use ConfigParser directly instead.
+  config = SafeConfigParser()
+ ------------------------------------------------------------
+ Hyperion v1.0.0
+ Started on 01 March 2024 at 11:33:04
+ Input:  /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000/halo_0/example.0000.rtin.image
+ Output: /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000/halo_0/example.0000.rtout.image
+ ------------------------------------------------------------
+ [main] using random seed = -9381
+ [dust] reading dust_001
+ [setup_grid_geometry] Reading AMR cartesian grid
+ [grid_physics] reading density grid
+ [grid_physics] applying mask to density grid
+ [grid_physics] reading minimum_specific_energy
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [sources] setting up sources
+ [main] starting Lucy iteration 1
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              0.0        *********
+            1902              0.0        *********
+            2649              0.1         30292.63
+            2907              0.1         24438.84
+            3144              0.1         21603.05
+            3906              0.2         16874.98
+            4149              0.3         16045.63
+            4848              0.3         14411.67
+            4917              0.3         14269.59
+            5154              0.4         13908.49
+            5664              0.4         13230.00
+            5922              0.5         12927.59
+            6159              0.5         12723.18
+            6606              0.5         12372.73
+            6927              0.6         12156.28
+            6933              0.6         12154.37
+            7164              0.6         12016.30
+            7485              0.6         11853.22
+            7680              0.7         11745.44
+            7938              0.7         11620.11
+            8043              0.7         11580.41
+            8490              0.7         11428.33
+            8685              0.8         11356.24
+            8943              0.8         11271.24
+            8949              0.8         11269.57
+            9054              0.8         11162.26
+            9084              0.8         10827.89
+            9138              0.9         10272.25
+            9216              0.9          9856.93
+            9312              1.0          9534.40
+            9372              1.0          9411.64
+            9456              1.0          9230.53
+            9546              1.0          9174.51
+            9636              1.1          9169.97
+            9726              1.1          9166.28
+            9816              1.1          9160.82
+            9906              1.1          9103.62
+           10000              1.1          9091.91
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3581017 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 2
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              1.2           817.90
+            1902             21.6            88.05
+            2082             21.6            96.30
+            2907             21.7           133.87
+            3024             21.7           139.17
+            3723             21.8           170.73
+            3918             21.8           179.49
+            4092             21.8           187.30
+            4539             21.9           207.30
+            4923             21.9           224.39
+            5286             22.0           240.50
+            5607             22.0           254.69
+            5928             22.1           268.83
+            6039             22.1           273.72
+            6486             22.1           293.32
+            6744             22.1           304.60
+            6939             22.2           313.09
+            7038             22.2           317.40
+            7296             22.2           328.62
+            7617             22.2           342.52
+            7812             22.3           350.94
+            7944             22.3           356.63
+            8106             22.3           363.61
+            8427             22.3           377.43
+            8622             22.3           385.78
+            8754             22.4           391.43
+            8886             22.4           397.06
+            8955             22.4           400.01
+            9042             22.4           403.72
+            9102             22.5           405.37
+            9144             22.5           406.57
+            9198             22.5           408.53
+            9306             22.6           412.19
+            9372             22.6           414.87
+            9456             22.6           418.07
+            9540             22.6           421.60
+            9630             22.6           425.27
+            9720             22.7           429.05
+            9810             22.7           432.81
+            9906             22.7           436.68
+           10000             22.7           440.60
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3587311 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.230E+12
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 3
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           450.73
+            1902             36.8            51.73
+            2019             36.8            54.89
+            2844             36.9            77.13
+            2913             36.9            78.98
+            2961             36.9            80.27
+            3408             36.9            92.27
+            3855             37.0           104.23
+            3930             37.0           106.23
+            4092             37.0           110.55
+            4476             37.1           120.79
+            4860             37.1           131.00
+            4941             37.1           133.15
+            5097             37.1           137.29
+            5544             37.2           149.13
+            5865             37.2           157.62
+            5952             37.2           159.92
+            6165             37.2           165.54
+            6486             37.3           173.99
+            6870             37.3           184.07
+            6963             37.3           186.51
+            7170             37.4           191.94
+            7365             37.4           197.05
+            7686             37.4           205.44
+            7881             37.4           210.53
+            7974             37.4           212.95
+            8175             37.5           218.20
+            8307             37.5           221.63
+            8565             37.5           228.34
+            8760             37.5           233.41
+            8892             37.5           236.83
+            8979             37.6           239.09
+            9048             37.6           240.88
+            9090             37.6           241.77
+            9144             37.6           242.88
+            9210             37.7           244.39
+            9276             37.7           245.97
+            9342             37.8           247.46
+            9426             37.8           249.50
+            9498             37.8           251.35
+            9576             37.8           253.36
+            9660             37.8           255.52
+            9744             37.8           257.67
+            9834             37.8           259.94
+            9924             37.8           262.21
+           10000             37.9           264.14
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3585129 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.216E+12
+     -> Difference from previous iteration:       1.06
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 4
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           447.08
+            1902             37.0            51.35
+            2019             37.1            54.49
+            2781             37.1            74.88
+            2913             37.2            78.40
+            2961             37.2            79.68
+            3471             37.2            93.26
+            3855             37.3           103.45
+            3924             37.3           105.28
+            4098             37.3           109.90
+            4671             37.4           125.05
+            4866             37.4           130.20
+            4935             37.4           132.01
+            5040             37.4           134.78
+            5109             37.4           136.60
+            5745             37.5           153.32
+            5877             37.5           156.78
+            5952             37.5           158.74
+            6108             37.5           162.83
+            6429             37.5           171.23
+            6813             37.6           181.25
+            6882             37.6           183.05
+            6957             37.6           185.00
+            7050             37.6           187.43
+            7245             37.6           192.51
+            7629             37.7           202.49
+            7887             37.7           209.17
+            7968             37.7           211.27
+            8187             37.7           216.94
+            8445             37.8           223.61
+            8766             37.8           231.89
+            8898             37.8           235.29
+            8979             37.8           237.38
+            9021             37.8           238.35
+            9087             37.9           239.69
+            9135             37.9           240.80
+            9207             38.0           242.46
+            9267             38.0           243.84
+            9351             38.0           245.82
+            9441             38.1           248.07
+            9531             38.1           250.37
+            9621             38.1           252.67
+            9711             38.1           254.97
+            9807             38.1           257.37
+            9903             38.1           259.81
+            9999             38.1           262.24
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3591242 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.214E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 5
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           450.17
+            1902             36.8            51.66
+            2838             36.9            76.86
+            2907             36.9            78.71
+            3081             37.0            83.38
+            3465             37.0            93.66
+            3912             37.0           105.60
+            4149             37.1           111.92
+            4533             37.1           122.13
+            4917             37.2           132.33
+            5022             37.2           135.11
+            5217             37.2           140.28
+            5475             37.2           147.10
+            5922             37.3           158.89
+            6159             37.3           165.14
+            6228             37.3           166.96
+            6486             37.3           173.74
+            6933             37.4           185.46
+            7164             37.4           191.52
+            7233             37.4           193.32
+            7554             37.4           201.71
+            7875             37.5           210.09
+            7944             37.5           211.89
+            8169             37.5           217.75
+            8301             37.5           221.18
+            8496             37.6           226.25
+            8880             37.6           236.21
+            8949             37.6           237.99
+            9048             37.6           240.52
+            9072             37.6           241.02
+            9150             37.7           242.67
+            9198             37.7           243.79
+            9264             37.8           245.33
+            9366             37.8           247.80
+            9438             37.8           249.56
+            9528             37.8           251.74
+            9618             37.9           254.05
+            9708             37.9           256.37
+            9798             37.9           258.67
+            9894             37.9           261.09
+            9990             37.9           263.54
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3587315 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.217E+12
+     -> Difference from previous iteration:       1.02
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 6
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           456.48
+            1902             36.3            52.34
+            2145             36.4            58.98
+            2844             36.4            78.03
+            2913             36.5            79.90
+            3402             36.5            93.18
+            3849             36.6           105.27
+            3918             36.6           107.14
+            4023             36.6           109.98
+            4470             36.6           122.03
+            4854             36.7           132.36
+            4923             36.7           134.21
+            5280             36.7           143.79
+            5853             36.8           159.12
+            5859             36.8           159.28
+            5928             36.8           161.12
+            6285             36.8           170.64
+            6795             36.9           184.20
+            6864             36.9           186.03
+            6870             36.9           186.19
+            6939             36.9           188.02
+            7158             36.9           193.83
+            7353             36.9           199.00
+            7800             37.0           210.82
+            7869             37.0           212.63
+            7875             37.0           212.79
+            7950             37.0           214.77
+            8226             37.0           222.04
+            8358             37.1           225.52
+            8616             37.1           232.30
+            8874             37.1           239.07
+            8886             37.1           239.38
+            8961             37.1           241.35
+            9066             37.2           243.94
+            9078             37.2           244.21
+            9138             37.2           245.44
+            9228             37.3           247.55
+            9270             37.3           248.56
+            9324             37.3           249.89
+            9408             37.4           251.85
+            9492             37.4           254.04
+            9576             37.4           256.22
+            9660             37.4           258.40
+            9750             37.4           260.69
+            9834             37.4           262.87
+            9924             37.4           265.21
+           10000             37.4           267.12
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3587444 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.219E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 7
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             951              2.1           447.90
+            1902             36.9            51.48
+            2586             37.0            69.85
+            2907             37.1            78.45
+            3339             37.1            89.99
+            3849             37.2           103.57
+            3918             37.2           105.41
+            4155             37.2           111.70
+            4854             37.3           130.22
+            4929             37.3           132.20
+            5160             37.3           138.30
+            5796             37.4           155.05
+            5865             37.4           156.87
+            5934             37.4           158.68
+            6165             37.4           164.75
+            6612             37.5           176.46
+            6870             37.5           183.20
+            6951             37.5           185.32
+            7107             37.5           189.39
+            7617             37.6           202.68
+            7875             37.6           209.38
+            7956             37.6           211.49
+            8043             37.6           213.75
+            8238             37.6           218.81
+            8622             37.7           228.75
+            8880             37.7           235.42
+            8886             37.7           235.57
+            8961             37.7           237.51
+            9042             37.7           239.60
+            9096             37.8           240.71
+            9144             37.8           241.70
+            9216             37.9           243.35
+            9276             37.9           244.65
+            9342             37.9           246.26
+            9426             38.0           248.33
+            9510             38.0           250.48
+            9594             38.0           252.63
+            9684             38.0           254.88
+            9774             38.0           257.18
+            9858             38.0           259.32
+            9954             38.0           261.72
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3593679 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.218E+12
+     -> Difference from previous iteration:       1.00
+
+ [output_grid] outputting grid arrays for iteration
+slurmstepd: error: *** JOB 5108304 ON atl1-1-02-004-4-2 CANCELLED AT 2024-03-01T11:33:28 ***
+---------------------------------------
+Begin Slurm Epilog: Mar-01-2024 11:33:30
+Job ID:        5108304
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=360G,node=1
+Rsrc Used:     cput=00:41:20,vmem=15234252K,walltime=00:02:35,mem=14893872K,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-02-004-4-2
+---------------------------------------

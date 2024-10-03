@@ -1,0 +1,176 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-05-2024 17:45:43
+Job ID:    964472
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+inf norm =  14.149405810027579
+L_1 =  0.005039305698331057
+L_2 =  0.23250716491863405
+difference in total luminosities: 1.1576650399503733e+36
+inf norm =  38.246600180064995
+L_1 =  0.003782947855950238
+L_2 =  0.33824313514250115
+difference in total luminosities: 2.4673064896215933e+35
+inf norm =  17.891735201298776
+L_1 =  0.0016163848418490607
+L_2 =  0.14876165623754292
+difference in total luminosities: -9.784255210644906e+34
+inf norm =  1.8277167315358438
+L_1 =  0.00021375729195539833
+L_2 =  0.019317476183033037
+difference in total luminosities: -8.243202350219502e+32
+inf norm =  11.064530667465208
+L_1 =  0.0027875023068777665
+L_2 =  0.15403676619983264
+difference in total luminosities: 2.296895188705781e+35
+inf norm =  18.933290476032433
+L_1 =  0.0034824857567274194
+L_2 =  0.18998268543123892
+difference in total luminosities: -2.9418603308449157e+35
+inf norm =  19.27530018883699
+L_1 =  0.0011859296700089156
+L_2 =  0.15059103571938984
+difference in total luminosities: 4.678518959227983e+34
+inf norm =  23.000063441259947
+L_1 =  0.005455807838653398
+L_2 =  0.2619120525716761
+difference in total luminosities: -6.754636218429947e+35
+inf norm =  7.93765391065471
+L_1 =  0.0005758177486688796
+L_2 =  0.06284988849188264
+difference in total luminosities: 1.0162717769805497e+34
+inf norm =  38.97839241835405
+L_1 =  0.002452127947548119
+L_2 =  0.3045344526301407
+difference in total luminosities: -2.6361627823038894e+35
+inf norm =  31.92529416213128
+L_1 =  0.002711846018874636
+L_2 =  0.26622515313320244
+difference in total luminosities: 1.643806231766873e+35
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_0.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_1.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_2.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_3.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_4.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_5.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_6.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_7.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_8.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_9.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_1mil_halo_10.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_0.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_1.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_2.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_3.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_4.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_5.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_6.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_7.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_8.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_9.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+Traceback (most recent call last):
+  File "image_compare_photons_3mil_halo_10.py", line 59, in <module>
+    np.savetxt(file, abs(filtered_diff.value))
+AttributeError: 'numpy.ndarray' object has no attribute 'value'
+---------------------------------------
+Begin Slurm Epilog: Aug-05-2024 17:54:31
+Job ID:        964472
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=200G,node=2
+Rsrc Used:     cput=07:02:24,vmem=8358652K,walltime=00:08:48,mem=7543996K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-004-21-[1-2]
+---------------------------------------

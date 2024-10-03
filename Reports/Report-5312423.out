@@ -1,0 +1,416 @@
+---------------------------------------
+Begin Slurm Prolog: Mar-25-2024 11:22:23
+Job ID:    5312423
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-03-25 11:23:18,984 Global parallel computation enabled: 0 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,985 Global parallel computation enabled: 11 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,984 Global parallel computation enabled: 1 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,984 Global parallel computation enabled: 3 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,984 Global parallel computation enabled: 4 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,984 Global parallel computation enabled: 5 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,984 Global parallel computation enabled: 7 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,985 Global parallel computation enabled: 8 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,984 Global parallel computation enabled: 2 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,985 Global parallel computation enabled: 9 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,985 Global parallel computation enabled: 6 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,985 Global parallel computation enabled: 12 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,985 Global parallel computation enabled: 14 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,986 Global parallel computation enabled: 13 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,986 Global parallel computation enabled: 15 / 16
+yt : [INFO     ] 2024-03-25 11:23:18,986 Global parallel computation enabled: 10 / 16
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P003 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P008 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P001 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P004 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P000 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P010 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P002 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P012 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P006 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P013 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P005 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P009 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P007 yt : [ERROR    ] 2024-03-25 11:23:19,232 NameError: name 'max_size_mass' is not defined
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P011 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+P003 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 3.
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P014 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+P006 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 6.
+  File "analysis_pipeline.py", line 130, in <module>
+    ap.add_recipe(stellar_mass_recipe)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_pipeline.py", line 140, in add_recipe
+    recipe(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/analysis/analysis_operators.py", line 30, in __call__
+    return self.function(target, *self.args, **self.kwargs)
+  File "analysis_pipeline.py", line 85, in stellar_mass_recipe
+    pipeline.add_operation(save_star_masses, max_size_mass)
+P015 yt : [ERROR    ] 2024-03-25 11:23:19,233 NameError: name 'max_size_mass' is not defined
+P001 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 1.
+P008 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 8.
+P002 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 2.
+P011 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 11.
+P004 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 4.
+P012 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 12.
+P000 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 0.
+P010 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 10.
+P005 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 5.
+P013 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 13.
+P007 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 7.
+P014 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 14.
+P009 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 9.
+P015 yt : [ERROR    ] 2024-03-25 11:23:19,233 Error occurred on rank 15.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 8 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 10 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 11 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 12 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 7 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 14 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 13 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 15 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 9 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 5312423.0 ON atl1-1-02-010-24-1 CANCELLED AT 2024-03-25T11:23:19 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: atl1-1-02-010-24-2: tasks 8-15: Killed
+srun: error: atl1-1-02-010-24-1: tasks 0-7: Killed
+---------------------------------------
+Begin Slurm Epilog: Mar-25-2024 11:23:19
+Job ID:        5312423
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=100G,node=2
+Rsrc Used:     cput=00:29:52,vmem=6724K,walltime=00:00:56,mem=5920K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-010-24-[1-2]
+---------------------------------------

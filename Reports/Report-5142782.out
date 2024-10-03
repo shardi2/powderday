@@ -1,0 +1,42 @@
+---------------------------------------
+Begin Slurm Prolog: Mar-05-2024 17:13:12
+Job ID:    5142782
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/var/lib/slurm/slurmd/job5142782/slurm_script: line 19: ./run_all_parameters_10000: No such file or directory
+---------------------------------------
+Begin Slurm Epilog: Mar-05-2024 17:13:25
+Job ID:        5142782
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=720G,node=2
+Rsrc Used:     cput=00:10:24,vmem=10496K,walltime=00:00:13,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-008-25-2,atl1-1-02-008-26-2
+---------------------------------------

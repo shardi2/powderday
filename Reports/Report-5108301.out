@@ -1,0 +1,580 @@
+---------------------------------------
+Begin Slurm Prolog: Mar-01-2024 11:26:23
+Job ID:    5108301
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 327573445.54it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 26772.43it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 34317.19it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 333856819.45it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 18892.42it/s]
+yt : [INFO     ] 2024-03-01 11:26:45,138 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-03-01 11:26:45,138 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-03-01 11:26:45,139 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-03-01 11:26:45,139 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-03-01 11:26:45,140 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:26:45,140 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:26:45,140 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:26:45,140 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:26:45,140 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-03-01 11:26:45,140 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16292.18it/s]
+yt : [INFO     ] 2024-03-01 11:26:45,214 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-03-01 11:27:13,691 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-03-01 11:27:13,692 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-03-01 11:27:13,693 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-03-01 11:27:13,693 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-03-01 11:27:13,694 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:27:13,694 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:27:13,694 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:27:13,694 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:27:13,694 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-03-01 11:27:13,694 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16401.15it/s]
+yt : [INFO     ] 2024-03-01 11:27:13,766 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-03-01 11:27:15,009 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-03-01 11:27:17,729 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-03-01 11:27:18,011 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-03-01 11:27:18,011 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-03-01 11:27:18,012 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-03-01 11:27:18,012 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-03-01 11:27:18,013 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:27:18,013 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:27:18,013 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:27:18,013 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:27:18,013 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-03-01 11:27:18,013 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-03-01 11:27:18,199 Allocating for 4.428e+05 particles
+Initializing coarse index :   0%|          | 0/2 [00:00<?, ?it/s]Initializing coarse index : 100%|██████████| 2/2 [00:00<00:00, 41.79it/s]
+Initializing refined index:   0%|          | 0/2 [00:00<?, ?it/s]Initializing refined index: 100%|██████████| 2/2 [00:00<00:00, 16.22it/s][zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2524055917106802e+23cm, y=1.2937381508564545e+23cm, z=1.25057104343377e+23cm
+Domain width: dx=7.05475431732411e+21cm, dy=7.05475431732411e+21cm, dz=7.05475431732411e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 19
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03530475 0.03599439 0.03669751 0.03741437 0.03814523 0.03889036
+ 0.03965005 0.04042458 0.04121424 0.04201933 0.04284014 0.04367698
+ 0.04453018 0.04540003 0.04628689 0.04719106 0.0481129  0.04905274
+ 0.05001095 0.05098787 0.05198387 0.05299933 0.05403463 0.05509015
+ 0.05616629 0.05726345 0.05838204 0.05952248 0.06068521 0.06187064
+ 0.06307923 0.06431143 0.0655677  0.06684851 0.06815434 0.06948567
+ 0.07084302 0.07222687 0.07363776 0.07507621 0.07654276 0.07803796
+ 0.07956237 0.08111655 0.08270109 0.08431659 0.08596364 0.08764287
+ 0.0893549  0.09110037 0.09287994 0.09469427 0.09654404 0.09842994
+ 0.10035269 0.10231299 0.10431159 0.10634923 0.10842667 0.11054469
+ 0.11270409 0.11490567 0.11715025 0.11943868 0.12177181 0.12415052
+ 0.1265757  0.12904825 0.13156909 0.13413918 0.13675948 0.13943096
+ 0.14215462 0.14493149 0.14776261 0.15064902 0.15359182 0.15659211
+ 0.159651   0.16276965 0.16594921 0.16919089 0.17249589 0.17586545
+ 0.17930083 0.18280332 0.18637423 0.19001489 0.19372667 0.19751095
+ 0.20136916 0.20530274 0.20931315 0.2134019  0.21757053 0.22182058
+ 0.22615366 0.23057138 0.23507539 0.23966739 0.24171102]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  15  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [00:25<06:03, 25.95s/it]100%|██████████| 15/15 [00:25<00:00,  1.73s/it]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+ ------------------------------------------------------------
+ Hyperion v1.0.0
+ Started on 01 March 2024 at 11:27:56
+ Input:  /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000/halo_0/example.0000.rtin.sed
+ Output: /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000/halo_0/example.0000.rtout.sed
+ ------------------------------------------------------------
+ [main] using random seed = -9381
+ [dust] reading dust_001
+ [setup_grid_geometry] Reading AMR cartesian grid
+ [grid_physics] reading density grid
+ [grid_physics] applying mask to density grid
+ [grid_physics] reading minimum_specific_energy
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [sources] setting up sources
+ [main] starting Lucy iteration 1
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              0.1         10052.98
+            2000              0.2          9512.62
+            3000              0.3          9421.58
+            4000              0.4          9319.10
+            5000              0.5          9259.65
+            6000              0.7          9225.79
+            7000              0.8          9199.67
+            8000              0.9          9200.58
+            9000              1.0          9192.66
+           10000              1.1          9178.72
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3586840 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 2
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              1.2           865.57
+            2000              1.3          1581.52
+            3000              1.4          2185.52
+            4000              1.5          2695.90
+            5000              1.6          3137.12
+            6000              1.7          3523.62
+            7000              1.8          3861.67
+            8000              1.9          4159.40
+            9000              2.0          4421.36
+           10000              2.1          4657.93
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3585332 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.218E+12
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 3
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              2.1           472.10
+            2000              2.2           897.47
+            3000              2.3          1283.35
+            4000              2.4          1634.23
+            5000              2.6          1954.65
+            6000              2.7          2248.89
+            7000              2.8          2519.37
+            8000              2.9          2770.86
+            9000              3.0          3002.50
+           10000              3.1          3217.18
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3576683 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.217E+12
+     -> Difference from previous iteration:       1.00
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 4
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              2.1           477.86
+            2000              2.2           908.82
+            3000              2.3          1298.11
+            4000              2.4          1652.54
+            5000              2.5          1975.81
+            6000              2.6          2272.49
+            7000              2.7          2546.45
+            8000              2.9          2797.19
+            9000              3.0          3029.61
+           10000              3.1          3246.02
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3588865 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.212E+12
+     -> Difference from previous iteration:       1.02
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 5
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              2.1           478.24
+            2000              2.2           908.63
+            3000              2.3          1298.94
+            4000              2.4          1653.42
+            5000              2.5          1976.34
+            6000              2.6          2272.81
+            7000              2.7          2547.12
+            8000              2.9          2797.64
+            9000              3.0          3030.39
+           10000              3.1          3246.03
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3589686 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.221E+12
+     -> Difference from previous iteration:       1.04
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 6
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              2.1           477.82
+            2000              2.2           907.66
+            3000              2.3          1296.31
+            4000              2.4          1650.58
+            5000              2.5          1975.28
+            6000              2.6          2270.92
+            7000              2.8          2543.73
+            8000              2.9          2795.54
+            9000              3.0          3029.10
+           10000              3.1          3244.37
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3585641 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.227E+12
+     -> Difference from previous iteration:       1.03
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 7
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              2.1           467.09
+            2000              2.3           888.73
+            3000              2.4          1271.08
+            4000              2.5          1620.08
+            5000              2.6          1938.48
+            6000              2.7          2230.92
+            7000              2.8          2500.49
+            8000              2.9          2748.86
+            9000              3.0          2980.55
+           10000              3.1          3194.24
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3579728 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.223E+12
+     -> Difference from previous iteration:       1.02
+
+ [output_grid] outputting grid arrays for iteration
+ [peeled_images] setting up 1 peeled image groups 
+ [main] starting final iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000              7.6           131.20
+            2000             10.6           188.91
+            3000             13.5           222.91
+            4000             16.2           246.94
+            5000             19.1           261.27
+            6000             22.1           272.00
+            7000             25.0           279.70
+            8000             27.9           286.31
+            9000             30.8           291.95
+           10000             33.9           295.16
+      ----------------------------------------------
+
+ [main] exiting final iteration
+ [main] starting raytracing iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+            1000             14.1            70.74
+            2000             28.9            69.24
+            3000             43.6            68.76
+            4000             58.4            68.52
+slurmstepd: error: *** JOB 5108301 ON atl1-1-02-004-4-2 CANCELLED AT 2024-03-01T11:29:57 ***
+---------------------------------------
+Begin Slurm Epilog: Mar-01-2024 11:29:58
+Job ID:        5108301
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=1,mem=360G,node=1
+Rsrc Used:     cput=00:03:34,vmem=2736308K,walltime=00:03:34,mem=2585884K,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-02-004-4-2
+---------------------------------------

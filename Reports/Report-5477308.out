@@ -1,0 +1,238 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-02-2024 01:25:52
+Job ID:    5477308
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+srun: error: atl1-1-02-005-22-1: tasks 0-23: Exited with exit code 1
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+  File "analysis_pipeline.py", line 135
+    global max_array_size = 0
+                          ^
+SyntaxError: invalid syntax
+srun: error: atl1-1-02-005-25-2: tasks 24-47: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Apr-02-2024 01:26:10
+Job ID:        5477308
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:14:24,vmem=696K,walltime=00:00:18,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-005-22-1,atl1-1-02-005-25-2
+---------------------------------------

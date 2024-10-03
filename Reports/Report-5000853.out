@@ -1,0 +1,4249 @@
+---------------------------------------
+Begin Slurm Prolog: Feb-19-2024 12:09:55
+Job ID:    5000853
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 333081581.66it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 26881.47it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 31582.91it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 340323300.16it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 17931.55it/s]
+yt : [INFO     ] 2024-02-19 12:11:22,751 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-02-19 12:11:22,751 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-02-19 12:11:22,752 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-02-19 12:11:22,752 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-02-19 12:11:22,753 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-02-19 12:11:22,753 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-02-19 12:11:22,753 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-02-19 12:11:22,753 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-02-19 12:11:22,753 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-02-19 12:11:22,753 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 8236.53it/s]
+yt : [INFO     ] 2024-02-19 12:11:22,888 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-02-19 12:11:58,765 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-02-19 12:11:58,766 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-02-19 12:11:58,766 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-02-19 12:11:58,767 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-02-19 12:11:58,767 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-02-19 12:11:58,767 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-02-19 12:11:58,767 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-02-19 12:11:58,767 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-02-19 12:11:58,767 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-02-19 12:11:58,767 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16571.79it/s]
+yt : [INFO     ] 2024-02-19 12:11:58,839 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-02-19 12:12:01,129 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-02-19 12:12:02,498 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-02-19 12:12:02,753 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-02-19 12:12:02,753 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-02-19 12:12:02,754 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-02-19 12:12:02,754 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-02-19 12:12:02,755 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-02-19 12:12:02,755 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-02-19 12:12:02,755 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-02-19 12:12:02,755 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-02-19 12:12:02,755 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-02-19 12:12:02,755 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-02-19 12:12:02,879 Allocating for 5.760e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2524055917106802e+23cm, y=1.2937381508564545e+23cm, z=1.25057104343377e+23cm
+Domain width: dx=1.4109508634648332e+21cm, dy=1.4109508634648332e+21cm, dz=1.4109508634648332e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 15
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03994049 0.04066998 0.04141279 0.04216917 0.04293937 0.04372363
+ 0.04452221 0.04533539 0.04616341 0.04700656 0.0478651  0.04873933
+ 0.04962953 0.05053598 0.05145899 0.05239886 0.05335589 0.0543304
+ 0.05532272 0.05633315 0.05736204 0.05840973 0.05947655 0.06056285
+ 0.06166899 0.06279534 0.06394226 0.06511013 0.06629932 0.06751024
+ 0.06874328 0.06999883 0.07127732 0.07257916 0.07390477 0.0752546
+ 0.07662908 0.07802866 0.07945381 0.08090498 0.08238267 0.08388734
+ 0.08541949 0.08697962 0.08856825 0.0901859  0.09183309 0.09351037
+ 0.09521828 0.09695738 0.09872825 0.10053146 0.10236761 0.10423729
+ 0.10614113 0.10807973 0.11005374 0.11206381 0.11411059 0.11619475
+ 0.11831698 0.12047796 0.12267842 0.12491907 0.12720064 0.12952389
+ 0.13188956 0.13429845 0.13675133 0.13924901 0.14179231 0.14438206
+ 0.14701911 0.14970433 0.15243859 0.15522279 0.15805784 0.16094467
+ 0.16388423 0.16687748 0.16992539 0.17302898 0.17618925 0.17940724
+ 0.18268401 0.18602062 0.18941818 0.19287779 0.19640058 0.19998772
+ 0.20364038 0.20735975 0.21114705 0.21500352 0.21893044 0.22292907
+ 0.22700073 0.23114677 0.23536852 0.23966739 0.24166466]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  12  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:35,  3.25s/it]100%|██████████| 12/12 [00:03<00:00,  3.68it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+ ------------------------------------------------------------
+ Hyperion v1.0.0
+ Started on 19 February 2024 at 12:12:21
+ Input:  /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/example.0000.rtin.sed
+ Output: /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/example.0000.rtout.sed
+ ------------------------------------------------------------
+ [main] using random seed = -6390
+ [dust] reading dust_001
+ [setup_grid_geometry] Reading AMR cartesian grid
+ [grid_physics] reading density grid
+ [grid_physics] applying mask to density grid
+ [grid_physics] reading minimum_specific_energy
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [sources] setting up sources
+ [main] starting Lucy iteration 1
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.0        990518.68
+            1880              0.0        123602.89
+            2768              0.1         21576.96
+            3510              0.2         15895.52
+            3773              0.3         14855.21
+            4502              0.3         13117.56
+            4765              0.4         12704.50
+            4994              0.4         12410.54
+            5757              0.5         11607.77
+            6762              0.6         10932.74
+            6879              0.6         10875.46
+            7767              0.7         10449.12
+            8009              0.8         10362.84
+            8772              0.9         10100.80
+            8876              0.9         10061.76
+            9092              1.0          9135.82
+            9131              1.0          9131.38
+            9313              1.1          8305.09
+            9404              1.1          8302.32
+            9586              1.2          8300.34
+            9677              1.2          8296.87
+            9768              1.2          8297.59
+            9950              1.2          8289.44
+           10000              1.2          8265.94
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3595950 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 2
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              1.2           740.72
+            1776             11.0           161.78
+            1880             11.0           171.05
+            2768             11.1           249.29
+            2885             11.1           259.50
+            3773             11.2           336.02
+            3877             11.2           344.86
+            4765             11.4           419.77
+            4882             11.4           429.54
+            5770             11.5           502.76
+            5999             11.5           521.43
+            6637             11.6           572.93
+            6775             11.6           583.97
+            7004             11.6           602.27
+            7517             11.7           642.91
+            7780             11.7           663.54
+            8384             11.8           710.56
+            8647             11.8           730.82
+            8785             11.8           741.40
+            8876             11.9           748.39
+            9066             11.9           759.29
+            9131             12.0           762.41
+            9287             12.1           769.59
+            9456             12.1           780.37
+            9547             12.1           787.15
+            9638             12.1           793.91
+            9820             12.2           807.41
+            9911             12.2           814.14
+           10000             12.2           820.67
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3585149 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.172E+12
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 3
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.2           406.30
+            1776             18.9            94.08
+            1880             18.9            99.52
+            2643             19.0           139.20
+            2781             19.0           146.33
+            2885             19.0           151.70
+            3648             19.1           190.86
+            3786             19.1           197.91
+            3877             19.1           202.54
+            4265             19.2           222.26
+            4778             19.3           248.17
+            5007             19.3           259.69
+            5520             19.3           285.35
+            5783             19.4           298.42
+            6262             19.4           322.16
+            6650             19.5           341.27
+            6788             19.5           348.05
+            7004             19.5           358.64
+            7392             19.6           377.59
+            7655             19.6           390.38
+            7793             19.6           397.06
+            8259             19.7           419.57
+            8522             19.7           432.23
+            8660             19.7           438.85
+            8798             19.8           445.45
+            9001             19.8           455.16
+            9131             19.9           459.40
+            9274             19.9           464.87
+            9430             20.0           471.57
+            9521             20.0           475.50
+            9703             20.0           484.03
+            9794             20.1           488.29
+            9885             20.1           492.54
+           10000             20.1           497.49
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3589472 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.170E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 4
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.1           416.25
+            1776             18.5            96.21
+            1880             18.5           101.77
+            2643             18.6           142.34
+            2781             18.6           149.63
+            3260             18.6           174.85
+            3773             18.7           201.67
+            3877             18.7           207.08
+            4515             18.8           240.15
+            4778             18.8           253.69
+            5007             18.9           265.45
+            5520             18.9           291.64
+            5783             19.0           305.01
+            6512             19.1           341.82
+            6775             19.1           355.00
+            7254             19.1           378.91
+            7517             19.2           391.99
+            7780             19.2           405.00
+            7996             19.2           415.68
+            8384             19.3           434.78
+            8522             19.3           441.52
+            8785             19.3           454.37
+            9152             19.4           471.54
+            9256             19.5           475.57
+            9386             19.5           480.51
+            9503             19.6           485.12
+            9646             19.6           491.99
+            9802             19.6           499.46
+            9880             19.6           503.18
+           10000             19.7           508.80
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3590376 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.168E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 5
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.1           414.21
+            1776             18.5            95.80
+            1880             18.6           101.33
+            2768             18.7           148.30
+            3010             18.7           161.01
+            3773             18.8           200.81
+            3877             18.8           206.20
+            4640             18.9           245.56
+            4778             18.9           252.63
+            5257             19.0           277.09
+            5645             19.0           296.78
+            5783             19.0           303.75
+            6512             19.1           340.43
+            6650             19.1           347.33
+            6788             19.2           354.21
+            7004             19.2           364.98
+            7517             19.3           390.39
+            7655             19.3           397.19
+            7793             19.3           403.98
+            8134             19.3           420.74
+            8647             19.4           445.78
+            8798             19.4           453.12
+            9126             19.5           469.04
+            9256             19.5           473.64
+            9412             19.6           479.13
+            9542             19.7           485.02
+            9698             19.7           492.46
+            9776             19.7           496.17
+            9932             19.7           503.60
+           10000             19.8           506.02
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3595155 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.172E+12
+     -> Difference from previous iteration:       1.02
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 6
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.1           415.89
+            1776             18.5            96.18
+            1880             18.5           101.74
+            2768             18.6           148.85
+            3135             18.6           168.18
+            3773             18.7           201.53
+            3877             18.7           206.94
+            4265             18.8           227.07
+            4778             18.8           253.53
+            4882             18.9           258.87
+            5520             18.9           291.50
+            5783             19.0           304.86
+            6137             19.0           322.77
+            6650             19.1           348.57
+            6788             19.1           355.47
+            6879             19.1           360.03
+            7392             19.2           385.62
+            7655             19.2           398.65
+            7793             19.2           405.48
+            7884             19.2           409.97
+            8522             19.3           441.33
+            8785             19.3           454.20
+            8876             19.4           458.65
+            9027             19.4           465.67
+            9131             19.5           469.02
+            9300             19.6           475.51
+            9391             19.6           479.21
+            9573             19.6           487.94
+            9651             19.6           491.66
+            9820             19.7           499.72
+            9911             19.7           504.06
+           10000             19.7           508.29
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3587087 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.177E+12
+     -> Difference from previous iteration:       1.03
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 7
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.1           417.90
+            1776             18.4            96.46
+            1880             18.4           102.04
+            2518             18.5           136.06
+            2781             18.5           150.00
+            2885             18.6           155.50
+            3773             18.7           202.17
+            3877             18.7           207.60
+            4265             18.7           227.80
+            4778             18.8           254.34
+            4882             18.8           259.70
+            5395             18.9           286.01
+            5783             18.9           305.78
+            6262             19.0           330.07
+            6650             19.0           349.63
+            6788             19.0           356.56
+            6879             19.0           361.13
+            7392             19.1           386.78
+            7655             19.1           399.85
+            7793             19.2           406.68
+            8134             19.2           423.55
+            8647             19.3           448.79
+            8798             19.3           456.20
+            8876             19.3           460.02
+            9040             19.3           467.37
+            9131             19.4           470.46
+            9313             19.5           477.58
+            9391             19.5           480.99
+            9560             19.6           488.76
+            9651             19.6           493.14
+            9820             19.6           501.23
+            9911             19.6           505.58
+           10000             19.6           509.85
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3594231 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.176E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [peeled_images] setting up 1 peeled image groups 
+ [main] starting final iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              5.1           173.78
+            1776             42.4            41.89
+            2255             43.8            51.47
+            2643             45.0            58.72
+            2781             45.5            61.17
+            3010             46.1            65.27
+            3523             47.7            73.93
+            3786             48.4            78.17
+            3976             49.0            81.22
+            4252             49.7            85.57
+            4515             50.5            89.44
+            4653             50.9            91.42
+            4791             51.3            93.39
+            4968             51.8            96.00
+            5007             51.9            96.51
+            5645             53.8           104.86
+            5809             54.3           107.00
+            5986             54.8           109.14
+            6012             54.9           109.50
+            6301             55.8           112.97
+            6689             57.1           117.18
+            6827             57.5           118.68
+            6879             57.6           119.35
+            7030             58.1           120.95
+            7457             59.3           125.65
+            7595             59.8           126.96
+            7733             60.3           128.32
+            7871             60.7           129.71
+            7884             60.7           129.82
+            8061             61.3           131.45
+            8199             61.8           132.76
+            8587             63.0           136.24
+            8850             63.8           138.68
+            8876             63.9           138.97
+            9053             64.4           140.65
+            9157             66.5           137.73
+            9261             67.4           137.31
+            9378             68.8           136.31
+            9560             70.5           135.58
+            9651             70.8           136.29
+            9820             71.8           136.82
+            9924             72.1           137.73
+           10000             72.3           138.29
+      ----------------------------------------------
+
+ [main] exiting final iteration
+ [main] starting raytracing iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.8          1113.79
+            1651              6.6           248.51
+            1789              7.8           229.16
+            1880              9.2           204.56
+            2643             21.1           125.44
+            2781             23.2           119.85
+            2885             24.8           116.44
+            3648             36.3           100.53
+            3786             38.4            98.67
+            3877             39.7            97.55
+            4640             51.3            90.53
+            4778             53.3            89.59
+            4882             54.9            88.92
+            5645             66.4            84.99
+            5783             68.5            84.43
+            6387             77.6            82.31
+            6775             83.5            81.18
+            6879             85.0            80.90
+            7642             96.5            79.15
+            7780             98.6            78.88
+            8009            102.1            78.46
+            8772            113.6            77.22
+            8876            115.2            77.07
+            9079            126.7            71.67
+            9131            129.2            70.69
+            9300            141.9            65.56
+            9391            144.9            64.80
+            9560            147.5            64.83
+            9651            149.0            64.77
+            9820            151.6            64.79
+            9911            153.1            64.72
+           10000            154.5            64.72
+      ----------------------------------------------
+
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.1         13060.74
+            1651              4.9           334.96
+            1789              5.4           330.13
+            1880              7.2           262.37
+            2643             43.9            60.26
+            2781             50.2            55.42
+            3385             61.6            54.98
+            3773             69.0            54.72
+            3877             70.9            54.69
+            4765             87.6            54.42
+            5007             92.1            54.38
+            5770            106.4            54.21
+            6512            120.4            54.07
+            6775            125.5            53.99
+            7129            132.2            53.91
+            7767            144.6            53.73
+            8384            156.1            53.71
+            8772            163.5            53.65
+            9126            170.1            53.65
+            9256            183.0            50.59
+            9399            198.3            47.39
+            9542            203.2            46.97
+            9698            206.1            47.05
+            9776            207.6            47.09
+            9932            210.5            47.18
+           10000            212.0            47.18
+      ----------------------------------------------
+
+ [main] exiting raytracing iteration
+ [image_write] writing out SEDs
+ [image_write] done
+ ------------------------------------------------------------
+ Total CPU time elapsed:           602.05
+ Ended on 19 February 2024 at 12:13:40
+ ------------------------------------------------------------
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/bin/hyperion:69: DeprecationWarning: The SafeConfigParser class has been renamed to ConfigParser in Python 3.2. This alias will be removed in future versions. Use ConfigParser directly instead.
+  config = SafeConfigParser()
+ ------------------------------------------------------------
+ Hyperion v1.0.0
+ Started on 19 February 2024 at 12:13:46
+ Input:  /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/example.0000.rtin.image
+ Output: /storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/example.0000.rtout.image
+ ------------------------------------------------------------
+ [main] using random seed = -6390
+ [dust] reading dust_001
+ [setup_grid_geometry] Reading AMR cartesian grid
+ [grid_physics] reading density grid
+ [grid_physics] applying mask to density grid
+ [grid_physics] reading minimum_specific_energy
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [sources] setting up sources
+ [main] starting Lucy iteration 1
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.0        985571.59
+            1880              0.0        122571.39
+            2768              0.1         21538.51
+            2997              0.2         19070.59
+            3635              0.2         15353.23
+            3773              0.3         14839.90
+            3989              0.3         14215.92
+            4502              0.3         13100.73
+            4765              0.4         12689.07
+            4981              0.4         12418.94
+            5632              0.5         11704.02
+            5770              0.5         11585.32
+            5986              0.5         11411.34
+            6124              0.5         11303.75
+            6637              0.6         10931.42
+            6775              0.6         10857.91
+            6991              0.7         10735.35
+            7129              0.7         10654.99
+            7642              0.7         10402.22
+            7780              0.8         10337.08
+            7983              0.8         10272.37
+            8384              0.8         10139.43
+            8647              0.9         10060.08
+            8785              0.9         10018.61
+            8988              0.9          9965.26
+            9126              0.9          9934.25
+            9256              1.0          9221.09
+            9425              1.1          8505.03
+            9503              1.1          8401.56
+            9659              1.2          8398.68
+            9802              1.2          8399.50
+            9880              1.2          8393.83
+           10000              1.2          8265.36
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3596037 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 2
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              1.2           740.06
+            1776             11.0           161.48
+            1880             11.0           170.73
+            2768             11.1           248.83
+            2885             11.1           259.02
+            3773             11.2           335.40
+            4002             11.3           354.85
+            4640             11.4           408.51
+            4778             11.4           420.03
+            5132             11.4           449.42
+            5770             11.5           501.75
+            6249             11.6           540.52
+            6637             11.6           571.61
+            6775             11.6           582.58
+            7379             11.7           630.45
+            7642             11.7           651.11
+            7793             11.8           662.87
+            7996             11.8           678.72
+            8634             11.9           728.03
+            8785             11.9           739.59
+            8876             11.9           746.58
+            9079             12.0           757.62
+            9131             12.0           760.68
+            9339             12.1           771.04
+            9417             12.1           776.88
+            9508             12.1           782.76
+            9677             12.2           795.33
+            9768             12.2           802.05
+            9950             12.2           815.45
+           10000             12.2           818.91
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3586312 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.173E+12
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 3
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.2           412.91
+            1776             18.6            95.53
+            1880             18.6           101.05
+            2768             18.7           147.87
+            3010             18.7           160.54
+            3773             18.8           200.20
+            3877             18.9           205.58
+            4640             19.0           244.81
+            4778             19.0           251.86
+            5132             19.0           269.91
+            5770             19.1           302.21
+            6124             19.1           320.02
+            6512             19.2           339.45
+            6775             19.2           352.55
+            7129             19.3           370.12
+            7642             19.3           395.44
+            7780             19.3           402.23
+            7996             19.4           412.82
+            8384             19.4           431.75
+            8772             19.5           450.60
+            9126             19.5           467.76
+            9256             19.6           472.33
+            9412             19.7           478.15
+            9568             19.7           484.92
+            9646             19.7           488.64
+            9802             19.8           496.05
+            9880             19.8           499.75
+           10000             19.8           504.61
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3589805 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.169E+12
+     -> Difference from previous iteration:       1.02
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 4
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.1           416.04
+            1776             18.5            96.17
+            1880             18.5           101.73
+            2518             18.6           135.66
+            2781             18.6           149.55
+            3510             18.7           187.83
+            3773             18.7           201.56
+            3877             18.7           206.97
+            4515             18.8           240.03
+            4778             18.8           253.57
+            5257             18.9           278.13
+            5520             18.9           291.54
+            5783             19.0           304.91
+            6512             19.1           341.71
+            6775             19.1           354.89
+            7379             19.2           385.03
+            7517             19.2           391.89
+            7780             19.2           404.91
+            8121             19.3           421.74
+            8384             19.3           434.67
+            8647             19.3           447.54
+            8785             19.3           454.26
+            8988             19.4           464.17
+            9152             19.4           471.44
+            9256             19.5           475.47
+            9438             19.6           482.16
+            9516             19.6           485.54
+            9672             19.6           493.01
+            9750             19.6           496.75
+            9880             19.6           502.96
+           10000             19.7           507.87
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3589720 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.167E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 5
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.2           412.96
+            1776             18.6            95.51
+            1880             18.6           101.02
+            2768             18.7           147.84
+            3385             18.8           180.04
+            3773             18.9           200.14
+            3877             18.9           205.52
+            4640             19.0           244.74
+            4778             19.0           251.80
+            5132             19.0           269.83
+            5770             19.1           302.12
+            5999             19.1           313.65
+            6637             19.2           345.60
+            6775             19.2           352.47
+            7129             19.3           370.05
+            7642             19.3           395.35
+            7793             19.3           402.77
+            7996             19.4           412.73
+            8509             19.4           437.78
+            8647             19.5           444.49
+            8785             19.5           451.18
+            9139             19.5           468.01
+            9256             19.6           472.29
+            9438             19.7           479.03
+            9503             19.7           482.12
+            9659             19.7           489.22
+            9815             19.8           496.64
+            9893             19.8           500.33
+           10000             19.8           504.93
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3596517 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.173E+12
+     -> Difference from previous iteration:       1.03
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 6
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.1           417.62
+            1776             18.4            96.44
+            1880             18.4           102.01
+            2768             18.5           149.27
+            3260             18.6           175.22
+            3773             18.7           202.08
+            3877             18.7           207.51
+            4515             18.8           240.64
+            4778             18.8           254.21
+            5007             18.8           266.00
+            5645             18.9           298.62
+            5783             18.9           305.63
+            6387             19.0           336.22
+            6650             19.0           349.46
+            6788             19.0           356.38
+            7004             19.1           367.23
+            7642             19.2           399.03
+            7793             19.2           406.51
+            8134             19.2           423.36
+            8647             19.3           448.60
+            8798             19.3           455.98
+            9001             19.3           465.91
+            9131             19.4           470.21
+            9326             19.5           477.61
+            9404             19.5           481.37
+            9586             19.6           489.78
+            9677             19.6           494.14
+            9755             19.6           497.88
+            9937             19.6           506.58
+           10000             19.6           509.14
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3587223 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.178E+12
+     -> Difference from previous iteration:       1.03
+
+ [output_grid] outputting grid arrays for iteration
+ [main] starting Lucy iteration 7
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              2.1           414.54
+            1776             18.5            95.86
+            1880             18.5           101.40
+            2768             18.7           148.37
+            3135             18.7           167.64
+            3773             18.8           200.91
+            3877             18.8           206.31
+            4640             18.9           245.68
+            4778             18.9           252.76
+            5007             18.9           264.48
+            5645             19.0           296.94
+            5783             19.0           303.92
+            6512             19.1           340.64
+            6650             19.1           347.55
+            6788             19.2           354.45
+            6879             19.2           359.00
+            7517             19.2           390.71
+            7780             19.3           403.70
+            8384             19.3           433.33
+            8647             19.4           446.15
+            8785             19.4           452.87
+            8876             19.4           457.30
+            9079             19.5           465.51
+            9131             19.5           467.69
+            9261             19.6           472.61
+            9430             19.6           480.03
+            9521             19.7           484.05
+            9703             19.7           492.74
+            9794             19.7           497.08
+            9885             19.7           501.41
+           10000             19.7           506.82
+      ----------------------------------------------
+
+ [grid_physics] updating energy_abs
+ [update_energy_abs] 3593705 cells have no energy
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ WARNING: specific_energy below minimum allowed in some cells - resetting [update_energy_abs]
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] updating energy_abs_tot
+ [grid_physics] checking energy_abs
+ [grid_physics] updating energy_abs_tot
+ [main] exiting Lucy iteration
+ [specific_energy_converged] checking convergence
+
+     -> Percentile:   99.00
+     -> Value @ Percentile:  0.175E+12
+     -> Difference from previous iteration:       1.01
+
+ [output_grid] outputting grid arrays for iteration
+ [peeled_images] setting up 1 peeled image groups 
+ [main] starting final iteration
+ [grid_physics] pre-computing jnu_var
+ [mono] computing source photons for nu = 1.2642E+16 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              6.7           133.10
+            1776             54.9            32.34
+            1880             55.6            33.83
+            2768             61.2            45.21
+            2885             62.0            46.56
+            3773             67.6            55.81
+            3877             68.3            56.80
+            4765             73.9            64.50
+            5007             75.4            66.40
+            5770             80.2            71.90
+            6262             83.3            75.13
+            6775             86.6            78.24
+            6879             87.3            78.84
+            7767             92.9            83.61
+            8259             96.0            86.02
+            8772             99.3            88.37
+            8876             99.9            88.83
+            9092            105.6            86.13
+            9131            105.8            86.30
+            9326            112.0            83.26
+            9417            112.6            83.63
+            9508            113.2            84.01
+            9690            114.3            84.75
+            9781            114.9            85.12
+            9963            116.1            85.84
+           10000            116.5            85.86
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.2025E+16 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1651              2.0           820.84
+            1789              2.4           747.69
+            1880              3.0           633.11
+            2643              7.8           338.67
+            2781              8.7           320.59
+            2885              9.3           309.11
+            3648             14.2           257.41
+            3786             15.0           251.61
+            3877             15.6           248.23
+            4640             20.5           226.79
+            4778             21.3           224.02
+            4882             22.0           222.02
+            5645             26.8           210.48
+            5783             27.7           208.87
+            6387             31.5           202.68
+            6775             34.0           199.38
+            6879             34.6           198.59
+            7642             39.5           193.63
+            7780             40.3           192.86
+            8134             42.6           191.10
+            8772             46.6           188.18
+            8876             47.3           187.72
+            9079             52.1           174.25
+            9131             53.1           171.86
+            9339             59.4           157.12
+            9430             60.0           157.13
+            9521             60.6           157.15
+            9690             61.7           157.05
+            9781             62.3           157.04
+            9950             63.3           157.07
+           10000             63.9           156.41
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.0556E+16 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1651              0.7          2338.66
+            1789              0.9          1979.37
+            1880              1.5          1269.01
+            2643              6.3           416.92
+            2781              7.2           385.84
+            3010              8.6           348.32
+            3648             12.7           287.18
+            3786             13.6           278.88
+            3877             14.2           273.93
+            4515             18.2           248.51
+            4778             19.9           240.67
+            5007             21.3           235.17
+            5770             26.1           220.82
+            6262             29.3           214.08
+            6775             32.5           208.37
+            7004             34.0           206.21
+            7767             38.8           200.14
+            8134             41.1           197.83
+            8772             45.2           194.18
+            9001             46.6           193.07
+            9131             51.7           176.57
+            9326             57.9           161.01
+            9417             58.5           161.00
+            9508             59.1           160.97
+            9690             60.2           160.89
+            9781             60.8           160.86
+            9963             62.0           160.81
+           10000             62.4           160.34
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 9.1872E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1920.62
+            1880              1.6          1188.54
+            2768              7.2           384.19
+            2885              7.9           362.95
+            3773             13.6           277.83
+            3877             14.2           272.25
+            4765             19.9           239.97
+            4882             20.6           237.05
+            5770             26.3           219.79
+            6387             30.2           211.69
+            6775             32.6           207.53
+            6879             33.3           206.52
+            7642             38.1           200.40
+            7780             39.0           199.42
+            8134             41.3           197.18
+            8772             45.3           193.56
+            8876             46.0           193.03
+            9079             50.8           178.72
+            9131             51.8           176.12
+            9326             58.1           160.58
+            9417             58.7           160.54
+            9508             59.2           160.54
+            9690             60.4           160.47
+            9768             60.9           160.45
+            9950             62.0           160.39
+           10000             62.5           159.92
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 8.9645E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2073.64
+            1880              1.5          1228.86
+            2768              7.2           386.62
+            3135              9.5           331.09
+            3773             13.5           279.16
+            3877             14.2           273.52
+            4765             19.8           240.71
+            4882             20.5           237.80
+            5770             26.1           220.72
+            6262             29.2           214.10
+            6775             32.5           208.31
+            7129             34.8           205.14
+            7767             38.8           200.19
+            8134             41.1           197.79
+            8772             45.2           194.12
+            8876             45.9           193.58
+            9092             51.5           176.55
+            9131             51.7           176.47
+            9326             57.9           160.95
+            9417             58.5           160.93
+            9508             59.1           160.89
+            9690             60.2           160.86
+            9781             60.8           160.82
+            9963             62.0           160.76
+           10000             63.1           158.49
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 8.6931E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1730.03
+            1880              1.7          1114.18
+            2768              7.3           378.28
+            3010              8.8           340.42
+            3773             13.7           276.11
+            3877             14.3           270.67
+            4765             19.9           239.03
+            5007             21.5           233.23
+            5770             26.3           219.25
+            6512             31.0           209.99
+            6775             32.7           207.13
+            6879             33.4           206.14
+            7767             39.0           199.11
+            8384             42.9           195.39
+            8772             45.4           193.29
+            8876             46.0           192.79
+            9079             50.9           178.53
+            9131             51.9           175.95
+            9261             55.6           166.71
+            9417             58.7           160.48
+            9508             59.3           160.45
+            9690             60.4           160.40
+            9781             61.0           160.36
+            9963             62.1           160.32
+           10000             62.6           159.85
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 8.3433E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1887.53
+            1880              1.6          1175.74
+            2768              7.2           382.86
+            2885              8.0           362.34
+            3773             13.6           277.54
+            3877             14.3           272.00
+            4515             18.3           246.78
+            4778             20.0           239.26
+            4882             20.6           236.64
+            5770             26.3           219.75
+            6262             29.4           213.19
+            6775             32.6           207.58
+            6879             33.3           206.59
+            7767             38.9           199.57
+            8259             42.0           196.57
+            8772             45.3           193.81
+            8876             45.9           193.30
+            9066             50.0           181.46
+            9131             51.8           176.29
+            9313             57.9           160.82
+            9404             58.5           160.79
+            9586             59.6           160.74
+            9677             60.2           160.71
+            9768             60.8           160.68
+            9950             61.9           160.64
+           10000             62.4           160.18
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 8.2706E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2203.38
+            1880              1.5          1277.99
+            2768              7.1           388.05
+            2885              7.9           366.60
+            3773             13.5           279.31
+            3877             14.2           273.83
+            4390             17.4           252.24
+            4778             19.9           240.43
+            4882             20.5           237.76
+            5770             26.2           220.42
+            6012             27.7           216.97
+            6775             32.5           208.14
+            6879             33.2           207.16
+            7642             38.0           200.92
+            7780             38.9           199.93
+            7884             39.6           199.21
+            8772             45.2           194.08
+            8876             45.9           193.58
+            9040             48.3           187.13
+            9131             51.7           176.50
+            9300             57.1           162.93
+            9391             58.4           160.87
+            9573             59.5           160.81
+            9664             60.1           160.77
+            9755             60.7           160.74
+            9937             61.8           160.69
+           10000             62.4           160.22
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 8.2430E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.7          2655.99
+            1880              1.3          1411.45
+            2768              7.0           396.35
+            3135              9.3           337.14
+            3773             13.3           282.66
+            3877             14.0           276.63
+            4765             19.6           242.79
+            5132             22.0           233.73
+            5770             26.0           221.83
+            6637             31.5           210.63
+            6775             32.4           209.15
+            7004             33.8           206.93
+            7767             38.7           200.86
+            8634             44.2           195.53
+            8772             45.0           194.76
+            9001             46.5           193.62
+            9131             51.6           177.10
+            9261             55.2           167.76
+            9443             58.5           161.42
+            9534             59.1           161.38
+            9625             59.7           161.34
+            9807             60.8           161.26
+            9898             61.4           161.23
+           10000             62.2           160.74
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 7.8004E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.2          1465.42
+            1880              1.9          1002.31
+            2768              7.5           367.95
+            3010              9.0           332.79
+            3773             13.9           271.68
+            3877             14.6           266.32
+            4765             20.2           236.24
+            5007             21.7           230.88
+            5770             26.5           217.46
+            6762             32.8           206.00
+            6879             33.6           204.94
+            7767             39.2           198.18
+            8134             41.5           196.01
+            8772             45.5           192.67
+            9001             47.0           191.68
+            9131             52.0           175.48
+            9326             58.2           160.20
+            9417             58.8           160.18
+            9508             59.4           160.16
+            9690             60.5           160.08
+            9781             61.1           160.04
+            9963             62.3           159.99
+           10000             63.4           157.77
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 7.6109E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1832.70
+            1880              1.6          1156.90
+            2768              7.3           380.38
+            2885              8.0           359.66
+            3773             13.7           276.40
+            3877             14.3           270.86
+            4640             19.2           242.10
+            4778             20.0           238.35
+            4882             20.7           235.67
+            5770             26.3           218.98
+            6512             31.1           209.67
+            6775             32.7           206.93
+            6879             33.4           205.92
+            7767             39.0           198.98
+            8509             43.7           194.57
+            8772             45.4           193.19
+            8876             46.1           192.67
+            9079             50.9           178.27
+            9131             52.0           175.66
+            9326             58.2           160.28
+            9417             58.8           160.25
+            9508             59.3           160.22
+            9690             60.5           160.19
+            9781             61.1           160.16
+            9963             62.2           160.12
+           10000             62.6           159.66
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 7.4724E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1936.38
+            1880              1.6          1189.19
+            2768              7.2           383.49
+            2885              8.0           362.48
+            3773             13.6           277.27
+            3877             14.3           271.76
+            4640             19.1           242.94
+            4778             20.0           239.16
+            4882             20.6           236.54
+            5770             26.3           219.76
+            6262             29.4           213.25
+            6775             32.6           207.70
+            6879             33.3           206.68
+            7642             38.1           200.51
+            7780             39.0           199.52
+            8009             40.4           198.05
+            8772             45.3           193.68
+            9001             46.7           192.55
+            9131             51.8           176.16
+            9261             55.5           166.91
+            9443             58.8           160.65
+            9534             59.4           160.62
+            9625             59.9           160.59
+            9807             61.1           160.53
+            9898             61.7           160.49
+           10000             63.2           158.22
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 7.1362E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1572.44
+            1880              1.8          1045.22
+            2768              7.4           372.69
+            3385             11.3           299.07
+            3773             13.8           273.46
+            3877             14.5           268.24
+            4765             20.1           237.42
+            4882             20.8           234.60
+            5770             26.4           218.30
+            6387             30.3           210.66
+            6775             32.8           206.69
+            6879             33.4           205.73
+            7767             39.0           198.93
+            8384             43.0           195.19
+            8772             45.4           193.21
+            8876             46.1           192.68
+            9092             51.7           175.89
+            9131             51.9           175.81
+            9339             58.2           160.35
+            9430             58.8           160.30
+            9521             59.4           160.27
+            9703             60.6           160.23
+            9794             61.1           160.22
+            9885             61.7           160.20
+           10000             62.6           159.71
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 6.7667E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1822.26
+            1880              1.6          1151.25
+            2768              7.3           380.71
+            2885              8.0           359.90
+            3773             13.6           277.31
+            3877             14.3           271.90
+            4765             19.9           239.77
+            4882             20.6           236.80
+            5770             26.2           220.04
+            6387             30.1           212.09
+            6775             32.6           207.99
+            6879             33.2           206.99
+            7767             38.8           199.93
+            8009             40.4           198.39
+            8772             45.2           194.00
+            8876             45.9           193.49
+            9040             48.3           187.07
+            9131             51.7           176.46
+            9313             57.9           160.97
+            9404             58.4           160.94
+            9586             59.6           160.89
+            9677             60.2           160.83
+            9768             60.7           160.79
+            9950             61.9           160.72
+           10000             62.4           160.25
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 6.7555E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2276.59
+            1880              1.4          1301.63
+            2768              7.1           390.69
+            3010              8.6           349.22
+            3773             13.5           280.13
+            3877             14.1           274.43
+            4765             19.7           241.41
+            4882             20.5           238.42
+            5770             26.1           221.20
+            6512             30.8           211.62
+            6775             32.4           208.83
+            6879             33.1           207.77
+            7767             38.7           200.49
+            8509             43.4           195.93
+            8772             45.1           194.51
+            8876             45.8           193.98
+            9092             51.4           176.96
+            9131             51.6           176.88
+            9326             57.8           161.27
+            9417             58.4           161.24
+            9508             59.0           161.21
+            9690             60.1           161.14
+            9781             60.7           161.10
+            9963             61.9           161.03
+           10000             62.3           160.56
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 6.4580E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1744.23
+            1880              1.7          1122.05
+            2768              7.3           379.37
+            2885              8.0           359.22
+            3773             13.7           276.28
+            3877             14.3           270.80
+            4640             19.2           242.23
+            4778             20.0           238.48
+            5007             21.5           233.08
+            5770             26.3           219.29
+            6637             31.8           208.69
+            6775             32.7           207.33
+            7004             34.1           205.28
+            7767             39.0           199.37
+            8384             42.9           195.58
+            8772             45.3           193.45
+            9001             46.8           192.34
+            9131             51.9           175.98
+            9326             58.1           160.54
+            9417             58.7           160.49
+            9508             59.3           160.47
+            9690             60.4           160.40
+            9781             61.0           160.37
+            9963             62.1           160.31
+           10000             63.3           158.08
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 6.3426E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1794.63
+            1880              1.6          1141.18
+            2768              7.3           379.65
+            2885              8.0           358.69
+            3773             13.7           275.34
+            3877             14.4           269.77
+            4765             20.0           238.58
+            5007             21.5           232.90
+            5770             26.3           218.99
+            6637             31.9           208.36
+            6775             32.7           206.95
+            7004             34.2           204.89
+            7767             39.0           198.97
+            8259             42.1           195.96
+            8772             45.4           193.18
+            9001             46.9           192.10
+            9131             52.0           175.75
+            9326             58.2           160.33
+            9417             58.7           160.30
+            9508             59.3           160.29
+            9690             60.5           160.22
+            9781             61.1           160.20
+            9963             62.2           160.15
+           10000             62.6           159.69
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 6.2944E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1803.14
+            1880              1.6          1141.67
+            2768              7.3           379.41
+            3010              8.8           340.97
+            3773             13.7           275.41
+            3877             14.4           270.09
+            4765             20.0           238.41
+            4882             20.7           235.45
+            5770             26.4           218.86
+            6387             30.3           211.13
+            6775             32.7           207.17
+            6879             33.4           206.21
+            7767             39.0           199.21
+            8009             40.5           197.67
+            8772             45.4           193.41
+            8876             46.0           192.88
+            9066             50.1           181.12
+            9131             51.9           175.99
+            9326             58.1           160.51
+            9417             58.7           160.45
+            9508             59.3           160.44
+            9690             60.4           160.37
+            9781             61.0           160.35
+            9963             62.2           160.30
+           10000             62.6           159.85
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 6.1309E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2157.17
+            1880              1.5          1262.18
+            2768              7.1           388.21
+            2885              7.9           366.33
+            3773             13.5           278.82
+            3877             14.2           273.12
+            4765             19.8           240.42
+            4882             20.6           237.43
+            5770             26.2           220.11
+            6262             29.3           213.53
+            6775             32.6           207.90
+            6879             33.3           206.86
+            7767             38.9           199.71
+            8134             41.2           197.32
+            8772             45.3           193.72
+            8876             45.9           193.21
+            9092             51.6           176.21
+            9131             51.8           176.11
+            9326             58.1           160.60
+            9417             58.6           160.57
+            9508             59.2           160.57
+            9690             60.4           160.50
+            9781             61.0           160.47
+            9963             62.1           160.43
+           10000             62.5           159.94
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.9105E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1975.55
+            1880              1.6          1203.88
+            2768              7.2           384.18
+            3010              8.7           344.27
+            3773             13.6           277.74
+            3877             14.2           272.21
+            4765             19.9           239.79
+            4882             20.6           236.80
+            5770             26.3           219.78
+            6637             31.8           208.87
+            6775             32.6           207.51
+            6879             33.3           206.51
+            7767             39.0           199.40
+            8509             43.6           194.99
+            8772             45.3           193.61
+            8876             46.0           193.08
+            9092             51.6           176.14
+            9131             51.9           176.05
+            9339             58.2           160.54
+            9430             58.7           160.51
+            9521             59.3           160.47
+            9703             60.5           160.41
+            9794             61.1           160.37
+            9885             61.7           160.33
+           10000             62.6           159.84
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.8477E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1649.33
+            1880              1.7          1083.17
+            2768              7.4           374.58
+            2885              8.1           354.60
+            3773             13.8           273.75
+            3877             14.4           268.38
+            4765             20.1           237.41
+            4882             20.8           234.60
+            5770             26.5           218.02
+            6387             30.4           210.26
+            6775             32.9           206.21
+            6879             33.5           205.24
+            7767             39.1           198.42
+            8259             42.3           195.42
+            8772             45.5           192.65
+            8876             46.2           192.11
+            9092             51.8           175.37
+            9131             52.1           175.30
+            9313             58.2           159.99
+            9404             58.8           159.96
+            9586             59.9           159.91
+            9677             60.5           159.89
+            9768             61.1           159.86
+            9950             62.3           159.81
+           10000             63.4           157.60
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.7645E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1901.63
+            1880              1.6          1178.70
+            2768              7.3           381.66
+            3010              8.8           343.14
+            3773             13.6           276.71
+            3877             14.3           271.31
+            4515             18.3           246.32
+            4778             20.0           238.74
+            5007             21.5           233.24
+            5770             26.3           219.29
+            6387             30.2           211.40
+            6775             32.7           207.25
+            6879             33.4           206.25
+            7642             38.2           200.09
+            7780             39.1           199.10
+            8259             42.1           196.12
+            8772             45.4           193.35
+            8876             46.0           192.82
+            9053             49.3           183.72
+            9131             51.9           175.92
+            9326             58.1           160.45
+            9417             58.7           160.44
+            9508             59.3           160.39
+            9690             60.4           160.34
+            9781             61.0           160.31
+            9963             62.2           160.27
+           10000             62.6           159.81
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.7134E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2037.19
+            1880              1.5          1223.09
+            2768              7.2           385.72
+            3010              8.7           346.09
+            3773             13.5           278.61
+            3877             14.2           272.98
+            4765             19.8           240.16
+            5007             21.4           234.45
+            5770             26.2           220.36
+            6137             28.5           215.30
+            6775             32.6           207.94
+            6879             33.2           206.90
+            7767             38.9           199.85
+            8009             40.4           198.24
+            8772             45.2           193.90
+            8876             45.9           193.38
+            9053             49.2           184.18
+            9131             51.8           176.31
+            9313             57.9           160.77
+            9404             58.5           160.76
+            9586             59.7           160.69
+            9677             60.2           160.66
+            9768             60.8           160.64
+            9950             62.0           160.56
+           10000             62.5           160.07
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.4565E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2259.36
+            1880              1.4          1297.44
+            2768              7.1           388.80
+            2885              7.9           367.13
+            3773             13.5           279.93
+            3877             14.1           274.23
+            4640             19.0           244.63
+            4778             19.8           240.72
+            4882             20.5           238.05
+            5770             26.1           220.69
+            6262             29.3           214.02
+            6775             32.5           208.33
+            6879             33.2           207.35
+            7642             38.0           201.01
+            7780             38.9           200.08
+            7884             39.5           199.39
+            8772             45.2           194.14
+            8876             45.9           193.59
+            9066             49.9           181.68
+            9131             51.7           176.46
+            9300             57.1           162.96
+            9391             58.4           160.91
+            9573             59.5           160.86
+            9664             60.1           160.84
+            9755             60.7           160.80
+            9937             61.8           160.74
+           10000             62.4           160.27
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.3397E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.7          2430.89
+            1880              1.4          1349.66
+            2768              7.0           393.28
+            2885              7.8           370.83
+            3773             13.4           280.86
+            3877             14.1           275.05
+            4765             19.7           241.69
+            4882             20.5           238.60
+            5770             26.1           221.15
+            6387             30.0           212.93
+            6775             32.5           208.70
+            6879             33.1           207.65
+            7767             38.8           200.40
+            8009             40.3           198.83
+            8772             45.1           194.33
+            8876             45.8           193.80
+            9066             49.9           181.86
+            9131             51.7           176.63
+            9313             57.8           161.11
+            9404             58.4           161.07
+            9586             59.5           161.02
+            9677             60.1           161.00
+            9768             60.7           160.96
+            9950             61.8           160.89
+           10000             62.3           160.40
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.2751E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2103.73
+            1880              1.5          1252.24
+            2768              7.1           387.68
+            2885              7.9           366.01
+            3773             13.5           279.05
+            3877             14.2           273.24
+            4765             19.8           240.72
+            4882             20.5           237.74
+            5770             26.2           220.61
+            6262             29.3           214.02
+            6775             32.5           208.32
+            6879             33.2           207.30
+            7767             38.8           200.23
+            8134             41.1           197.88
+            8772             45.2           194.22
+            8876             45.8           193.69
+            9040             48.3           187.27
+            9131             51.7           176.69
+            9313             57.8           161.07
+            9404             58.4           161.04
+            9586             59.6           160.95
+            9677             60.1           160.94
+            9768             60.7           160.90
+            9950             61.9           160.81
+           10000             62.4           160.33
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.0903E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2315.74
+            1880              1.4          1313.95
+            2768              7.1           392.11
+            2885              7.8           370.11
+            3773             13.4           280.80
+            3877             14.1           275.02
+            4765             19.7           241.45
+            4882             20.5           238.47
+            5770             26.1           220.81
+            6012             27.7           217.31
+            6775             32.5           208.33
+            6879             33.2           207.29
+            7642             38.0           201.01
+            7780             38.9           199.98
+            8134             41.1           197.68
+            8772             45.2           194.04
+            8876             45.9           193.56
+            9053             49.1           184.37
+            9131             51.7           176.52
+            9313             57.8           160.99
+            9404             58.4           160.93
+            9586             59.6           160.87
+            9677             60.2           160.83
+            9768             60.7           160.82
+            9950             61.9           160.77
+           10000             62.4           160.29
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 5.0861E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2322.72
+            1880              1.4          1314.64
+            2768              7.1           391.68
+            3010              8.6           349.85
+            3773             13.5           280.41
+            3877             14.1           274.58
+            4765             19.7           241.39
+            5132             22.1           232.61
+            5770             26.1           220.80
+            6637             31.6           209.78
+            6775             32.5           208.38
+            7004             34.0           206.19
+            7767             38.8           200.15
+            8634             44.3           194.89
+            8772             45.2           194.11
+            9001             46.6           192.97
+            9131             51.7           176.54
+            9261             55.4           167.21
+            9443             58.7           160.90
+            9534             59.3           160.86
+            9625             59.8           160.83
+            9807             61.0           160.75
+            9898             61.6           160.71
+           10000             63.1           158.43
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 4.9173E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1556.46
+            1880              1.8          1040.05
+            2768              7.5           371.45
+            3760             13.7           273.46
+            3877             14.5           267.52
+            4765             20.1           236.71
+            5257             23.2           226.18
+            5770             26.5           217.79
+            6762             32.8           206.11
+            6879             33.6           205.01
+            7767             39.2           198.22
+            8509             43.9           193.88
+            8772             45.6           192.44
+            8876             46.2           191.96
+            9092             51.9           175.33
+            9131             52.1           175.25
+            9261             55.8           166.10
+            9443             59.1           159.89
+            9534             59.6           159.88
+            9625             60.2           159.84
+            9807             61.4           159.80
+            9898             62.0           159.77
+           10000             62.8           159.30
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 4.8595E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1740.37
+            1880              1.7          1114.74
+            2768              7.3           377.18
+            3260             10.5           311.94
+            3773             13.7           275.10
+            3877             14.4           269.65
+            4765             20.0           238.01
+            5132             22.3           229.79
+            5770             26.4           218.74
+            6512             31.1           209.64
+            6775             32.8           206.87
+            6879             33.4           205.88
+            7642             38.2           199.85
+            7780             39.1           198.87
+            8509             43.7           194.54
+            8772             45.4           193.16
+            8876             46.1           192.69
+            9066             50.1           180.92
+            9131             52.0           175.75
+            9326             57.5           162.31
+            9417             58.7           160.31
+            9508             59.3           160.29
+            9690             60.5           160.24
+            9781             61.0           160.23
+            9963             62.2           160.20
+           10000             62.6           159.73
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 4.6907E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2053.83
+            1880              1.5          1230.21
+            2768              7.2           386.33
+            2885              7.9           364.85
+            3773             13.6           278.23
+            3877             14.2           272.66
+            4640             19.0           243.65
+            4778             19.9           239.78
+            4882             20.6           237.07
+            5770             26.2           219.95
+            6512             30.9           210.57
+            6775             32.6           207.78
+            6879             33.3           206.80
+            7642             38.1           200.70
+            7780             39.0           199.71
+            8384             42.8           196.04
+            8772             45.2           193.94
+            8876             45.9           193.42
+            9079             50.7           178.99
+            9131             51.8           176.37
+            9339             58.1           160.82
+            9430             58.6           160.81
+            9521             59.2           160.77
+            9703             60.4           160.70
+            9794             61.0           160.66
+            9885             61.5           160.64
+           10000             62.5           160.12
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 4.6678E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1765.65
+            1880              1.7          1130.46
+            2768              7.3           379.51
+            3135              9.6           326.21
+            3773             13.7           275.99
+            3877             14.3           270.62
+            4640             19.2           242.25
+            4778             20.1           238.30
+            4882             20.7           235.73
+            5770             26.3           219.27
+            6637             31.8           208.74
+            6775             32.7           207.29
+            6879             33.3           206.34
+            7642             38.2           200.24
+            7780             39.0           199.28
+            8259             42.1           196.29
+            8772             45.3           193.49
+            8876             46.0           192.99
+            9079             50.8           178.69
+            9131             51.8           176.11
+            9313             57.3           162.57
+            9404             58.6           160.53
+            9586             59.7           160.47
+            9677             60.3           160.44
+            9768             60.9           160.40
+            9950             62.0           160.36
+           10000             62.6           159.86
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 4.4334E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2090.52
+            1880              1.5          1245.37
+            2768              7.2           386.76
+            2885              7.9           365.32
+            3773             13.5           278.78
+            3877             14.2           273.17
+            4640             19.0           243.81
+            4778             19.9           239.98
+            4882             20.6           237.27
+            5770             26.2           220.09
+            6137             28.5           215.12
+            6775             32.6           207.85
+            6879             33.3           206.86
+            7642             38.1           200.62
+            7780             39.0           199.60
+            7884             39.6           198.90
+            8772             45.3           193.73
+            8876             45.9           193.17
+            9066             50.0           181.33
+            9131             51.8           176.14
+            9313             58.0           160.62
+            9404             58.6           160.57
+            9586             59.7           160.50
+            9677             60.3           160.47
+            9768             60.9           160.43
+            9950             62.0           160.37
+           10000             62.5           159.91
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 4.0229E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2160.80
+            1880              1.5          1265.38
+            2768              7.1           388.35
+            3135              9.5           331.65
+            3773             13.5           279.35
+            3877             14.2           273.67
+            4765             19.8           240.70
+            4882             20.5           237.79
+            5770             26.1           220.75
+            6512             30.9           211.06
+            6775             32.5           208.28
+            6879             33.2           207.25
+            7767             38.8           200.11
+            8259             41.9           196.96
+            8772             45.2           194.13
+            8876             45.8           193.61
+            9092             51.5           176.68
+            9131             51.7           176.58
+            9326             57.9           161.00
+            9417             58.5           160.96
+            9508             59.1           160.92
+            9677             60.2           160.85
+            9768             60.7           160.80
+            9950             61.9           160.73
+           10000             62.4           160.28
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 4.0122E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1947.16
+            1880              1.6          1196.75
+            2768              7.2           384.65
+            2885              7.9           363.53
+            3773             13.6           278.13
+            3877             14.2           272.65
+            4640             19.1           243.50
+            4778             19.9           239.69
+            4882             20.6           236.98
+            5770             26.2           220.15
+            6262             29.3           213.58
+            6775             32.6           207.90
+            6879             33.2           206.90
+            7642             38.1           200.73
+            7780             39.0           199.71
+            8134             41.2           197.44
+            8772             45.2           193.90
+            8876             45.9           193.39
+            9053             49.1           184.28
+            9131             51.8           176.38
+            9326             58.0           160.88
+            9417             58.5           160.84
+            9508             59.1           160.79
+            9690             60.3           160.72
+            9781             60.9           160.70
+            9963             62.0           160.62
+           10000             62.4           160.14
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.8976E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1968.65
+            1880              1.6          1201.30
+            2768              7.2           385.17
+            2885              7.9           363.77
+            3773             13.6           278.32
+            3877             14.2           272.70
+            4765             19.9           240.04
+            4882             20.6           237.11
+            5770             26.2           220.22
+            6637             31.7           209.33
+            6775             32.6           207.93
+            6879             33.2           206.93
+            7767             38.9           199.75
+            8259             42.0           196.70
+            8772             45.2           193.88
+            8876             45.9           193.34
+            9092             51.5           176.44
+            9131             51.8           176.36
+            9313             57.9           160.89
+            9404             58.5           160.85
+            9586             59.6           160.80
+            9677             60.2           160.77
+            9768             60.8           160.75
+            9950             61.9           160.67
+           10000             62.4           160.20
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.8137E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1897.16
+            1880              1.6          1170.09
+            2768              7.2           382.79
+            2885              8.0           361.62
+            3773             13.6           276.92
+            3877             14.3           271.28
+            4765             19.9           239.09
+            4882             20.7           236.16
+            5770             26.3           219.45
+            6762             32.6           207.60
+            6879             33.3           206.49
+            7767             38.9           199.54
+            8134             41.2           197.29
+            8772             45.3           193.66
+            8876             46.0           193.15
+            9079             50.8           178.75
+            9131             51.8           176.15
+            9326             58.1           160.63
+            9417             58.6           160.60
+            9508             59.2           160.58
+            9690             60.4           160.52
+            9781             60.9           160.50
+            9963             62.1           160.43
+           10000             62.5           159.97
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.7315E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1874.89
+            1880              1.6          1163.30
+            2768              7.3           380.76
+            2885              8.0           360.23
+            3773             13.6           276.79
+            3877             14.3           271.21
+            4640             19.1           242.76
+            4778             20.0           239.01
+            5007             21.4           233.50
+            5770             26.3           219.74
+            6637             31.7           209.25
+            6775             32.6           207.86
+            6879             33.3           206.86
+            7767             38.9           199.87
+            8384             42.7           196.14
+            8772             45.2           194.03
+            9001             46.7           192.90
+            9131             51.8           176.34
+            9339             58.1           160.85
+            9430             58.6           160.85
+            9521             59.2           160.83
+            9703             60.4           160.77
+            9794             60.9           160.73
+            9885             61.5           160.71
+           10000             63.1           158.42
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.6854E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1736.11
+            1880              1.7          1107.59
+            2768              7.4           376.32
+            3510             12.1           291.20
+            3773             13.7           274.93
+            3877             14.4           269.57
+            4765             20.0           238.12
+            5257             23.1           227.25
+            5770             26.4           218.60
+            6762             32.7           206.91
+            7004             34.2           204.75
+            7767             39.0           198.92
+            8509             43.8           194.44
+            8772             45.4           193.07
+            8876             46.1           192.55
+            9092             51.7           175.69
+            9131             52.0           175.60
+            9339             58.3           160.22
+            9430             58.9           160.20
+            9521             59.4           160.19
+            9703             60.6           160.15
+            9794             61.2           160.13
+            9885             61.7           160.11
+           10000             62.6           159.63
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.6438E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1741.38
+            1880              1.7          1118.26
+            2768              7.3           378.12
+            2885              8.1           358.02
+            3773             13.7           275.73
+            3877             14.3           270.26
+            4765             20.0           238.53
+            4882             20.7           235.61
+            5770             26.3           219.04
+            6137             28.7           214.05
+            6775             32.7           207.11
+            6879             33.4           206.10
+            7767             39.0           199.08
+            8134             41.3           196.78
+            8772             45.4           193.34
+            8876             46.0           192.79
+            9092             51.7           175.91
+            9131             51.9           175.82
+            9313             58.1           160.31
+            9404             58.7           160.29
+            9586             59.8           160.23
+            9677             60.4           160.21
+            9768             61.0           160.18
+            9950             62.1           160.14
+           10000             62.6           159.67
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.5837E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1882.21
+            1880              1.6          1161.69
+            2768              7.3           381.67
+            2885              8.0           361.09
+            3773             13.6           277.02
+            3877             14.3           271.40
+            4765             19.9           239.34
+            4882             20.7           236.38
+            5770             26.3           219.56
+            6637             31.8           208.86
+            6775             32.7           207.44
+            6879             33.3           206.42
+            7767             39.0           199.39
+            8259             42.1           196.33
+            8772             45.3           193.57
+            8876             46.0           193.04
+            9092             51.6           176.21
+            9131             51.8           176.12
+            9326             58.1           160.60
+            9417             58.6           160.59
+            9508             59.2           160.57
+            9690             60.4           160.49
+            9781             61.0           160.45
+            9963             62.1           160.37
+           10000             62.5           159.90
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.5609E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1882.63
+            1880              1.6          1168.68
+            2768              7.3           381.78
+            2885              8.0           361.14
+            3773             13.6           277.15
+            3877             14.3           271.58
+            4765             19.9           239.17
+            4882             20.7           236.32
+            5770             26.3           219.41
+            6262             29.4           212.94
+            6775             32.7           207.38
+            6879             33.3           206.34
+            7767             39.0           199.29
+            8134             41.3           196.98
+            8772             45.3           193.48
+            8876             46.0           192.95
+            9092             51.6           176.10
+            9131             51.9           176.01
+            9326             58.1           160.53
+            9417             58.7           160.48
+            9508             59.3           160.44
+            9690             60.4           160.38
+            9781             61.0           160.35
+            9963             62.2           160.28
+           10000             62.6           159.82
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.2677E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1784.50
+            1880              1.7          1135.73
+            2768              7.3           379.49
+            2885              8.0           358.67
+            3773             13.7           275.92
+            3877             14.3           270.46
+            4765             20.0           238.70
+            4882             20.7           235.80
+            5770             26.3           219.09
+            6512             31.0           209.95
+            6775             32.7           207.22
+            6879             33.4           206.20
+            7767             39.0           199.12
+            8384             42.9           195.47
+            8772             45.4           193.36
+            8876             46.0           192.83
+            9092             51.7           175.93
+            9131             51.9           175.87
+            9261             55.6           166.65
+            9443             58.9           160.46
+            9534             59.4           160.43
+            9625             60.0           160.39
+            9794             61.1           160.36
+            9885             61.6           160.35
+           10000             62.5           159.89
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 3.0650E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1780.94
+            1880              1.7          1134.53
+            2768              7.3           379.57
+            2885              8.0           358.93
+            3773             13.6           276.70
+            3877             14.3           271.28
+            4765             19.9           239.17
+            4882             20.7           236.21
+            5770             26.3           219.46
+            6512             31.0           210.20
+            6775             32.7           207.46
+            6879             33.3           206.51
+            7767             38.9           199.49
+            8134             41.3           197.07
+            8772             45.3           193.54
+            8876             46.0           193.01
+            9092             51.6           176.18
+            9131             51.9           176.09
+            9313             58.0           160.57
+            9404             58.6           160.54
+            9586             59.7           160.49
+            9677             60.3           160.47
+            9768             60.9           160.44
+            9950             62.0           160.38
+           10000             62.5           159.89
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.9724E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2100.69
+            1880              1.5          1248.24
+            2768              7.1           388.03
+            2885              7.9           366.08
+            3773             13.5           279.44
+            3877             14.2           273.78
+            4765             19.8           241.06
+            4882             20.5           238.01
+            5770             26.1           221.05
+            6762             32.4           208.88
+            6879             33.1           207.74
+            7767             38.8           200.44
+            8134             41.1           198.03
+            8772             45.1           194.36
+            8876             45.8           193.83
+            9092             51.4           176.80
+            9131             51.7           176.70
+            9326             57.9           161.09
+            9417             58.5           161.05
+            9508             59.0           161.03
+            9690             60.2           160.97
+            9781             60.8           160.94
+            9963             61.9           160.83
+           10000             62.4           160.35
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.9643E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1937.20
+            1880              1.6          1182.98
+            2768              7.2           383.70
+            3010              8.7           344.30
+            3773             13.6           277.50
+            3877             14.3           271.88
+            4765             19.9           239.47
+            4882             20.6           236.50
+            5770             26.3           219.53
+            6512             31.0           210.21
+            6775             32.7           207.37
+            7254             35.7           203.22
+            7767             38.9           199.46
+            8509             43.6           194.98
+            8772             45.3           193.53
+            9001             46.8           192.46
+            9131             51.9           176.07
+            9261             55.5           166.81
+            9443             58.8           160.57
+            9534             59.4           160.55
+            9625             60.0           160.50
+            9807             61.1           160.47
+            9898             61.7           160.44
+           10000             63.2           158.19
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.8952E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1611.41
+            1880              1.8          1071.55
+            2768              7.4           374.24
+            2885              8.1           354.37
+            3773             13.8           273.95
+            3877             14.4           268.61
+            4640             19.3           240.97
+            4778             20.1           237.25
+            4882             20.8           234.73
+            5770             26.4           218.38
+            6387             30.3           210.62
+            6775             32.8           206.57
+            6879             33.5           205.60
+            7642             38.3           199.64
+            7780             39.2           198.69
+            8009             40.6           197.24
+            8772             45.4           193.04
+            8876             46.1           192.54
+            9066             50.1           180.83
+            9131             52.0           175.70
+            9300             57.3           162.29
+            9391             58.6           160.28
+            9573             59.7           160.27
+            9664             60.3           160.24
+            9833             61.4           160.21
+            9924             61.9           160.21
+           10000             62.5           159.93
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.8879E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.7          2479.89
+            1880              1.4          1363.57
+            2768              7.0           394.41
+            3010              8.5           352.27
+            3773             13.4           281.84
+            3877             14.1           275.91
+            4765             19.6           242.50
+            4882             20.4           239.50
+            5770             26.0           221.69
+            6262             29.1           214.97
+            6775             32.4           209.10
+            6879             33.1           208.10
+            7767             38.7           200.61
+            8134             41.0           198.18
+            8772             45.1           194.56
+            8876             45.7           194.03
+            9066             49.8           182.12
+            9131             51.6           176.87
+            9326             57.8           161.33
+            9417             58.4           161.30
+            9586             59.5           161.23
+            9677             60.0           161.20
+            9768             60.6           161.18
+            9950             61.8           161.13
+           10000             62.2           160.64
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.8197E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2125.91
+            1880              1.5          1256.00
+            2768              7.1           387.67
+            2885              7.9           366.05
+            3773             13.5           279.57
+            3877             14.2           273.88
+            4765             19.8           241.17
+            4882             20.5           238.16
+            5770             26.1           220.95
+            6387             30.0           212.83
+            6775             32.5           208.66
+            6879             33.1           207.64
+            7767             38.8           200.30
+            7884             39.5           199.51
+            8772             45.1           194.30
+            8876             45.8           193.77
+            9066             49.9           181.82
+            9131             51.7           176.64
+            9313             57.8           161.01
+            9404             58.4           160.98
+            9586             59.6           160.91
+            9677             60.1           160.88
+            9768             60.7           160.86
+            9950             61.9           160.79
+           10000             62.4           160.31
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.8194E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.7          2454.24
+            1880              1.4          1355.16
+            2768              7.0           393.10
+            3010              8.6           350.88
+            3773             13.4           281.30
+            3877             14.1           275.36
+            4765             19.7           241.99
+            5382             23.6           228.00
+            5770             26.1           221.29
+            6762             32.4           208.95
+            6879             33.1           207.77
+            7767             38.7           200.56
+            8509             43.4           195.97
+            8772             45.1           194.51
+            8876             45.8           193.98
+            9092             51.4           176.89
+            9131             51.6           176.79
+            9261             55.3           167.44
+            9443             58.6           161.17
+            9534             59.2           161.13
+            9625             59.8           161.07
+            9807             60.9           160.99
+            9898             61.5           160.95
+           10000             62.3           160.45
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.7773E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1574.24
+            1880              1.8          1049.52
+            2768              7.4           372.69
+            2885              8.2           353.33
+            3773             13.8           273.62
+            3877             14.4           268.34
+            4765             20.1           237.54
+            4882             20.8           234.59
+            5770             26.5           218.10
+            6512             31.1           209.11
+            6775             32.8           206.49
+            6879             33.5           205.51
+            7767             39.1           198.73
+            8509             43.8           194.41
+            8772             45.4           193.02
+            8876             46.1           192.50
+            9092             51.7           175.72
+            9131             52.0           175.63
+            9261             55.7           166.41
+            9443             58.9           160.21
+            9534             59.5           160.18
+            9625             60.1           160.15
+            9807             61.3           160.09
+            9898             61.8           160.07
+           10000             63.4           157.82
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.7581E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.2          1543.24
+            1880              1.8          1040.08
+            2768              7.4           371.64
+            2885              8.2           352.69
+            3773             13.8           273.68
+            3877             14.5           268.15
+            4765             20.1           237.30
+            4882             20.8           234.45
+            5770             26.4           218.30
+            6387             30.3           210.66
+            6775             32.8           206.66
+            6879             33.4           205.67
+            7767             39.1           198.75
+            8134             41.4           196.46
+            8772             45.4           193.05
+            8876             46.1           192.54
+            9092             51.7           175.77
+            9131             52.0           175.67
+            9326             58.2           160.29
+            9417             58.8           160.25
+            9508             59.3           160.22
+            9690             60.5           160.19
+            9781             61.1           160.18
+            9963             62.2           160.15
+           10000             62.6           159.69
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.5361E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1768.52
+            1880              1.7          1129.73
+            2768              7.3           378.19
+            3010              8.9           340.02
+            3773             13.7           275.58
+            3877             14.4           270.08
+            4765             20.0           238.44
+            4882             20.7           235.62
+            5770             26.3           218.99
+            6262             29.5           212.57
+            6775             32.7           207.10
+            6879             33.4           206.14
+            7767             39.0           199.19
+            8009             40.5           197.63
+            8772             45.4           193.33
+            8876             46.0           192.82
+            9092             51.7           176.03
+            9131             51.9           175.94
+            9313             58.0           160.53
+            9404             58.6           160.49
+            9586             59.8           160.43
+            9677             60.3           160.41
+            9768             60.9           160.34
+            9950             62.1           160.28
+           10000             62.6           159.80
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.3871E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2123.46
+            1880              1.5          1250.87
+            2768              7.2           386.38
+            3135              9.5           330.41
+            3773             13.5           278.72
+            3877             14.2           273.01
+            4765             19.8           240.29
+            5257             23.0           229.06
+            5770             26.2           220.16
+            6762             32.5           208.12
+            7004             34.0           205.93
+            7767             38.9           199.90
+            8509             43.5           195.54
+            8772             45.2           194.17
+            9001             46.6           193.04
+            9131             51.7           176.63
+            9261             55.3           167.40
+            9443             58.6           161.08
+            9521             59.1           161.06
+            9703             60.3           160.99
+            9794             60.9           160.94
+            9885             61.4           160.91
+           10000             63.0           158.61
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.2853E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1610.97
+            1880              1.8          1062.38
+            2768              7.4           374.92
+            3260             10.5           310.09
+            3773             13.8           273.66
+            3877             14.4           268.34
+            4765             20.1           237.46
+            5007             21.6           231.84
+            5770             26.4           218.16
+            6512             31.1           209.09
+            6775             32.8           206.36
+            6879             33.5           205.37
+            7767             39.2           198.38
+            8384             43.1           194.67
+            8772             45.5           192.68
+            9001             47.0           191.63
+            9131             52.1           175.41
+            9339             58.3           160.18
+            9430             58.9           160.14
+            9521             59.5           160.12
+            9703             60.6           160.07
+            9794             61.2           160.06
+            9885             61.8           160.02
+           10000             62.7           159.53
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.2664E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1564.92
+            1880              1.8          1048.41
+            2768              7.4           372.76
+            2885              8.2           353.36
+            3773             13.8           273.82
+            3877             14.4           268.49
+            4515             18.5           244.29
+            4778             20.2           236.94
+            4882             20.8           234.42
+            5770             26.4           218.18
+            6262             29.6           211.81
+            6775             32.8           206.35
+            6879             33.5           205.41
+            7642             38.3           199.35
+            7780             39.2           198.40
+            8134             41.5           196.22
+            8772             45.5           192.77
+            8876             46.2           192.27
+            9066             50.2           180.62
+            9131             52.0           175.51
+            9326             58.2           160.20
+            9417             58.8           160.19
+            9508             59.4           160.16
+            9690             60.5           160.12
+            9781             61.1           160.11
+            9963             62.2           160.06
+           10000             62.7           159.59
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.2042E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2261.19
+            1880              1.4          1300.19
+            2768              7.1           390.15
+            3010              8.6           349.57
+            3773             13.5           280.52
+            3877             14.1           274.70
+            4765             19.7           241.64
+            5007             21.2           235.72
+            5770             26.1           221.18
+            6262             29.2           214.39
+            6775             32.5           208.55
+            6879             33.1           207.54
+            7767             38.8           200.40
+            8134             41.1           198.05
+            8772             45.1           194.47
+            8876             45.8           193.95
+            9079             50.6           179.47
+            9131             51.6           176.89
+            9326             57.8           161.24
+            9417             58.4           161.19
+            9508             59.0           161.16
+            9690             60.2           161.08
+            9781             60.7           161.03
+            9963             61.9           160.94
+           10000             62.3           160.47
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.1947E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2136.65
+            1880              1.5          1266.18
+            2768              7.1           388.40
+            2885              7.9           366.59
+            3773             13.5           279.66
+            3877             14.1           274.03
+            4765             19.8           240.92
+            4882             20.5           237.95
+            5770             26.1           220.76
+            6012             27.6           217.45
+            6775             32.5           208.52
+            6879             33.2           207.47
+            7767             38.8           200.42
+            8134             41.1           198.07
+            8772             45.1           194.53
+            8876             45.8           193.99
+            9066             49.8           182.06
+            9131             51.6           176.84
+            9326             57.8           161.25
+            9404             58.3           161.21
+            9586             59.5           161.14
+            9677             60.1           161.11
+            9768             60.6           161.07
+            9950             61.8           160.99
+           10000             62.3           160.50
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.1822E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2157.13
+            1880              1.5          1256.73
+            2768              7.1           388.75
+            3385             11.0           307.18
+            3773             13.5           279.48
+            3877             14.2           273.78
+            4765             19.8           241.00
+            4882             20.5           238.07
+            5770             26.1           220.72
+            6262             29.2           214.23
+            6775             32.5           208.49
+            6879             33.2           207.46
+            7767             38.8           200.40
+            8259             41.9           197.28
+            8772             45.1           194.33
+            8876             45.8           193.77
+            9092             51.4           176.78
+            9131             51.7           176.68
+            9326             57.9           161.10
+            9417             58.5           161.08
+            9508             59.0           161.06
+            9690             60.2           160.98
+            9781             60.8           160.93
+            9963             61.9           160.87
+           10000             62.3           160.40
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.1690E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1870.43
+            1880              1.6          1173.00
+            2768              7.2           382.22
+            3010              8.8           343.21
+            3773             13.6           277.53
+            3877             14.3           272.03
+            4765             19.9           239.69
+            5007             21.4           233.89
+            5770             26.2           219.98
+            6637             31.7           209.38
+            6775             32.6           207.94
+            7004             34.0           205.78
+            7767             38.9           199.77
+            8134             41.2           197.40
+            8772             45.3           193.81
+            9001             46.7           192.69
+            9131             51.8           176.24
+            9313             57.9           160.77
+            9404             58.5           160.75
+            9586             59.7           160.70
+            9677             60.2           160.68
+            9768             60.8           160.65
+            9950             62.0           160.57
+           10000             62.5           160.09
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.1645E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1928.20
+            1880              1.6          1183.11
+            2768              7.2           382.98
+            3010              8.8           343.87
+            3773             13.6           277.80
+            3877             14.2           272.22
+            4640             19.1           243.14
+            4778             20.0           239.30
+            4882             20.6           236.65
+            5770             26.3           219.70
+            6387             30.2           211.72
+            6775             32.7           207.48
+            6879             33.3           206.48
+            7767             38.9           199.42
+            8259             42.0           196.42
+            8772             45.3           193.57
+            8876             46.0           193.02
+            9079             50.8           178.77
+            9131             51.8           176.15
+            9261             55.5           166.90
+            9443             58.8           160.64
+            9534             59.4           160.61
+            9625             59.9           160.56
+            9807             61.1           160.51
+            9898             61.7           160.49
+           10000             62.5           160.01
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.1617E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1797.89
+            1880              1.7          1135.17
+            2768              7.3           378.70
+            2885              8.0           358.63
+            3773             13.7           275.90
+            3877             14.3           270.28
+            4765             20.0           238.38
+            4882             20.7           235.47
+            5770             26.4           218.66
+            6512             31.1           209.50
+            6775             32.8           206.69
+            6879             33.4           205.72
+            7767             39.1           198.84
+            8384             43.0           195.12
+            8772             45.4           193.11
+            8876             46.1           192.58
+            9079             51.0           178.19
+            9131             52.0           175.62
+            9313             58.1           160.29
+            9404             58.7           160.27
+            9586             59.8           160.20
+            9677             60.4           160.19
+            9768             61.0           160.16
+            9950             62.1           160.10
+           10000             62.6           159.62
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 2.0051E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1815.30
+            1880              1.6          1146.19
+            2768              7.3           380.47
+            3135              9.6           326.39
+            3773             13.7           276.28
+            3877             14.3           270.85
+            4765             19.9           239.04
+            4882             20.7           236.08
+            5770             26.3           219.37
+            6637             31.8           208.72
+            6775             32.7           207.35
+            7004             34.1           205.22
+            7767             39.0           199.31
+            8509             43.6           194.94
+            8772             45.3           193.57
+            8876             46.0           193.04
+            9092             51.6           176.15
+            9131             51.9           176.07
+            9339             58.1           160.62
+            9430             58.7           160.60
+            9521             59.3           160.57
+            9703             60.5           160.51
+            9794             61.0           160.47
+            9885             61.6           160.44
+           10000             62.5           159.95
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.8975E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.1          1623.04
+            1880              1.8          1071.60
+            2768              7.4           374.23
+            2885              8.1           354.68
+            3773             13.8           274.00
+            3877             14.4           268.56
+            4765             20.1           237.55
+            4882             20.8           234.76
+            5770             26.4           218.51
+            6387             30.3           210.72
+            6775             32.8           206.66
+            6879             33.4           205.72
+            7642             38.3           199.70
+            7780             39.2           198.72
+            8009             40.6           197.25
+            8772             45.5           192.99
+            8876             46.1           192.47
+            9079             50.9           178.25
+            9131             52.0           175.69
+            9326             58.1           160.38
+            9417             58.7           160.35
+            9508             59.3           160.34
+            9690             60.4           160.30
+            9781             61.0           160.28
+            9963             62.2           160.24
+           10000             62.6           159.76
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.8906E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2102.24
+            1880              1.5          1247.55
+            2768              7.2           387.06
+            2885              7.9           365.38
+            3773             13.5           279.52
+            3877             14.2           273.96
+            4640             19.0           244.63
+            4778             19.9           240.63
+            4882             20.5           237.95
+            5770             26.1           220.73
+            6137             28.5           215.59
+            6775             32.5           208.34
+            6879             33.2           207.31
+            7767             38.8           200.20
+            8134             41.1           197.87
+            8772             45.2           194.20
+            8876             45.8           193.67
+            9079             50.7           179.24
+            9131             51.7           176.59
+            9326             57.9           161.05
+            9417             58.5           161.01
+            9508             59.1           160.97
+            9690             60.2           160.94
+            9781             60.8           160.88
+            9963             61.9           160.83
+           10000             62.4           160.37
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.8217E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1881.28
+            1880              1.6          1169.34
+            2768              7.3           381.72
+            2885              8.0           360.95
+            3773             13.6           277.18
+            3877             14.3           271.63
+            4765             19.9           239.30
+            4882             20.7           236.36
+            5770             26.3           219.36
+            6512             31.0           210.04
+            6775             32.7           207.33
+            6879             33.3           206.37
+            7767             39.0           199.37
+            8259             42.1           196.35
+            8772             45.3           193.59
+            8876             46.0           193.09
+            9079             50.8           178.70
+            9131             51.9           176.10
+            9313             58.0           160.66
+            9404             58.5           160.63
+            9586             59.7           160.57
+            9677             60.3           160.53
+            9768             60.9           160.50
+            9950             62.0           160.42
+           10000             62.5           159.96
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.8121E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2046.39
+            1880              1.5          1231.03
+            2768              7.2           385.32
+            2885              7.9           363.95
+            3773             13.6           278.20
+            3877             14.2           272.49
+            4765             19.9           239.88
+            4882             20.6           237.00
+            5770             26.2           219.96
+            6262             29.4           213.36
+            6775             32.6           207.70
+            6879             33.3           206.72
+            7642             38.1           200.61
+            7780             39.0           199.65
+            8009             40.4           198.10
+            8772             45.3           193.73
+            8876             45.9           193.19
+            9066             50.0           181.30
+            9131             51.8           176.13
+            9313             58.0           160.67
+            9404             58.5           160.62
+            9586             59.7           160.55
+            9677             60.3           160.53
+            9768             60.9           160.49
+            9950             62.0           160.41
+           10000             62.5           159.94
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.7475E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2119.77
+            1880              1.5          1251.20
+            2768              7.2           385.37
+            2885              7.9           363.81
+            3773             13.6           278.25
+            3877             14.2           272.72
+            4640             19.0           243.62
+            4778             19.9           239.85
+            4882             20.6           237.18
+            5770             26.2           220.34
+            6387             30.1           212.34
+            6775             32.6           208.09
+            6879             33.2           207.10
+            7767             38.8           200.09
+            8384             42.7           196.23
+            8772             45.2           194.15
+            8876             45.8           193.64
+            9079             50.7           179.16
+            9131             51.7           176.55
+            9339             58.0           161.02
+            9430             58.6           160.99
+            9521             59.2           160.95
+            9703             60.3           160.86
+            9794             60.9           160.84
+            9885             61.5           160.79
+           10000             62.4           160.27
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.7444E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1800.22
+            1880              1.6          1140.53
+            2768              7.3           378.92
+            2885              8.0           358.48
+            3773             13.7           275.76
+            3877             14.3           270.21
+            4765             20.0           238.55
+            4882             20.7           235.62
+            5770             26.3           219.08
+            6512             31.0           209.85
+            6775             32.7           207.17
+            6879             33.4           206.19
+            7767             39.0           199.15
+            8259             42.1           196.13
+            8772             45.3           193.44
+            8876             46.0           192.93
+            9066             50.0           181.19
+            9131             51.9           176.03
+            9313             58.0           160.55
+            9404             58.6           160.52
+            9586             59.7           160.47
+            9677             60.3           160.43
+            9768             60.9           160.40
+            9950             62.0           160.36
+           10000             62.5           159.89
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.7214E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2063.11
+            1880              1.5          1239.83
+            2768              7.1           387.22
+            2885              7.9           365.65
+            3773             13.5           279.44
+            3877             14.2           273.81
+            4765             19.8           241.17
+            4882             20.5           238.20
+            5770             26.1           220.93
+            6387             30.0           212.73
+            6775             32.5           208.52
+            6879             33.1           207.53
+            7767             38.8           200.36
+            8384             42.7           196.47
+            8772             45.1           194.36
+            8876             45.8           193.81
+            9092             51.4           176.77
+            9131             51.7           176.68
+            9326             57.9           161.13
+            9417             58.5           161.10
+            9508             59.0           161.06
+            9690             60.2           160.98
+            9781             60.8           160.96
+            9963             61.9           160.91
+           10000             62.3           160.44
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.6993E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2063.19
+            1880              1.5          1231.44
+            2768              7.2           386.60
+            3135              9.5           330.73
+            3773             13.5           278.71
+            3877             14.2           273.24
+            4765             19.8           240.57
+            4882             20.5           237.57
+            5770             26.1           220.66
+            6387             30.0           212.60
+            6775             32.5           208.33
+            6879             33.2           207.34
+            7767             38.8           200.13
+            8259             41.9           197.00
+            8772             45.2           194.21
+            8876             45.8           193.70
+            9079             50.7           179.20
+            9131             51.7           176.55
+            9326             57.9           160.97
+            9417             58.5           160.93
+            9508             59.1           160.90
+            9690             60.3           160.83
+            9781             60.8           160.79
+            9963             62.0           160.72
+           10000             62.4           160.26
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.6896E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1885.19
+            1880              1.6          1166.48
+            2768              7.3           380.90
+            3010              8.8           342.18
+            3773             13.6           276.66
+            3877             14.3           271.04
+            4765             19.9           238.96
+            4882             20.7           236.15
+            5770             26.3           219.39
+            6012             27.8           216.18
+            6775             32.7           207.40
+            6879             33.3           206.40
+            7642             38.2           200.22
+            7780             39.1           199.19
+            8134             41.3           196.90
+            8772             45.4           193.42
+            8876             46.0           192.89
+            9066             50.0           181.17
+            9131             51.9           175.92
+            9313             58.0           160.47
+            9404             58.6           160.43
+            9586             59.8           160.32
+            9677             60.4           160.30
+            9768             61.0           160.26
+            9950             62.1           160.21
+           10000             62.6           159.73
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.6772E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2084.89
+            1880              1.5          1235.20
+            2768              7.2           386.28
+            3010              8.7           345.60
+            3773             13.6           278.03
+            3877             14.2           272.30
+            4765             19.9           239.64
+            5007             21.4           233.73
+            5770             26.3           219.72
+            6637             31.8           208.96
+            6775             32.7           207.50
+            7004             34.1           205.31
+            7767             39.0           199.30
+            8634             44.5           194.10
+            8772             45.4           193.34
+            9001             46.8           192.24
+            9131             51.9           175.93
+            9287             57.1           162.52
+            9378             58.4           160.48
+            9547             59.5           160.44
+            9638             60.1           160.40
+            9820             61.3           160.33
+            9911             61.8           160.31
+           10000             62.4           160.26
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.5716E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1778.92
+            1880              1.7          1132.41
+            2768              7.3           379.06
+            2885              8.0           358.72
+            3773             13.7           275.87
+            3877             14.3           270.42
+            4765             20.0           238.61
+            4882             20.7           235.64
+            5770             26.3           219.05
+            6387             30.2           211.32
+            6775             32.7           207.23
+            6879             33.3           206.27
+            7767             39.0           199.28
+            8134             41.3           197.05
+            8772             45.3           193.55
+            8876             46.0           193.04
+            9079             50.8           178.72
+            9131             51.8           176.12
+            9326             58.0           160.66
+            9417             58.6           160.63
+            9508             59.2           160.60
+            9690             60.4           160.56
+            9781             60.9           160.52
+            9963             62.1           160.45
+           10000             62.5           159.99
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.5108E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2005.41
+            1880              1.5          1214.18
+            2768              7.2           383.92
+            2885              7.9           363.33
+            3773             13.6           278.30
+            3877             14.2           272.74
+            4515             18.3           247.39
+            4778             19.9           239.71
+            4882             20.6           237.04
+            5770             26.2           219.94
+            6387             30.2           211.83
+            6775             32.6           207.60
+            6879             33.3           206.54
+            7767             38.9           199.54
+            8259             42.0           196.44
+            8772             45.3           193.57
+            8876             46.0           193.03
+            9066             50.0           181.18
+            9131             51.9           176.00
+            9313             58.0           160.54
+            9404             58.6           160.49
+            9586             59.8           160.42
+            9677             60.3           160.39
+            9768             60.9           160.36
+            9950             62.1           160.31
+           10000             62.6           159.82
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.4677E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2050.74
+            1880              1.5          1227.02
+            2768              7.2           386.27
+            3010              8.7           346.48
+            3773             13.6           278.22
+            3877             14.2           272.53
+            4765             19.9           239.65
+            4882             20.6           236.68
+            5770             26.3           219.66
+            6387             30.2           211.75
+            6775             32.6           207.56
+            6879             33.3           206.55
+            7767             38.9           199.42
+            8134             41.3           197.07
+            8772             45.3           193.45
+            8876             46.0           192.93
+            9092             51.6           176.09
+            9131             51.9           175.99
+            9313             58.0           160.50
+            9404             58.6           160.46
+            9586             59.8           160.37
+            9677             60.3           160.36
+            9768             60.9           160.33
+            9950             62.1           160.27
+           10000             62.6           159.81
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.4324E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1973.67
+            1880              1.6          1199.77
+            2768              7.2           382.22
+            2885              8.0           361.47
+            3773             13.6           276.63
+            3877             14.3           271.04
+            4640             19.1           242.36
+            4778             20.0           238.54
+            4882             20.7           235.87
+            5770             26.3           218.99
+            6512             31.1           209.67
+            6775             32.7           206.96
+            6879             33.4           206.02
+            7767             39.0           199.01
+            8259             42.2           195.93
+            8772             45.4           193.19
+            8876             46.1           192.68
+            9079             50.9           178.33
+            9131             52.0           175.72
+            9326             58.2           160.29
+            9417             58.8           160.24
+            9508             59.3           160.22
+            9690             60.5           160.16
+            9781             61.1           160.15
+            9963             62.2           160.11
+           10000             62.6           159.67
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.4056E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          2053.29
+            1880              1.5          1236.25
+            2768              7.2           386.27
+            2885              7.9           364.83
+            3773             13.5           278.67
+            3877             14.2           273.19
+            4515             18.2           247.84
+            4778             19.9           240.22
+            4882             20.6           237.54
+            5770             26.2           220.39
+            6137             28.5           215.36
+            6775             32.5           208.15
+            6879             33.2           207.12
+            7767             38.9           199.78
+            8009             40.4           198.18
+            8772             45.3           193.77
+            8876             45.9           193.23
+            9053             49.2           184.07
+            9131             51.8           176.23
+            9326             58.0           160.70
+            9417             58.6           160.68
+            9508             59.2           160.65
+            9690             60.3           160.57
+            9781             60.9           160.54
+            9963             62.1           160.48
+           10000             62.5           160.01
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.4034E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.8          2321.00
+            1880              1.4          1315.81
+            2768              7.1           389.87
+            2885              7.8           367.65
+            3773             13.5           279.65
+            3877             14.2           273.86
+            4765             19.8           240.62
+            4882             20.5           237.61
+            5770             26.2           220.37
+            6512             30.9           210.82
+            6775             32.6           208.01
+            6879             33.2           206.95
+            7767             38.9           199.81
+            8384             42.8           195.97
+            8772             45.3           193.80
+            8876             45.9           193.27
+            9079             50.8           178.89
+            9131             51.8           176.24
+            9339             58.1           160.70
+            9430             58.7           160.65
+            9521             59.3           160.63
+            9703             60.4           160.56
+            9794             61.0           160.54
+            9885             61.6           160.51
+           10000             62.5           160.03
+      ----------------------------------------------
+
+ [mono] computing source photons for nu = 1.3954E+15 Hz
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              1.0          1845.86
+            1880              1.6          1156.80
+            2768              7.3           381.10
+            3010              8.8           342.53
+            3773             13.7           276.12
+            3877             14.3           270.62
+            4765             19.9           238.85
+            5007             21.5           233.14
+            5770             26.3           219.17
+            6387             30.2           211.22
+            6775             32.7           207.12
+            7004             34.2           205.04
+            7767             39.0           199.06
+            8134             41.3           196.76
+            8772             45.4           193.19
+            8876             46.1           192.69
+            9053             49.3           183.56
+            9131             52.0           175.73
+            9326             58.2           160.32
+            9417             58.7           160.30
+            9508             59.3           160.27
+            9690             60.5           160.22
+            9781             61.1           160.20
+            9963             62.2           160.17
+           10000             63.3           157.94
+      ----------------------------------------------
+
+ [mono] computing dust photons for nu = 1.2642E+16 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.2025E+16 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.0556E+16 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 9.1872E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 8.9645E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 8.6931E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 8.3433E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 8.2706E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 8.2430E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 7.8004E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 7.6109E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 7.4724E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 7.1362E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 6.7667E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 6.7555E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 6.4580E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 6.3426E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 6.2944E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 6.1309E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.9105E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.8477E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.7645E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.7134E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.4565E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.3397E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.2751E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.0903E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 5.0861E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 4.9173E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 4.8595E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 4.6907E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 4.6678E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 4.4334E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 4.0229E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 4.0122E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.8976E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.8137E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.7315E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.6854E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.6438E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.5837E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.5609E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.2677E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 3.0650E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.9724E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.9643E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.8952E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.8879E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.8197E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.8194E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.7773E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.7581E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.5361E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.3871E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.2853E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.2664E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.2042E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.1947E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.1822E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.1690E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.1645E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.1617E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 2.0051E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.8975E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.8906E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.8217E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.8121E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.7475E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.7444E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.7214E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.6993E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.6896E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.6772E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.5716E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.5108E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.4677E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.4324E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.4056E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.4034E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [mono] computing dust photons for nu = 1.3954E+15 Hz
+
+      -------- No emission at this frequency -------
+
+ [main] exiting final iteration
+ [main] starting raytracing iteration
+ [grid_physics] pre-computing jnu_var
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888            120.3             7.38
+            1776            963.3             1.84
+            1880            964.0             1.95
+            2768            969.7             2.85
+            2885            970.4             2.97
+            3773            976.1             3.87
+            3877            976.7             3.97
+            4640            981.6             4.73
+            4778            982.5             4.86
+            4882            983.1             4.97
+            5770            988.8             5.84
+            6637            994.3             6.68
+            6775            995.2             6.81
+            6879            995.8             6.91
+            7767           1001.5             7.76
+            8134           1003.8             8.10
+            8772           1007.9             8.70
+            8876           1008.6             8.80
+            9092           1014.2             8.96
+            9131           1014.5             9.00
+            9326           1020.7             9.14
+            9417           1021.3             9.22
+            9508           1021.8             9.30
+            9690           1023.0             9.47
+            9781           1023.6             9.56
+            9963           1024.7             9.72
+           10000           1025.1             9.75
+      ----------------------------------------------
+
+
+        # Photons    CPU time (sec)    Photons/sec  
+      ----------------------------------------------
+             888              0.0        *********
+            1776              0.9          1889.25
+            1880              1.4          1361.86
+            2268              3.1           724.65
+            2781              5.5           501.35
+            2885              6.0           481.36
+            3648              9.2           396.19
+            3786              9.8           385.04
+            3877             10.2           379.54
+            4140             11.3           365.97
+            4653             13.6           343.10
+            4791             14.2           338.34
+            4882             14.5           336.21
+            5270             16.1           326.90
+            5533             17.3           320.42
+            5671             17.9           317.51
+            5809             18.5           314.70
+            5887             18.8           313.06
+            6400             21.0           305.19
+            6663             22.1           301.81
+            6801             22.7           299.99
+            6879             23.0           298.98
+            7017             23.6           297.36
+            7530             25.8           291.81
+            7793             27.0           289.14
+            8009             27.9           287.00
+            8522             30.1           283.28
+            8660             30.7           282.11
+            8798             31.3           281.05
+            8876             31.6           280.48
+            9040             33.3           271.34
+            9131             35.7           256.00
+            9261             37.7           245.84
+            9443             40.3           234.05
+            9521             40.7           234.21
+            9703             41.4           234.18
+            9794             41.8           234.09
+            9885             42.2           234.17
+           10000             42.9           233.27
+      ----------------------------------------------
+
+ [main] exiting raytracing iteration
+ [image_write] writing out SEDs
+ [image_write] writing out images
+ [image_write] done
+ ------------------------------------------------------------
+ Total CPU time elapsed:          6566.17
+ Ended on 19 February 2024 at 12:28:57
+ ------------------------------------------------------------
+/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/bin/hyperion:69: DeprecationWarning: The SafeConfigParser class has been renamed to ConfigParser in Python 3.2. This alias will be removed in future versions. Use ConfigParser directly instead.
+  config = SafeConfigParser()
+
+OR IS IT MAYBE HERE?
+Execution time for SED generation in Pool.map multiprocessing = 0:00:03.432367
+[SED_gen: ] total_lum_in_sed_gen =  343.09117678464406
+after selecting for ones with stellar mass: (2424, 5994)
+adding point source collections
+[source_creation/add_binned_seds:] Execution time for point source collection adding = 0:00:00.121373
+[source_creation/add_binned_seds:] Total Luminosity of point source collection is:  1.496380712423754e+39
+I AM SETTING THE RANDOM SEETS
+I AM SAVING THE SEDS
+Done adding Sources
+Setting up Model
+Dumping grid information
+[pd_front_end]: Beginning RT Stage: Calculating SED using a binned spectrum
+Beginning Monochromatic Imaging RT
+
+ Convolving filter F070W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  2.37E-02              2.37E-02
+  2.49E-02              2.49E-02
+  2.84E-02              2.84E-02
+  3.26E-02              3.26E-02
+  3.59E-02              3.59E-02
+  3.84E-02              3.84E-02
+  4.01E-02              4.01E-02
+  3.94E-02              3.94E-02
+  3.64E-02              3.64E-02
+  3.45E-02              3.45E-02
+
+ Convolving filter F090W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  3.34E-02              3.34E-02
+  3.62E-02              3.62E-02
+  4.20E-02              4.20E-02
+  4.64E-02              4.64E-02
+  4.89E-02              4.89E-02
+  5.07E-02              5.07E-02
+  5.20E-02              5.20E-02
+  5.13E-02              5.13E-02
+  4.76E-02              4.76E-02
+  4.44E-02              4.44E-02
+
+ Convolving filter F115W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  4.43E-02              4.43E-02
+  4.73E-02              4.73E-02
+  5.25E-02              5.25E-02
+  5.61E-02              5.61E-02
+  5.89E-02              5.89E-02
+  6.17E-02              6.17E-02
+  6.39E-02              6.39E-02
+  6.42E-02              6.42E-02
+  6.10E-02              6.10E-02
+  5.68E-02              5.68E-02
+
+ Convolving filter F356W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  1.32E-01              1.32E-01
+  1.38E-01              1.38E-01
+  1.50E-01              1.50E-01
+  1.59E-01              1.59E-01
+  1.65E-01              1.65E-01
+  1.72E-01              1.72E-01
+  1.76E-01              1.76E-01
+  1.77E-01              1.77E-01
+  1.74E-01              1.74E-01
+  1.72E-01              1.72E-01
+
+ Convolving filter F150W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  5.49E-02              5.49E-02
+  5.89E-02              5.89E-02
+  6.76E-02              6.76E-02
+  7.47E-02              7.47E-02
+  7.86E-02              7.86E-02
+  8.13E-02              8.13E-02
+  8.37E-02              8.37E-02
+  8.42E-02              8.42E-02
+  8.03E-02              8.03E-02
+  7.45E-02              7.45E-02
+
+ Convolving filter F444W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  1.58E-01              1.58E-01
+  1.65E-01              1.65E-01
+  1.79E-01              1.79E-01
+  1.91E-01              1.91E-01
+  1.98E-01              1.98E-01
+  2.04E-01              2.04E-01
+  2.09E-01              2.09E-01
+  2.13E-01              2.13E-01
+  2.15E-01              2.15E-01
+  2.14E-01              2.14E-01
+
+ Convolving filter F200W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  7.69E-02              7.69E-02
+  8.23E-02              8.23E-02
+  9.17E-02              9.17E-02
+  9.78E-02              9.78E-02
+  1.01E-01              1.01E-01
+  1.04E-01              1.04E-01
+  1.06E-01              1.06E-01
+  1.08E-01              1.08E-01
+  1.06E-01              1.06E-01
+  1.01E-01              1.01E-01
+
+ Convolving filter F277W_downsized.txt...
+ Found 10 monochromatic images
+
+ Wavelength              Weight
+ ----------              ------
+  1.04E-01              1.04E-01
+  1.09E-01              1.09E-01
+  1.18E-01              1.18E-01
+  1.26E-01              1.26E-01
+  1.31E-01              1.31E-01
+  1.36E-01              1.36E-01
+  1.39E-01              1.39E-01
+  1.37E-01              1.37E-01
+  1.37E-01              1.37E-01
+  1.39E-01              1.39E-01
+---------------------------------------
+Begin Slurm Epilog: Feb-19-2024 12:29:11
+Job ID:        5000853
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=720G,node=2
+Rsrc Used:     cput=05:08:16,vmem=74235124K,walltime=00:19:16,mem=74190416K,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-03-004-12-1,atl1-1-03-004-13-1
+---------------------------------------

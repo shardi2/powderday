@@ -5,7 +5,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from hyperion.model import ModelOutput
 
-m = ModelOutput('example.rtout')
+m = ModelOutput('/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_1000/example.0000.rtout.sed')
 
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1)
@@ -25,7 +25,7 @@ ax.set_xlim(0.05,1000)
 #ax.set_ylim(1e-14,2e-6)
 #ax.set_ylim(1e-10,1e-5)
 
-fig.savefig('junk.png')
+fig.savefig('/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_1000/pd_sed/sed_0000.png')
 
 
 

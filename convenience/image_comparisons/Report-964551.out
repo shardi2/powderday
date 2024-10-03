@@ -1,0 +1,176 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-05-2024 17:55:44
+Job ID:    964551
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+inf norm =  14.149405810027579
+L_1 =  0.005039305698331057
+L_2 =  0.23250716491863405
+difference in total luminosities: 1.1576650399503733e+36
+inf norm =  38.246600180064995
+L_1 =  0.003782947855950238
+L_2 =  0.33824313514250115
+difference in total luminosities: 2.4673064896215933e+35
+inf norm =  17.891735201298776
+L_1 =  0.0016163848418490607
+L_2 =  0.14876165623754292
+difference in total luminosities: -9.784255210644906e+34
+inf norm =  1.8277167315358438
+L_1 =  0.00021375729195539833
+L_2 =  0.019317476183033037
+difference in total luminosities: -8.243202350219502e+32
+inf norm =  11.064530667465208
+L_1 =  0.0027875023068777665
+L_2 =  0.15403676619983264
+difference in total luminosities: 2.296895188705781e+35
+inf norm =  18.933290476032433
+L_1 =  0.0034824857567274194
+L_2 =  0.18998268543123892
+difference in total luminosities: -2.9418603308449157e+35
+inf norm =  19.27530018883699
+L_1 =  0.0011859296700089156
+L_2 =  0.15059103571938984
+difference in total luminosities: 4.678518959227983e+34
+inf norm =  23.000063441259947
+L_1 =  0.005455807838653398
+L_2 =  0.2619120525716761
+difference in total luminosities: -6.754636218429947e+35
+inf norm =  7.93765391065471
+L_1 =  0.0005758177486688796
+L_2 =  0.06284988849188264
+difference in total luminosities: 1.0162717769805497e+34
+inf norm =  38.97839241835405
+L_1 =  0.002452127947548119
+L_2 =  0.3045344526301407
+difference in total luminosities: -2.6361627823038894e+35
+inf norm =  31.92529416213128
+L_1 =  0.002711846018874636
+L_2 =  0.26622515313320244
+difference in total luminosities: 1.643806231766873e+35
+inf norm =  40.13260559852027
+L_1 =  0.010701591076526327
+L_2 =  0.4912019410876525
+difference in total luminosities: 2.826316223453559e+36
+inf norm =  69.37302092204304
+L_1 =  0.008384746916456185
+L_2 =  0.6748606271918923
+difference in total luminosities: 6.223320103883288e+34
+inf norm =  7.864816486178452
+L_1 =  0.0010797902507496278
+L_2 =  0.08002453090574546
+difference in total luminosities: 5.933323162735432e+33
+inf norm =  21.86034386290797
+L_1 =  0.0025506583221059603
+L_2 =  0.2310460646037597
+difference in total luminosities: -9.844018322268004e+33
+inf norm =  34.4709457990247
+L_1 =  0.009442971343525114
+L_2 =  0.4528662139058292
+difference in total luminosities: -1.0098182474662711e+36
+inf norm =  64.18620462649844
+L_1 =  0.010235055843594874
+L_2 =  0.642453988037462
+difference in total luminosities: -1.4359429564659983e+36
+inf norm =  97.32015632280094
+L_1 =  0.005981891445067951
+L_2 =  0.7603276205480559
+difference in total luminosities: -2.359334459671284e+35
+inf norm =  33.33039473359128
+L_1 =  0.009369111521151567
+L_2 =  0.4545256627671133
+difference in total luminosities: 2.962499195611473e+35
+inf norm =  65.56805285267129
+L_1 =  0.004769840612163311
+L_2 =  0.5195030029168447
+difference in total luminosities: -8.370171786852894e+34
+inf norm =  32.604601816394016
+L_1 =  0.0023458718351035217
+L_2 =  0.25547989257961085
+difference in total luminosities: -2.2656619269264876e+35
+inf norm =  87.60097246439689
+L_1 =  0.005669802976793737
+L_2 =  0.6848450827150963
+difference in total luminosities: 7.40530692412543e+35
+inf norm =  18.68557762136993
+L_1 =  0.005420792192491754
+L_2 =  0.27312684235693974
+difference in total luminosities: 1.0011305143969237e+36
+inf norm =  51.471565341722915
+L_1 =  0.0038131914253207062
+L_2 =  0.403845632477708
+difference in total luminosities: -5.281142128701688e+35
+inf norm =  12.773783118611007
+L_1 =  0.0011759477834501477
+L_2 =  0.10378987591689419
+difference in total luminosities: 4.583291273077796e+34
+inf norm =  11.733199562584803
+L_1 =  0.001369258770693337
+L_2 =  0.12401029760656683
+difference in total luminosities: -5.288113878025138e+33
+inf norm =  17.448886868908325
+L_1 =  0.005415435874394565
+L_2 =  0.2533889939652836
+difference in total luminosities: -4.341000900679725e+35
+inf norm =  25.175746102873514
+L_1 =  0.0028889711141971944
+L_2 =  0.2164435530726888
+difference in total luminosities: 1.383324226359658e+36
+inf norm =  12.554052355710699
+L_1 =  0.0007748772859990788
+L_2 =  0.09808032740800876
+difference in total luminosities: 3.048199579449938e+34
+inf norm =  54.708435508292425
+L_1 =  0.006786449339619633
+L_2 =  0.46116174221296474
+difference in total luminosities: 1.9839853085878132e+36
+inf norm =  22.996349976976436
+L_1 =  0.0016054580501913326
+L_2 =  0.18124805953157372
+difference in total luminosities: -3.0045167816778565e+34
+inf norm =  29.579244838556843
+L_1 =  0.0019281348669590327
+L_2 =  0.2311390858661698
+difference in total luminosities: -1.9989078303189983e+35
+inf norm =  22.905797409756612
+L_1 =  0.00182032237419625
+L_2 =  0.1839513188965098
+difference in total luminosities: -2.306018281846478e+35
+---------------------------------------
+Begin Slurm Epilog: Aug-05-2024 18:04:33
+Job ID:        964551
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=200G,node=2
+Rsrc Used:     cput=07:03:12,vmem=9940032K,walltime=00:08:49,mem=9243688K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-004-21-[1-2]
+---------------------------------------

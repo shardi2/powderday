@@ -1,0 +1,159 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-11-2023 20:31:39
+Job ID:    2746110
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "sed_plot_0_10000.py", line 76, in <module>
+    f.create_dataset('halo_0/10000/SED_wav/', data=wav.astype(np.float64))
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 139, in create_dataset
+    self[name] = dset
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 373, in __setitem__
+    h5o.link(obj.id, self.id, name, lcpl=lcpl, lapl=self._lapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 202, in h5py.h5o.link
+OSError: Unable to create link (message type not found)
+Traceback (most recent call last):
+  File "sed_plot_1_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_2_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_3_10000.py", line 75, in <module>
+    f.create_dataset('halo_3/10000/SED_wav/', data=wav)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 139, in create_dataset
+    self[name] = dset
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 373, in __setitem__
+    h5o.link(obj.id, self.id, name, lcpl=lcpl, lapl=self._lapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 202, in h5py.h5o.link
+OSError: Unable to create link (bad symbol table node signature)
+Traceback (most recent call last):
+  File "sed_plot_4_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_5_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_6_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_7_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_8_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_9_10000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_10_10000.py", line 75, in <module>
+    f.create_dataset('halo_99/10000/SED_wav/', data=wav)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 139, in create_dataset
+    self[name] = dset
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 373, in __setitem__
+    h5o.link(obj.id, self.id, name, lcpl=lcpl, lapl=self._lapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 202, in h5py.h5o.link
+OSError: Unable to create link (bad symbol table node signature)
+HDF5: infinite loop closing library
+      L,T_top,P,P,Z,FD,PL,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD,FD
+Traceback (most recent call last):
+  File "sed_plot_0_100000.py", line 75, in <module>
+    f.create_dataset('halo_0/100000/SED_wav/', data=wav)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 139, in create_dataset
+    self[name] = dset
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/h5py/_hl/group.py", line 373, in __setitem__
+    h5o.link(obj.id, self.id, name, lcpl=lcpl, lapl=self._lapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 202, in h5py.h5o.link
+OSError: Unable to create link (message type not found)
+Traceback (most recent call last):
+  File "sed_plot_1_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_2_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_3_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_4_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_5_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_6_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_7_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_8_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_9_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+Traceback (most recent call last):
+  File "sed_plot_10_100000.py", line 12, in <module>
+    import np
+ModuleNotFoundError: No module named 'np'
+---------------------------------------
+Begin Slurm Epilog: Aug-11-2023 20:33:44
+Job ID:        2746110
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     
+Rsrc Used:     cput=00:00:00,vmem=,walltime=00:00:00,mem=,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         None assigned
+---------------------------------------

@@ -1,0 +1,43 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-04-2023 20:09:55
+Job ID:    2741774
+User ID:   shardin31
+Account:   gts-jw254
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+./run_sed.sh: line 3: syntax error near unexpected token `('
+./run_sed.sh: line 3: `arr = (10000 100000)'
+---------------------------------------
+Begin Slurm Epilog: Aug-04-2023 20:10:07
+Job ID:        2741774
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=8,mem=240G,node=2
+Rsrc Used:     cput=00:01:44,vmem=1792K,walltime=00:00:13,mem=0,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-02-004-3-1,atl1-1-02-004-4-1
+---------------------------------------

@@ -1,0 +1,55 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-25-2023 13:05:39
+Job ID:    2898668
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_0_1000000.py", line 7, in <module>
+    import ytree
+ModuleNotFoundError: No module named 'ytree'
+---------------------------------------
+Begin Slurm Epilog: Aug-25-2023 13:06:46
+Job ID:        2898668
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=240G,node=2
+Rsrc Used:     cput=00:18:08,vmem=281020K,walltime=00:01:08,mem=132872K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-020-27-1,atl1-1-02-020-34-2
+---------------------------------------

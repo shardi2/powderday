@@ -1,0 +1,174 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-22-2024 17:06:02
+Job ID:    1119457
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+srun: error: atl1-1-02-014-19-1: tasks 16-31: Exited with exit code 1
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+  File "analysis_pipeline.py", line 211
+    for node in tree["forest"][:5]:
+    ^
+IndentationError: unexpected indent
+srun: error: atl1-1-02-014-14-2: tasks 0-15: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Aug-22-2024 17:06:18
+Job ID:        1119457
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=200G,node=2
+Rsrc Used:     cput=00:08:32,vmem=388K,walltime=00:00:16,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-014-14-2,atl1-1-02-014-19-1
+---------------------------------------

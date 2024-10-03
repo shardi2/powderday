@@ -227,14 +227,19 @@ def allstars_sed_gen(stars_list,cosmoflag,sp):
     sp = fsps.StellarPopulation(tage=stars_list[0].age,imf_type=cfg.par.imf_type,pagb = cfg.par.pagb,sfh=0,zmet=stars_list[0].fsps_zmet,
                                 add_neb_emission = cfg.par.add_neb_emission, add_agb_dust_model=cfg.par.add_agb_dust_model)
                                 '''
+    print("PLEASE WORK")
     spec = sp.get_spectrum(tage=stars_list[0].age,zmet=stars_list[0].fsps_zmet)
     nu = 1.e8*constants.c.cgs.value/spec[0]
     nlam = len(nu)
 
     nprocesses = np.min([cfg.par.n_processes,len(stars_list)]) #the pool.map will barf if there are less star bins than process threads
-
+    
+    print("I'M BEGGING YOU")
     t1=datetime.now()
+    print("MAYBE HERE?")
     stars_sed_gen = p_map(newstars_gen, stars_list, num_cpus=nprocesses)
+    #stars_sed_gen = newstars_gen(stars_list)
+    print("OR IS IT MAYBE HERE?")
     t2=datetime.now()
 
     print ('Execution time for SED generation in Pool.map multiprocessing = '+str(t2-t1))
@@ -331,10 +336,11 @@ def allstars_sed_gen(stars_list,cosmoflag,sp):
 
 
 def newstars_gen(star_object):
+    print("hey there delilah")
     global sp
     if sp is None:
         sp = fsps.StellarPopulation()
-    
+    print("what's it like in new york city")
     #the newstars (particle type 4; so, for cosmological runs, this is all
     #stars) are calculated in a separate function with just one argument so that it is can be fed 
     #into pool.map for multithreading.
@@ -348,7 +354,7 @@ def newstars_gen(star_object):
     sp.params["add_agb_dust_model"] = cfg.par.add_agb_dust_model
 
     #first figure out how many wavelengths there are
-    
+    print("i'm a thousand miles away")
     spec = sp.get_spectrum(tage=star_object.age,zmet=star_object.fsps_zmet)
     nu = 1.e8*constants.c.cgs.value/spec[0]
 
@@ -358,7 +364,7 @@ def newstars_gen(star_object):
 
     tesc_age = np.log10((minage+cfg.par.birth_cloud_clearing_age)*1.e9)
     # Get the number of ionizing photons from SED
-
+    print("but tonight you look so pretty")
     #calculate the SEDs for new stars
     sp.params["tage"] = star_object.age
     sp.params["imf_type"] = cfg.par.imf_type
@@ -370,13 +376,13 @@ def newstars_gen(star_object):
     sp.params["zmet"] = star_object.fsps_zmet
     sp.params["add_neb_emission"] = False
     sp.params["add_agb_dust_model"] = cfg.par.add_agb_dust_model
-
+    print("yes you do")
     if cfg.par.CF_on == True:
         sp.params["dust_type"] = 0
         sp.params["dust1"] = 1
         sp.params["dust2"] = 0
         sp.params["dust_tesc"] = tesc_age
-
+    print("time square can't shine as bright as you")
     spec_noneb = sp.get_spectrum(tage=star_object.age, zmet=star_object.fsps_zmet)
     f = spec_noneb[1]
     #NOTE: FSPS SSP/CSP spectra are scaled by *formed* mass, not current mass. i.e., the SFHs of the SSP/CSP are normalized such that 1 solar mass
@@ -385,13 +391,13 @@ def newstars_gen(star_object):
     #we generate the surviving mass fraction (sp.stellar_mass) to extrapolate the initial mass from the current mass, metallicity, and age
     #this 'mfrac' is used to scale the FSPS SSP luminosities in source_creation
     mfrac = sp.stellar_mass
-    
+    print("I swear its true")
     cloudy_nlam = len(np.genfromtxt(cfg.par.pd_source_dir + "/powderday/nebular_emission/data/refLines.dat", delimiter=','))
     line_em = np.zeros(cloudy_nlam)
-
+    print("OOOO its what you do to me")
     pagb = cfg.par.add_pagb_stars and cfg.par.PAGB_min_age <= star_object.age <= cfg.par.PAGB_max_age
     young_star = cfg.par.add_young_stars and cfg.par.HII_min_age <= star_object.age <= cfg.par.HII_max_age
-
+    print("turns out thats all I remember of the song")
     if (cfg.par.add_neb_emission or cfg.par.use_cmdf) and (young_star or pagb):
         # For each star particle we break it into a collection or cluster of star particles which have the same property as the parent star particle
         # but their masses and ages follow a power-law distribution if use_cmdf and use_age_distribution are set to True respectively and it falls
@@ -401,11 +407,11 @@ def newstars_gen(star_object):
         # broken down into 5 particles with their ages are distributed as per the age distribution. Thus in total, this one particle will be broken
         # down into 30 particles and these arrays will store the properties of all the 30 particles. This allows us to consider these as 30 individual
         # particles rest of the calculation and their fluxes are combined in end to get the final result for this one particle.
-            
+        print("I wake up fine and dandy")    
         cluster_mass = [np.log10(star_object.mass / constants.M_sun.cgs.value)]
         num_clusters = [1]
         age_clusters = [star_object.age]
-
+        print("but then")
         if star_object.mass / constants.M_sun.cgs.value > 10 ** cfg.par.cmdf_max_mass and cfg.par.use_cmdf:
             cluster_mass, num_clusters = cmdf(star_object.mass / constants.M_sun.cgs.value,
                                                 int(cfg.par.cmdf_bins), cfg.par.cmdf_min_mass,
@@ -413,7 +419,7 @@ def newstars_gen(star_object):
             age_clusters = []
             for k in range(len(cluster_mass)):
                 age_clusters.append(star_object.age)
-
+            print("by the time I find it handy")
             if cfg.par.use_age_distribution:
                 num_clusters_cmdf = num_clusters
                 cluster_mass_cmdf = cluster_mass
@@ -423,7 +429,7 @@ def newstars_gen(star_object):
                 for k in range(len(cluster_mass_cmdf)):
                     num, t = age_dist(num_clusters_cmdf[k], star_object.age)
                     rescale = np.sum(num_clusters_cmdf[k])/np.sum(num)
-                        
+                    print("to rip my heart apart")    
                     for l in range(len(num)):
                         if num[l] == 0:
                             continue
@@ -574,9 +580,9 @@ def newstars_gen(star_object):
             f = f + spec_neb*weight
             if cfg.par.add_neb_emission and cfg.par.dump_emlines:
                 line_em = line_em + line_lum*weight
-
+    print("and start planning my crash landing")
     stellar_fnu = f
-
+    print("I go up up up up to the ceiling")
     return stellar_fnu, mfrac, line_em
 
 

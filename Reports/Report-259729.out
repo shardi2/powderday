@@ -1,0 +1,238 @@
+---------------------------------------
+Begin Slurm Prolog: Jun-04-2024 15:48:07
+Job ID:    259729
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+  File "stellar_mass.py", line 124
+    def calculate_pop3_mass_10Myr:
+                                 ^
+SyntaxError: invalid syntax
+srun: error: atl1-1-01-004-25-2: tasks 24-47: Exited with exit code 1
+srun: error: atl1-1-01-004-25-1: tasks 0-23: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Jun-04-2024 15:48:25
+Job ID:        259729
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=48,mem=100G,node=2
+Rsrc Used:     cput=00:14:24,vmem=920K,walltime=00:00:18,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-01-004-25-[1-2]
+---------------------------------------

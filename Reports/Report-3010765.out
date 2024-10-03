@@ -1,0 +1,247 @@
+---------------------------------------
+Begin Slurm Prolog: Sep-05-2023 19:27:23
+Job ID:    3010765
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 340755408.05it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 343527235.72it/s]
+
+
+
+
+======================================================
+File: /storage/home/hcoda1/0/jw254/data/SG64-2020/DD0090/output_0125 doesn't exist; Powderday Crash!!!
+======================================================
+
+
+
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 294068129.17it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 301037702.91it/s]
+
+
+
+
+======================================================
+File: /storage/home/hcoda1/0/jw254/data/SG64-2020/DD0090/output_0125 doesn't exist; Powderday Crash!!!
+======================================================
+
+
+
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 328738369.73it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 339972150.31it/s]
+
+
+
+
+======================================================
+File: /storage/home/hcoda1/0/jw254/data/SG64-2020/DD0090/output_0125 doesn't exist; Powderday Crash!!!
+======================================================
+
+
+
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 343098685.54it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 345923306.23it/s]
+
+
+
+
+======================================================
+File: /storage/home/hcoda1/0/jw254/data/SG64-2020/DD0090/output_0125 doesn't exist; Powderday Crash!!!
+======================================================
+
+
+
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 339614792.53it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 342844187.52it/s]
+
+
+
+
+======================================================
+File: /storage/home/hcoda1/0/jw254/data/SG64-2020/DD0090/output_0125 doesn't exist; Powderday Crash!!!
+======================================================
+
+
+
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 338021085.67it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 341703603.10it/s]
+
+
+
+
+======================================================
+File: /storage/home/hcoda1/0/jw254/data/SG64-2020/DD0090/output_0125 doesn't exist; Powderday Crash!!!
+======================================================
+
+
+
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 335550071.65it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 15, in <module>
+    model = __import__(modelfile)
+ModuleNotFoundError: No module named 'parameters_model_6_10000_old'
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 338038253.52it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_7_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[49]["prog", "virial_radius"][34].to("kpc")*a[49]["prog", "scale"][34])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 34 is out of bounds for axis 0 with size 8
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 325462238.69it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_8_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[57]["prog", "virial_radius"][34].to("kpc")*a[57]["prog", "scale"][34])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 34 is out of bounds for axis 0 with size 16
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 338988631.00it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_9_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[63]["prog", "virial_radius"][34].to("kpc")*a[63]["prog", "scale"][34])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 34 is out of bounds for axis 0 with size 22
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 336653285.30it/s]
+Traceback (most recent call last):
+  File "pd_front_end.py", line 8, in <module>
+    from powderday.front_end_tools import make_SED, make_image, make_DIG_SED
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/__init__.py", line 5, in <module>
+    from . import SED_gen
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/SED_gen.py", line 21, in <module>
+    from powderday.nebular_emission.cloudy_model import get_nebular
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/cloudy_model.py", line 2, in <module>
+    from powderday.nebular_emission.ASCIItools import *
+  File "/storage/coda1/p-jw254/0/shardin31/Research/Powderday/powderday/powderday/nebular_emission/ASCIItools.py", line 14, in <module>
+    par = __import__(parfile)
+  File "/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/Powderday/powderday/parameters_master_10_10000_old.py", line 16, in <module>
+    zoom_box_len = float(a[99]["prog", "virial_radius"][34].to("kpc")*a[99]["prog", "scale"][34])# kpc; so the box will be +/- zoom_box_len from the center
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/unyt/array.py", line 1722, in __getitem__
+    ret = super(unyt_array, self).__getitem__(item)
+IndexError: index 34 is out of bounds for axis 0 with size 12
+---------------------------------------
+Begin Slurm Epilog: Sep-05-2023 19:29:14
+Job ID:        3010765
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=16,mem=360G,node=1
+Rsrc Used:     cput=00:29:52,vmem=350792K,walltime=00:01:52,mem=163580K,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-03-004-20-2
+---------------------------------------

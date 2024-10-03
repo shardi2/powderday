@@ -1,0 +1,129 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-04-2023 20:24:56
+Job ID:    2741815
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-large
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+  File "sed_plot_0_10000.py", line 76
+    f.create_dataset('halo_0/10000/SED', data=wav,flux)
+                                                  ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_1_10000.py", line 76
+    f.create_dataset('halo_1/10000/SED', data=wav,flux)
+                                                  ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_2_10000.py", line 76
+    f.create_dataset('halo_2/10000/SED', data=wav,flux)
+                                                  ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_3_10000.py", line 76
+    f.create_dataset('halo_3/10000/SED', data=wav,flux)
+                                                  ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_4_10000.py", line 76
+    f.create_dataset('halo_8/10000/SED', data=wav,flux)
+                                                  ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_5_10000.py", line 76
+    f.create_dataset('halo_13/10000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_6_10000.py", line 76
+    f.create_dataset('halo_32/10000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_7_10000.py", line 76
+    f.create_dataset('halo_49/10000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_8_10000.py", line 76
+    f.create_dataset('halo_57/10000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_9_10000.py", line 76
+    f.create_dataset('halo_63/10000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_10_10000.py", line 76
+    f.create_dataset('halo_99/10000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_0_100000.py", line 76
+    f.create_dataset('halo_0/100000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_1_100000.py", line 76
+    f.create_dataset('halo_1/100000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_2_100000.py", line 76
+    f.create_dataset('halo_2/100000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_3_100000.py", line 76
+    f.create_dataset('halo_3/100000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_4_100000.py", line 76
+    f.create_dataset('halo_8/100000/SED', data=wav,flux)
+                                                   ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_5_100000.py", line 76
+    f.create_dataset('halo_13/100000/SED', data=wav,flux)
+                                                    ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_6_100000.py", line 76
+    f.create_dataset('halo_32/100000/SED', data=wav,flux)
+                                                    ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_7_100000.py", line 76
+    f.create_dataset('halo_49/100000/SED', data=wav,flux)
+                                                    ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_8_100000.py", line 76
+    f.create_dataset('halo_57/100000/SED', data=wav,flux)
+                                                    ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_9_100000.py", line 76
+    f.create_dataset('halo_63/100000/SED', data=wav,flux)
+                                                    ^
+SyntaxError: positional argument follows keyword argument
+  File "sed_plot_10_100000.py", line 76
+    f.create_dataset('halo_99/100000/SED', data=wav,flux)
+                                                    ^
+SyntaxError: positional argument follows keyword argument
+---------------------------------------
+Begin Slurm Epilog: Aug-04-2023 20:25:11
+Job ID:        2741815
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=8,mem=240G,node=2
+Rsrc Used:     cput=00:02:08,vmem=1648K,walltime=00:00:16,mem=0,energy_used=0
+Partition:     cpu-large
+QOS:           inferno
+Nodes:         atl1-1-02-004-3-1,atl1-1-02-004-4-1
+---------------------------------------

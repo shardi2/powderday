@@ -1,0 +1,304 @@
+---------------------------------------
+Begin Slurm Prolog: Mar-01-2024 11:05:51
+Job ID:    5108264
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 335228958.16it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28189.77it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 36010.98it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 344922978.68it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20312.61it/s]
+yt : [INFO     ] 2024-03-01 11:06:40,974 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-03-01 11:06:40,975 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-03-01 11:06:40,975 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-03-01 11:06:40,976 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-03-01 11:06:40,976 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:06:40,976 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:06:40,976 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:06:40,976 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:06:40,976 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-03-01 11:06:40,976 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 10251.67it/s]
+yt : [INFO     ] 2024-03-01 11:06:41,093 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-03-01 11:07:13,504 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-03-01 11:07:13,505 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-03-01 11:07:13,505 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-03-01 11:07:13,506 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-03-01 11:07:13,506 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:07:13,506 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:07:13,506 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:07:13,506 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:07:13,506 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-03-01 11:07:13,506 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16382.02it/s]
+yt : [INFO     ] 2024-03-01 11:07:13,578 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-03-01 11:07:15,890 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-03-01 11:07:22,128 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-03-01 11:07:22,395 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-03-01 11:07:22,396 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-03-01 11:07:22,396 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-03-01 11:07:22,397 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-03-01 11:07:22,397 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-03-01 11:07:22,397 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-03-01 11:07:22,397 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-03-01 11:07:22,397 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-03-01 11:07:22,397 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-03-01 11:07:22,397 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-03-01 11:07:22,574 Allocating for 4.428e+05 particles
+Initializing coarse index :   0%|          | 0/2 [00:00<?, ?it/s]Initializing coarse index : 100%|██████████| 2/2 [00:00<00:00, 44.12it/s]
+Initializing refined index:   0%|          | 0/2 [00:00<?, ?it/s]Initializing refined index: 100%|██████████| 2/2 [00:00<00:00, 14.79it/s][zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2524055917106802e+23cm, y=1.2937381508564545e+23cm, z=1.25057104343377e+23cm
+Domain width: dx=7.05475431732411e+21cm, dy=7.05475431732411e+21cm, dz=7.05475431732411e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 19
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [8.13494422e+34 2.99760890e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.03530475 0.03599439 0.03669751 0.03741437 0.03814523 0.03889036
+ 0.03965005 0.04042458 0.04121424 0.04201933 0.04284014 0.04367698
+ 0.04453018 0.04540003 0.04628689 0.04719106 0.0481129  0.04905274
+ 0.05001095 0.05098787 0.05198387 0.05299933 0.05403463 0.05509015
+ 0.05616629 0.05726345 0.05838204 0.05952248 0.06068521 0.06187064
+ 0.06307923 0.06431143 0.0655677  0.06684851 0.06815434 0.06948567
+ 0.07084302 0.07222687 0.07363776 0.07507621 0.07654276 0.07803796
+ 0.07956237 0.08111655 0.08270109 0.08431659 0.08596364 0.08764287
+ 0.0893549  0.09110037 0.09287994 0.09469427 0.09654404 0.09842994
+ 0.10035269 0.10231299 0.10431159 0.10634923 0.10842667 0.11054469
+ 0.11270409 0.11490567 0.11715025 0.11943868 0.12177181 0.12415052
+ 0.1265757  0.12904825 0.13156909 0.13413918 0.13675948 0.13943096
+ 0.14215462 0.14493149 0.14776261 0.15064902 0.15359182 0.15659211
+ 0.159651   0.16276965 0.16594921 0.16919089 0.17249589 0.17586545
+ 0.17930083 0.18280332 0.18637423 0.19001489 0.19372667 0.19751095
+ 0.20136916 0.20530274 0.20931315 0.2134019  0.21757053 0.22182058
+ 0.22615366 0.23057138 0.23507539 0.23966739 0.24171102]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  15  bins
+PLEASE WORK
+I'M BEGGING YOU
+MAYBE HERE?
+
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [00:03<00:45,  3.23s/it]100%|██████████| 15/15 [00:03<00:00,  4.63it/s]hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+hey there delilah
+what's it like in new york city
+i'm a thousand miles away
+but tonight you look so pretty
+yes you do
+time square can't shine as bright as you
+I swear its true
+OOOO its what you do to me
+turns out thats all I remember of the song
+and start planning my crash landing
+I go up up up up to the ceiling
+slurmstepd: error: *** JOB 5108264 ON atl1-1-03-003-27-1 CANCELLED AT 2024-03-01T11:22:23 ***
+---------------------------------------
+Begin Slurm Epilog: Mar-01-2024 11:22:24
+Job ID:        5108264
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=720G,node=2
+Rsrc Used:     cput=08:49:04,vmem=2393228K,walltime=00:16:32,mem=1726716K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-03-003-27-1,atl1-1-03-003-30-1
+---------------------------------------

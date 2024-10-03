@@ -1,0 +1,174 @@
+---------------------------------------
+Begin Slurm Prolog: Sep-28-2023 00:10:39
+Job ID:    3567066
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "stellar_mass.py", line 20, in <module>
+    if os.path.exists("arbor/arbor.h5"):
+NameError: name 'os' is not defined
+srun: error: atl1-1-01-004-21-2: tasks 0-15: Exited with exit code 1
+srun: error: atl1-1-01-004-24-2: tasks 16-31: Exited with exit code 1
+---------------------------------------
+Begin Slurm Epilog: Sep-28-2023 00:11:06
+Job ID:        3567066
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=720G,node=2
+Rsrc Used:     cput=00:34:40,vmem=10208K,walltime=00:01:05,mem=8144K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-01-004-21-2,atl1-1-01-004-24-2
+---------------------------------------

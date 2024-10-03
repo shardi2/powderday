@@ -1,0 +1,142 @@
+---------------------------------------
+Begin Slurm Prolog: Feb-07-2024 15:05:33
+Job ID:    4887428
+User ID:   shardin31
+Account:   gts-jw254
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 330994459.03it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 28239.32it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 35836.68it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 341696586.02it/s]
+Reading root fields:   0%|          | 0/203 [00:00<?, ?it/s]Reading root fields: 100%|██████████| 203/203 [00:00<00:00, 20585.67it/s]
+yt : [INFO     ] 2024-02-07 15:06:07,803 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-02-07 15:06:07,803 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-02-07 15:06:07,804 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-02-07 15:06:07,804 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-02-07 15:06:07,805 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-02-07 15:06:07,805 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-02-07 15:06:07,805 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-02-07 15:06:07,805 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-02-07 15:06:07,805 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-02-07 15:06:07,805 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 16451.49it/s]
+yt : [INFO     ] 2024-02-07 15:06:07,877 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2024-02-07 15:06:36,903 Parameters: current_time              = 75.89987395114
+yt : [INFO     ] 2024-02-07 15:06:36,904 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2024-02-07 15:06:36,905 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2024-02-07 15:06:36,906 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2024-02-07 15:06:36,906 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-02-07 15:06:36,906 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-02-07 15:06:36,906 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-02-07 15:06:36,906 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-02-07 15:06:36,906 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2024-02-07 15:06:36,906 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/777 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 777/777 [00:00<00:00, 15377.38it/s]
+yt : [INFO     ] 2024-02-07 15:06:36,983 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2024-02-07 15:06:38,409 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2024-02-07 15:06:38,882 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2024-02-07 15:06:39,116 Parameters: current_time              = 75.89987395114 code_time
+yt : [INFO     ] 2024-02-07 15:06:39,117 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2024-02-07 15:06:39,117 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2024-02-07 15:06:39,118 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2024-02-07 15:06:39,118 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2024-02-07 15:06:39,118 Parameters: current_redshift          = 11.181356517874
+yt : [INFO     ] 2024-02-07 15:06:39,118 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2024-02-07 15:06:39,118 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2024-02-07 15:06:39,118 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2024-02-07 15:06:39,118 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2024-02-07 15:06:39,239 Allocating for 2.602e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2097627056465763e+23cm, y=1.2815705382858079e+23cm, z=1.291229679182648e+23cm
+Domain width: dx=1.179885603064491e+21cm, dy=1.179885603064491e+21cm, dz=1.179885603064491e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 6
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+I AM BINNING THE SEDs
+mass_bins =  [1.08226028e+35 3.41904911e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.06601681 0.06691776 0.06783102 0.06875674 0.06969509 0.07064624
+ 0.07161038 0.07258768 0.07357831 0.07458246 0.07560032 0.07663207
+ 0.0776779  0.078738   0.07981257 0.0809018  0.0820059  0.08312507
+ 0.08425951 0.08540944 0.08657505 0.08775658 0.08895423 0.09016822
+ 0.09139878 0.09264614 0.09391052 0.09519215 0.09649128 0.09780813
+ 0.09914296 0.10049601 0.10186752 0.10325774 0.10466694 0.10609538
+ 0.1075433  0.10901099 0.11049871 0.11200673 0.11353533 0.11508479
+ 0.1166554  0.11824744 0.11986121 0.12149701 0.12315513 0.12483587
+ 0.12653956 0.1282665  0.130017   0.1317914  0.13359001 0.13541316
+ 0.1372612  0.13913446 0.14103328 0.14295802 0.14490903 0.14688666
+ 0.14889128 0.15092326 0.15298297 0.15507079 0.15718711 0.1593323
+ 0.16150678 0.16371092 0.16594515 0.16820987 0.1705055  0.17283246
+ 0.17519117 0.17758208 0.18000561 0.18246222 0.18495236 0.18747648
+ 0.19003505 0.19262853 0.19525741 0.19792217 0.20062329 0.20336128
+ 0.20613663 0.20894986 0.21180149 0.21469203 0.21762201 0.22059199
+ 0.2236025  0.22665409 0.22974733 0.23288279 0.23606103 0.23928265
+ 0.24254824 0.24585839 0.24921372 0.25261484 0.25448082]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  6  bins
+  0%|          | 0/6 [00:00<?, ?it/s] 17%|█▋        | 1/6 [00:03<00:16,  3.20s/it]100%|██████████| 6/6 [00:03<00:00,  1.87it/s]slurmstepd: error: *** JOB 4887428 ON atl1-1-01-004-18-1 CANCELLED AT 2024-02-07T15:08:03 ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[30333,0],0] on node atl1-1-01-004-18-1
+  Remote daemon: [[30333,0],1] on node atl1-1-01-004-18-2
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+---------------------------------------
+Begin Slurm Epilog: Feb-07-2024 15:08:04
+Job ID:        4887428
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=720G,node=2
+Rsrc Used:     cput=01:20:00,vmem=2636908K,walltime=00:02:30,mem=1689760K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-01-004-18-[1-2]
+---------------------------------------

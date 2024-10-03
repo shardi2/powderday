@@ -1,0 +1,620 @@
+---------------------------------------
+Begin Slurm Prolog: Aug-26-2024 14:56:27
+Job ID:    1160005
+User ID:   shardin31
+Account:   gts-jw254-coda20
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+yt : [INFO     ] 2024-08-26 14:56:46,900 Global parallel computation enabled: 27 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,904 Global parallel computation enabled: 14 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,900 Global parallel computation enabled: 31 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,901 Global parallel computation enabled: 26 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,901 Global parallel computation enabled: 22 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,901 Global parallel computation enabled: 18 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,902 Global parallel computation enabled: 17 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,902 Global parallel computation enabled: 21 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,903 Global parallel computation enabled: 28 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,903 Global parallel computation enabled: 29 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,903 Global parallel computation enabled: 25 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,904 Global parallel computation enabled: 24 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,904 Global parallel computation enabled: 19 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,904 Global parallel computation enabled: 20 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,904 Global parallel computation enabled: 30 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,905 Global parallel computation enabled: 23 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,905 Global parallel computation enabled: 16 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,905 Global parallel computation enabled: 6 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,905 Global parallel computation enabled: 10 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,905 Global parallel computation enabled: 2 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,906 Global parallel computation enabled: 11 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,907 Global parallel computation enabled: 15 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,907 Global parallel computation enabled: 0 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,907 Global parallel computation enabled: 4 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,907 Global parallel computation enabled: 13 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,908 Global parallel computation enabled: 12 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,908 Global parallel computation enabled: 9 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,908 Global parallel computation enabled: 8 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,915 Global parallel computation enabled: 3 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,915 Global parallel computation enabled: 7 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,916 Global parallel computation enabled: 5 / 32
+yt : [INFO     ] 2024-08-26 14:56:46,931 Global parallel computation enabled: 1 / 32
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P004 yt : [ERROR    ] 2024-08-26 14:56:46,999 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P005 yt : [ERROR    ] 2024-08-26 14:56:46,999 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P019 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P006 yt : [ERROR    ] 2024-08-26 14:56:46,999 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P022 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P007 yt : [ERROR    ] 2024-08-26 14:56:46,999 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P023 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P010 yt : [ERROR    ] 2024-08-26 14:56:46,999 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P024 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P012 yt : [ERROR    ] 2024-08-26 14:56:46,999 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P027 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P003 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P016 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P005 yt : [ERROR    ] 2024-08-26 14:56:46,999 Error occurred on rank 5.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P020 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P007 yt : [ERROR    ] 2024-08-26 14:56:46,999 Error occurred on rank 7.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P021 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P004 yt : [ERROR    ] 2024-08-26 14:56:46,999 Error occurred on rank 4.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P025 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P006 yt : [ERROR    ] 2024-08-26 14:56:46,999 Error occurred on rank 6.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P028 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P010 yt : [ERROR    ] 2024-08-26 14:56:46,999 Error occurred on rank 10.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P029 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P012 yt : [ERROR    ] 2024-08-26 14:56:46,999 Error occurred on rank 12.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P030 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P014 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P031 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P008 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P017 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P011 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P026 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P000 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P019 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 19.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P002 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P022 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 22.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P015 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P023 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 23.
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P009 yt : [ERROR    ] 2024-08-26 14:56:47,000 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+P024 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 24.
+P003 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 3.
+P027 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 27.
+P014 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 14.
+P016 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 16.
+P011 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 11.
+P020 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 20.
+P008 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 8.
+P025 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 25.
+P015 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 15.
+P029 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 29.
+P002 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 2.
+P030 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 30.
+P000 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 0.
+P031 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 31.
+P009 yt : [ERROR    ] 2024-08-26 14:56:47,000 Error occurred on rank 9.
+P021 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 21.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P028 yt : [ERROR    ] 2024-08-26 14:56:46,996 Error occurred on rank 28.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P017 yt : [ERROR    ] 2024-08-26 14:56:46,997 Error occurred on rank 17.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P026 yt : [ERROR    ] 2024-08-26 14:56:46,997 Error occurred on rank 26.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+  File "analysis_pipeline.py", line 212, in <module>
+    for node in ytree.parallel_tree_nodes(trees):
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/utilities/parallel.py", line 241, in parallel_tree_nodes
+    my_halos = list(tree[group])
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/tree_node.py", line 463, in _forest_nodes
+    self.arbor._grow_tree(self)
+  File "/storage/home/hcoda1/7/shardin31/.conda/envs/pd_environment_3/lib/python3.8/site-packages/ytree/data_structures/arbor.py", line 322, in _grow_tree
+    desc.add_ancestor(node)
+P018 yt : [ERROR    ] 2024-08-26 14:56:46,996 AttributeError: 'NoneType' object has no attribute 'add_ancestor'
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 12 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+P018 yt : [ERROR    ] 2024-08-26 14:56:46,997 Error occurred on rank 18.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 14 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 18 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 7 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 20 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 8 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 22 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 11 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 19 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 23 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 27 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 9 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 31 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 10 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 16 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 15 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 21 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 28 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 17 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 25 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 26 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 30 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 24 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 29 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 1160005.0 ON atl1-1-02-015-13-1 CANCELLED AT 2024-08-26T14:56:47 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: atl1-1-02-015-27-1: tasks 16-31: Killed
+srun: error: atl1-1-02-015-13-1: tasks 0-15: Killed
+---------------------------------------
+Begin Slurm Epilog: Aug-26-2024 14:56:47
+Job ID:        1160005
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254-coda20
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=200G,node=2
+Rsrc Used:     cput=00:10:40,vmem=48K,walltime=00:00:20,mem=0,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-015-13-1,atl1-1-02-015-27-1
+---------------------------------------

@@ -52,7 +52,8 @@ def enzo_field_add(fname,ds = None, starages = False):
 
     def newstars(pfilter,data):
         age = data[pfilter.filtered_type,"creation_time"]
-        filter = age.in_units('Gyr') > 0
+        mass = data[pfilter.filtered_type,"particle_mass"]
+        filter = (age.in_units('Gyr') > 0) & (mass.in_units('Msun') > 1e-5)
         return filter
 
 

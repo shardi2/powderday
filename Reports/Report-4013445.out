@@ -1,0 +1,130 @@
+---------------------------------------
+Begin Slurm Prolog: Nov-09-2023 11:29:56
+Job ID:    4013445
+User ID:   shardin31
+Account:   gts-jw254
+Job name:  Slurmshardinpowderdayrun
+Partition: cpu-medium
+QOS:       inferno
+---------------------------------------
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Lmod is automatically replacing "mvapich2/2.3.6-ouywal" with "openmpi/4.1.4".
+
+Additional features and improved performance (usually) by saving this arbor with "save_arbor" and reloading:
+	>>> a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
+	>>> fn = a.save_arbor()
+	>>> a = ytree.load(fn)
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 365689917.87it/s]
+Loading tree roots:   0%|          | 0/7934216 [00:00<?, ?it/s]Loading tree roots: 100%|██████████| 7934216/7934216 [00:00<00:00, 374994522.51it/s]
+yt : [INFO     ] 2023-11-09 11:31:47,069 Parameters: current_time              = 69.75987995114
+yt : [INFO     ] 2023-11-09 11:31:47,069 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-11-09 11:31:47,070 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-11-09 11:31:47,070 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-11-09 11:31:47,071 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-11-09 11:31:47,071 Parameters: current_redshift          = 11.886304308182
+yt : [INFO     ] 2023-11-09 11:31:47,071 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-11-09 11:31:47,071 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-11-09 11:31:47,071 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-11-09 11:31:47,071 Parameters: hubble_constant           = 0.6766
+Parsing Hierarchy :   0%|          | 0/1311 [00:00<?, ?it/s]Parsing Hierarchy :  88%|████████▊ | 1158/1311 [00:00<00:00, 11574.38it/s]Parsing Hierarchy : 100%|██████████| 1311/1311 [00:00<00:00, 12034.69it/s]
+yt : [INFO     ] 2023-11-09 11:31:47,256 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2023-11-09 11:32:21,090 Parameters: current_time              = 69.75987995114
+yt : [INFO     ] 2023-11-09 11:32:21,092 Parameters: domain_dimensions         = [64 64 64]
+yt : [INFO     ] 2023-11-09 11:32:21,092 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2023-11-09 11:32:21,093 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2023-11-09 11:32:21,093 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-11-09 11:32:21,093 Parameters: current_redshift          = 11.886304308182
+yt : [INFO     ] 2023-11-09 11:32:21,093 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-11-09 11:32:21,093 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-11-09 11:32:21,093 Parameters: omega_radiation           = 0
+yt : [INFO     ] 2023-11-09 11:32:21,093 Parameters: hubble_constant           = 0.6766
+[front_end_controller:] NO bounding_box being used
+[front_end_controller:] enzo data set detected
+
+----------------------------------------------
+Setting solar metallicity value
+isochrone =  mist
+solar metallicity = 0.0142000000923872
+----------------------------------------------
+Parsing Hierarchy :   0%|          | 0/1311 [00:00<?, ?it/s]Parsing Hierarchy : 100%|██████████| 1311/1311 [00:00<00:00, 15832.30it/s]
+yt : [INFO     ] 2023-11-09 11:32:21,217 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2023-11-09 11:32:24,015 Field ('gas', 'density') already exists. To override use `force_override=True`.
+yt : [INFO     ] 2023-11-09 11:32:25,519 Saving field data to yt dataset: temp_enzo.h5.
+yt : [INFO     ] 2023-11-09 11:32:25,751 Parameters: current_time              = 69.75987995114 code_time
+yt : [INFO     ] 2023-11-09 11:32:25,752 Parameters: domain_dimensions         = [1 1 1]
+yt : [INFO     ] 2023-11-09 11:32:25,752 Parameters: domain_left_edge          = [0. 0. 0.] code_length
+yt : [INFO     ] 2023-11-09 11:32:25,753 Parameters: domain_right_edge         = [1. 1. 1.] code_length
+yt : [INFO     ] 2023-11-09 11:32:25,753 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2023-11-09 11:32:25,753 Parameters: current_redshift          = 11.886304308182
+yt : [INFO     ] 2023-11-09 11:32:25,753 Parameters: omega_lambda              = 0.6889
+yt : [INFO     ] 2023-11-09 11:32:25,753 Parameters: omega_matter              = 0.3111
+yt : [INFO     ] 2023-11-09 11:32:25,753 Parameters: omega_radiation           = 0.0
+yt : [INFO     ] 2023-11-09 11:32:25,753 Parameters: hubble_constant           = 0.6766
+yt : [INFO     ] 2023-11-09 11:32:25,870 Allocating for 2.155e+04 particles
+[zoom/enzo_zoom]: temporarily saving temp_enzo.h5
+[grid_construction/enzo_grid_generate:] removing temp_enzo.h5
+Domain center: x=1.2544262697154945e+23cm, y=1.2268567972306017e+23cm, z=1.2408362113657682e+23cm
+Domain width: dx=1.4505838834019777e+21cm, dy=1.4505838834019777e+21cm, dz=1.4505838834019777e+21cm
+Re-centering simulation so that domain center is at (0, 0, 0)
+[SED_gen/star_list_gen]: reading in stars particles for SPS calculation
+number of new stars = 1
+[SED_gen/star_list_gen:] Manually increasing the newstar metallicities by:  0
+boosting new stars to coordinate center
+[SED_gen/remove_stars_outside_grid]: Searching to see if any stars are outside the dust grid, which will cause a crash in the radiative transfer modules
+[SED_gen/remove_stars_outside_grid:] removing 0.000000 stars because they are outside the dust grid
+[SED_gen/remove_stars_outside_grid:] this corresponds to 0.000000 of the total stellar mass in the volume 
+mass_bins =  [2.80415568e+36 2.80415568e+36]
+metal_bins =  [ 1  2  3  4  5  6  7  8  9 10 11 12]
+age_bins =  [0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702
+ 0.14540702 0.14540702 0.14540702 0.14540702 0.14540702]
+assigning stars to SED bins
+Running SPS for Binned SEDs
+calculating the SEDs for  1  bins
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:03<00:00,  3.22s/it]100%|██████████| 1/1 [00:03<00:00,  3.22s/it]slurmstepd: error: *** JOB 4013445 ON atl1-1-01-003-8-1 CANCELLED AT 2023-11-14T11:30:16 DUE TO TIME LIMIT ***
+---------------------------------------
+Begin Slurm Epilog: Nov-14-2023 11:30:17
+Job ID:        4013445
+Array Job ID:  _4294967294
+User ID:       shardin31
+Account:       gts-jw254
+Job name:      Slurmshardinpowderdayrun
+Resources:     cpu=32,mem=720G,node=2
+Rsrc Used:     cput=160-00:10:40,vmem=2665912K,walltime=5-00:00:20,mem=1958512K,energy_used=0
+Partition:     cpu-medium
+QOS:           inferno
+Nodes:         atl1-1-01-003-8-1,atl1-1-01-003-10-2
+---------------------------------------

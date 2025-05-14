@@ -1,0 +1,16 @@
+UV Escape fraction for Renaissance Simulations -- RarePeak, Normal,
+and Void.  Each file corresponds to one redshift, and the halo
+properties are contained in the following datasets, where they are
+sorted properly, i.e. a halo with mass[10] is positioned at
+center[10].  There are no other metadata.  For example, the redshift
+needs to be acquired from the Enzo dataset with the same name,
+e.g. RedshiftOutput0055.
+
+RedshiftOutput0055-fesc-only.h5
+├Mstar	[float64: 31379]   # stellar mass (Pop II and Pop III)
+├Nesc	[float64: 31379]   # number of ionizing photons escaping virial radius
+├Ntot	[float64: 31379]   # number of ionizing photons emitted by stars
+├center	[float64: 31379 × 3]  # halo center [code units]
+├fesc	[float64: 31379]   # UV escape fraction, i.e. Nesc / Ntot
+└mass	[float64: 31379]   # Halo mass [Msun]
+

@@ -16,7 +16,8 @@ hydro_dir = '/storage/home/hcoda1/0/jw254/data/RS-RP/RD0041/'
 snapshot_name = 'RedshiftOutput'+snapnum_str
 
 #where the files should go
-PD_output_dir = '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_renaissance_1000000/halo_0/'
+#PD_output_dir = '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_renaissance_1000000/halo_0/'
+PD_output_dir = '/storage/home/hcoda1/7/shardin31/p-jw254-0/Research/summer2023/pd_test/run_10000_cloudy_test/halo_0_renaissance_tables'
 #'/Volumes/pegasus/pd_runs/test/'
 Auto_TF_file = 'snap'+snapnum_str+'.logical'
 Auto_dustdens_file = 'snap'+snapnum_str+'.dustdens'

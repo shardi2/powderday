@@ -274,6 +274,7 @@ use_cloudy_tables = True                    # If True, CLOUDY look up tables (de
                                             # provide a separate parameter master file (see parameters_master_neb.py example file provided with the code) when running 
                                             # Powderday. If you don't provide this file, default values will be used instead.
 
+dump_emlines = True
 #===============================================
 #BIRTH CLOUD INFORMATION
 #===============================================

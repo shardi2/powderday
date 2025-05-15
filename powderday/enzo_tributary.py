@@ -66,15 +66,34 @@ def yt_dataset_to_amr_grid_xyz(ds, quantity_mapping={}):
     zmin -= z0
     zmax -= z0
 
+ # Determine overlapping grids with region
+    overlap = (xmax > -dx/2) & (xmin < dx/2) & (ymax > -dy/2) & (ymin < dy/2) & \
+        (zmax > -dz/2) & (zmin < dz/2)
+    print(f"{overlap.sum()} of {ds.index.grids.size} grids overlap with region")
+
     # Loop over levels and add grids
     amr = AMRGrid()
     for ilevel in range(n_levels):
+
+        ngrids = (levels == ilevel).sum()
+        ngrids_overlap = 0
+        ncells = 0
+        for igrid in np.nonzero(levels == ilevel)[0]:
+            if overlap[igrid]:
+                ngrids_overlap += 1
+                ncells += np.prod(ds.index.grids[igrid].shape)
+        print(f"AMR level {ilevel}: {ngrids} grids, {ngrids_overlap} overlapping grids, {ncells} cells", flush=True)
+        if ngrids_overlap == 0:
+            continue
 
         # Add a new level
         level = amr.add_level()
 
         # Loop over yt grids that are at this level
         for igrid in np.nonzero(levels == ilevel)[0]:
+
+            if not overlap[igrid]:
+                continue   
 
             # Get yt grid
             yt_grid = ds.index.grids[igrid]

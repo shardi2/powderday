@@ -174,7 +174,8 @@ def get_yt_dataset(node, outputs):
     # assume you have something like this
     filename = get_filename_from_redshift(node["redshift"])
     # attach it to the node for later use
-    node.ds = yt.load("/storage/home/hcoda1/0/jw254/data/RS-RP/"+str(filename))
+    #node.ds = yt.load("/storage/home/hcoda1/0/jw254/data/RS-RP/"+str(filename))
+    node.ds = outputs["/storage/home/hcoda1/0/jw254/data/RS-RP/" + filename]
     #node.ds = yt.load("/storage/home/hcoda1/0/jw254/data/RS-RP/RD0041")
     #yt.add_particle_filter(function=p2, name='p2', requires=['particle_mass', 'particle_type'])
     if "p2" not in node.ds.particle_types:
@@ -198,7 +199,7 @@ def get_yt_sphere(node):
     node.sphere = ds.sphere((center), (radius, "unitary"))
 
 
-allds = get_output_list("RD*/RedshiftOutput????")
+allds = get_output_list("/storage/home/hcoda1/0/jw254/data/RS-RP/RD*/RedshiftOutput????")
 ap = ytree.AnalysisPipeline()
 ap.add_recipe(stellar_mass_recipe, allds)
 # later, in the pipeline
@@ -207,10 +208,10 @@ ap.add_operation(delete_dataset, always_do=True)
 trees = list(a[:])
 #trees = list([a[0]])
 dynamic = nproc > 2
-#y = 0
+y = 0
 for tree in ytree.parallel_trees(trees, dynamic=dynamic):
 #not this one for node in ytree.parallel_trees(trees):   
-    #x = 0
+    x = 0
 #for node in ytree.parallel_tree_nodes(trees):
     for node in tree["forest"]:
         ap.process_target(node)
@@ -218,8 +219,10 @@ for tree in ytree.parallel_trees(trees, dynamic=dynamic):
 #            ap.process_target(node)
 #        else:
 #            break
-#        x += 1
-#    y += 1
+        x += 1
+        print("halo", x)
+    y += 1
+    print("tree = ", y)
 #    if y >= 1:
 #        break
 

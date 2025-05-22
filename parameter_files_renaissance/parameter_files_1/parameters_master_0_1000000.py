@@ -267,14 +267,13 @@ add_agb_dust_model = False    # add circumstellar AGB dust model (100%); Villaum
 #===============================================
 add_neb_emission = True                    # add nebular line emission (under active development)
 
-use_cloudy_tables = True                    # If True, CLOUDY look up tables (dev. by Nell Byler) will be used to calculate 
+use_cloudy_tables = False                    # If True, CLOUDY look up tables (dev. by Nell Byler) will be used to calculate 
                                             # nebular emission. Note that these tables are only applicable for star particles with ages below 10 Myr.
                                             # If False, CLOUDY models are generated individually for each star particle. This mode provides greater flexibility 
                                             # and allows for customization by tuning various free parameters. To take advantage of this flexibility, you need to 
                                             # provide a separate parameter master file (see parameters_master_neb.py example file provided with the code) when running 
                                             # Powderday. If you don't provide this file, default values will be used instead.
 
-dump_emlines = True
 #===============================================
 #BIRTH CLOUD INFORMATION
 #===============================================
@@ -346,7 +345,7 @@ FIX_SED_MONOCHROMATIC_WAVELENGTHS = False # if set, then we only use
                                           # the wavelengths in the
                                           # range between min_lam and
                                           # max_lam
-SED_MONOCHROMATIC_min_lam = 0.1 # micron
+SED_MONOCHROMATIC_min_lam = 0.0 # micron
 SED_MONOCHROMATIC_max_lam = 1 #1000   # micron
 
 

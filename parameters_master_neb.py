@@ -185,6 +185,7 @@ use_black_sed = False                       # If set, Black et al.(1987) ISRF is
                                             # output spectrum of nearby stars. The normalization of the SED is set by the total energy 
                                             # above the lyman limit dumped in each cell. (Default: False)
 
+import ytree
 a = ytree.load("/storage/home/hcoda1/0/jw254/data/SG64-2020/rockstar_halos-jhw/trees/tree_0_0_0.dat")
 
 stars_max_dist = float(a["virial_radius"][0].to("kpc")*a["scale"][0])
